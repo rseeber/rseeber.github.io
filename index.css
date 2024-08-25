@@ -172,6 +172,10 @@ main {
     float: right;
 }
 
+.bookCover {
+    height: 250;
+}
+
 .spacer {
     height: 200;
 }
