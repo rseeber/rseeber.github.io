@@ -52,8 +52,9 @@ and then link it! Many fonts have separate files for each style
 body {
     font-family: 'Nunito', sans-serif;
     margin: 0;
-    background-color: #08031A;
+    background-color: #DBC5A2;
     /* you can delete the line below if you'd prefer to not use an image */
+    background-repeat: no-repeat;
     background-size: cover;
     color: #fceaff;
     background-image: var(--body-bg-image);
