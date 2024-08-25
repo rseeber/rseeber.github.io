@@ -7,8 +7,8 @@ these tended to confuse some people, so I only kept
 the images as variables */
 
 :root {
-    --header-image: url("desertTrees.JPG");
-    --body-bg-image: url("poppyField.JPG"); 
+    --header-image: url("/images/desertTrees.JPG");
+    --body-bg-image: url("/images/poppyField.JPG"); 
 
     /* colors */
     --content: #43256E;
