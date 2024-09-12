@@ -26,9 +26,13 @@ def toHTML(text):
     return output
 
 
-title = input("Enter title: \n")
-date = input("Enter date: \n")
-body = input("Paste body: \n\n")
+title = input("Enter title: \n> ")
+# TODO: automate
+date = input("Enter date: \n> ")
+# get body from input file
+inputFile = open(input("inputFile directory:\n> "), 'r')
+body = inputFile.read()
+#body = input("Paste body: \n\n> ")
 
 file = ""
 salt = 0
