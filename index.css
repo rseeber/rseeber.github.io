@@ -180,6 +180,10 @@ main {
     height: 200;
 }
 
+iframe{
+    border: 2px solid #f5aeff;
+}
+
 /* what's this "order" stuff about??
 allow me to explain!
 if you're using both sidebars, the "order" value
