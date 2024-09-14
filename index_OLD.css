@@ -86,23 +86,17 @@ and change the media query according to the comment! */
 
 /* the area below is for all links on your page
 EXCEPT for the navigation */
-
 #container a {
-    color: darkblue;
+    color: #ED64F5;
     font-weight: bold;
     /* if you want to remove the underline
 you can add a line below here that says:
 text-decoration:none; */
 }
 
-/* This is a really sloppy solution to the problem, and I'd love to find a cleaner method at some point */
-#container h1 a, #container h2 a, #container h3 a {
-    color: mediumslateblue;
-}
-*/
-
 #header {
     width: 100%;
+    background-color: #5e4e8c;
     /* header color here! */
     height: 200px;
     /* this is only for a background image! */
@@ -116,7 +110,7 @@ you can add them directly to the <div id="header"></div> element! */
 /* navigation section!! */
 #navbar {
     height: 40px;
-    background-color: lightskyblue;
+    background-color: #13092D;
     /* navbar color */
     width: 100%;
 }
@@ -135,7 +129,7 @@ you can add them directly to the <div id="header"></div> element! */
 
 /* navigation links*/
 #navbar li a {
-    color: blue;
+    color: #ED64F5;
     /* navbar text color */
     font-weight: 800;
     text-decoration: none;
@@ -144,7 +138,7 @@ you can add them directly to the <div id="header"></div> element! */
 
 /* navigation link when a link is hovered over */
 #navbar li a:hover {
-    color: yellow;
+    color: #a49cba;
     text-decoration: underline;
 }
 
@@ -167,7 +161,7 @@ aside {
 /* this is the color of the main content area,
 between the sidebars! */
 main {
-    background-color: steelblue;
+    background-color: #43256E;
     flex: 1;
     padding: 20px;
     order: 2;
@@ -187,11 +181,7 @@ main {
 }
 
 iframe{
-    border: 2px solid palegoldenrod;
-}
-
-hr{
-    color: navy;
+    border: 2px solid #f5aeff;
 }
 
 /* what's this "order" stuff about??
@@ -221,7 +211,7 @@ footer {
 h1,
 h2,
 h3 {
-    color: blue;
+    color: #ED64F5;
 }
 
 h1 {
@@ -230,18 +220,14 @@ h1 {
 
 strong {
     /* this styles bold text */
-    color: blue;
+    color: #ED64F5;
 }
 
 /* this is just a cool box, it's the darker colored one */
 .box {
-    background-color: midnightblue;
+    background-color: #13092D;
     border: 1px solid #ED64F5;
     padding: 10px;
-}
-
-.box h1, .box h2, .box h3 {
-    color: mediumslateblue;
 }
 
 /* CSS for extras */
