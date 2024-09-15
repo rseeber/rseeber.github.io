@@ -11,7 +11,7 @@ the images as variables */
     --body-bg-image: url("/images/poppyField2.JPG"); 
 
     /* colors */
-    --content: #43256E;
+    --bg-color: burlywood;
 }
 
 /* if you have the URL of a font, you can set it below */
@@ -52,11 +52,12 @@ and then link it! Many fonts have separate files for each style
 body {
     font-family: 'Nunito', sans-serif;
     margin: 0;
-    background-color: #DBC5A2;
+    background-color: var(--bg-color);
     /* you can delete the line below if you'd prefer to not use an image */
     background-repeat: no-repeat;
     background-size: cover;
-    color: #fceaff;
+    /* font color */
+    color: black;
     background-image: var(--body-bg-image);
 }
 
@@ -88,7 +89,7 @@ and change the media query according to the comment! */
 EXCEPT for the navigation */
 
 #container a {
-    color: darkblue;
+    color: mediumblue;
     font-weight: bold;
     /* if you want to remove the underline
 you can add a line below here that says:
@@ -117,7 +118,7 @@ you can add them directly to the <div id="header"></div> element! */
 /* navigation section!! */
 #navbar {
     height: 40px;
-    background-color: lightskyblue;
+    background-color: chocolate;
     /* navbar color */
     width: 100%;
 }
@@ -136,7 +137,7 @@ you can add them directly to the <div id="header"></div> element! */
 
 /* navigation links*/
 #navbar li a {
-    color: blue;
+    color: white;
     /* navbar text color */
     font-weight: 800;
     text-decoration: none;
@@ -168,7 +169,7 @@ aside {
 /* this is the color of the main content area,
 between the sidebars! */
 main {
-    background-color: steelblue;
+    background-color: var(--bg-color);
     flex: 1;
     padding: 20px;
     order: 2;
@@ -192,7 +193,7 @@ iframe{
 }
 
 hr{
-    color: navy;
+    color: sandybrown;
 }
 
 /* what's this "order" stuff about??
@@ -210,7 +211,7 @@ left sidebar is 1, content is 2, and right sidebar is 3! */
 }
 
 footer {
-    background-color: black;
+    background-color: saddlebrown;
     /* background color for footer */
     width: 100%;
     height: 40px;
@@ -236,13 +237,17 @@ strong {
 
 /* this is just a cool box, it's the darker colored one */
 .box {
-    background-color: midnightblue;
-    border: 1px solid #ED64F5;
+    background-color: wheat;
+    border: 1px solid brown;
     padding: 10px;
 }
 
 .box h1, .box h2, .box h3 {
-    color: mediumslateblue;
+    color: mediumblue;
+}
+
+#container .box a {
+    color: blue;
 }
 
 /* CSS for extras */
