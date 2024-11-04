@@ -184,6 +184,10 @@ main {
     height: 250;
 }
 
+.bookCoverSmall {
+    height: 200;
+}
+
 .spacer {
     height: 200;
 }
