@@ -200,6 +200,11 @@ hr{
     color: sandybrown;
 }
 
+.mono{
+    font-family: monospace;
+    background-color: floralwhite;
+}
+
 /* what's this "order" stuff about??
 allow me to explain!
 if you're using both sidebars, the "order" value
