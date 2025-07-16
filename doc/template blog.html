@@ -1,7 +1,7 @@
 <html>
     <link rel="stylesheet" href="/index.css">
     <head>
-        <title>River's Website :)</title>
+        <title>{{ title }}</title>
     </head>
 
     <body>
@@ -25,12 +25,9 @@
 
                 <!--Main Page Content-->
                 <main>
+                    <h1 class="title">{{title}}</h1>
                     <!--Paste page html here (and remove line below)-->
-                    <h1>Blog Posts</h1>
-<div style="text-align: right"> (<a href="/blog/feed.xml">RSS feed</a>) </div>
-<p><a href="post/use-technology-creatively">Use Technology Creatively</a></p>
-<p><a href="post/the-web-was-designed-to-be-open">The Web Was Designed to Be Open</a></p>
-
+                    {{ content }}
                 </main>
                 
             </div>

@@ -1,7 +1,7 @@
 <html>
     <link rel="stylesheet" href="/index.css">
     <head>
-        <title>River's Website :)</title>
+        <title>The Web Was Designed to Be Open</title>
     </head>
 
     <body>
@@ -25,15 +25,15 @@
 
                 <!--Main Page Content-->
                 <main>
+                    <h1 class="title">The Web Was Designed to Be Open</h1>
                     <!--Paste page html here (and remove line below)-->
-                    <h1>The Web Was Designed to Be Open</h1>
-<p><em>July 13, 2025</em></p>
-<h2>The Free and Open Web</h2>
+                    <p><em>July 13, 2025</em></p>
+<h1>The Free and Open Web</h1>
 <p>The internet is a truly incredible thing. Founded on the principle of shared ownership, the internet does not belong to any one group or person, it is shared by all of us. There is no single group you must go through in order to access the internet, nor in order to host an online service. There is no single set of rules governing what is and is not allowed to be posted on the internet. The internet deters censorship because new sovereign territory can be created online simply by hosting a server. With that server, you are created a new space on the internet, a new node added to the network. Within that node, you are free to do anything you like, so long as it is legal in the country you're hosting it in -- otherwise you might get some knocks on your door IRL.</p>
 <p>The internet being this way means that it cannot be controlled, truncated, censored, or destroyed by any overzealous entities -- be they politicians, tech corporations, or otherwise anyone else with the power to attempt a move like that. The internet remains strong, unfettered by the whims of would-be autocrats.</p>
 <p>Contrast this model with the model we use for many of the online serves common throughout our society. Social Media is almost universally done using a centralized model. You use some service, say Facebook for example. You download an app provided to you by the Facebook corporation. When you want to post your social content online, you upload it through that app up to the Facebook servers. No new or sovereign land is created in this process, all media is retained on the already existing Facebook node. There is no way to host a new node, and let the content on that node be visible as regular Facebook content through the app.</p>
 <p>Even if you wanted to host a new server, some piece of sovereign territory upon the web. You would be free to do so, but your content would not show up on the Facebook network. Users would have to leave the Facebook app in order to view your content. There would be no way to view both Facebook content and your content using the same app.</p>
-<h2>The Free and Open Social Net?</h2>
+<h1>The Free and Open Social Net?</h1>
 <p>But it doesn't have to be this way. What if we created a social media that worked the same way that the web does? Where the social network consists of distinct nodes controlled and operated by separate people? Those people could each set the rules of what is and is not allowed to exist on their node -- rather than having all content moderation be mandated by a single controlling authority like Facebook? Much like the web, we could create open standards for this technology. That way, anyone can create a program that can view this content. For the web, we called it Web Browsers, for social media, it will be a Social Media Client. A developer will have access to the standard, and will be free to implement any additional features, or organize the app in any way they see fit. We will not be bound and stuck with the design decisions of a single corporation. Users with different tastes will be enabled to cater to their own preferences for visual design of the interface that they want to use.</p>
 <p>Many people reading this who have been in tech and hacker spaces long enough may be thinking right now of the decentralized alternatives to corporate social media. Mastodon and Bluesky both come to mind as possible contenders. For Bluesky, I will be brief and say that it is 1) not ready yet as a developed platform, and 2) it is not making enough significant strides for true decentralization. If Bluesky were to disappear from the internet tomorrow, there would not be a feasible way for the rest of the community to continue hosting the network without updating the protocol first.
 <br>
@@ -47,7 +47,7 @@ As for Mastodon, while it is a truly decentralized network that can be entirely 
   <a href="https://overengineer.dev/blog/2019/01/13/activitypub-final-thoughts-one-year-later/">https://overengineer.dev/blog/2019/01/13/activitypub-final-thoughts-one-year-later/</a>
 <br>
 <br></p>
-<h3>A Clean, Simple Design</h3>
+<h2>A Clean, Simple Design</h2>
 <p>I propose a simpler way of doing things. I'm not going to put forward a concrete protocol, as I'm only just starting to work on these ideas myself, but I'd like to lay down the groundwork for what I think should someday become a solid protocol. The so-called &quot;UNIX design principles&quot; promote simplicity and modularity in all things that you create. Each module of your project should do one thing, and do that one thing well. Further modules can be appended to the overall project in order to create a program (or protocol, in our case) that can do many things. Our new protocol would work something like this. You may ignore the more specific details of this description in favor of the general principles I'm trying to isolate in how I create this example. The point is simplicity, which we will achieve through modularity.
 <br>
 <br>
@@ -58,7 +58,7 @@ You would have two sides to the network. There would be clients, AKA "users", an
 <p>The idea here is that we're re-using existing protocols and tools. This lets us re-use technologies for understanding those protocols. Web apps already know how to render HTML, we can simply use the existing engine for reading it. There are plenty of libraries around for reading RSS and XML feeds as machine readable data.</p>
 <p>In keeping with this idea, we would also want to create some kind of direct messaging service within the standard, for when users would like to communicate with one another. Perhaps we could use a protocol like XMPP or something similar. The fantastic benefit of this is that smaller servers which don't want to handle storing direct messages could offshore their implementation of XMPP to another server that they simply point to in their metadata file for the user. Perhaps a server might have a user called Alice. She has an account on this server at <code>https://example.com/alice</code>, but the metadata file (perhaps <code>https://example.com/alice/index.xml</code>), lists that her messaging endpoint is at <code>https://external-server.net/alice</code>. Thus, when a user wants to message Alice, they will send an XMPP message directly to Alice at that endpoint on a separate server. Perhaps our example server would even handle the user credentials for the external server, making sure login details always match with the main server.</p>
 <p>Should they wish, a user would even be free to hand pick the XMPP server they want to use. Maybe they could do so in order to reduce the number of message inboxes they have, so they can re-use an already existing account to use for their social media DMs as well.</p>
-<h2>Closing</h2>
+<h1>Closing</h1>
 <p>Perhaps some of the specific recommendations for the protocol wouldn't be perfect. A lot more thinking needs to go into this kind of thing. But as it stands right now, we are very dry on alternatives to the corporate social media platforms that are seen by many as the only real choice available. Creating social media in a way that mimics the shape of the free and open Web in my estimations would leave the world better off, assuming we could actually get it to take off from the ground, achieving a tangible level of success in terms of users and community support.</p>
 
                 </main>

@@ -239,6 +239,11 @@ h1 {
     font-size: 25px;
 }
 
+h1.title {
+    font-size: 50px;
+    text-align: center;
+}
+
 strong {
     /* this styles bold text */
     color: blue;
