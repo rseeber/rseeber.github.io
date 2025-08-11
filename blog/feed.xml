@@ -4,75 +4,16 @@
   <subtitle>A blog about whatever technical stuff I feel like talking about today</subtitle>
   <link href="https://rseeber.github.io/feed.xml" rel="self" />
   <link href="https://rseeber.github.io/blog/" />
-  <updated>2025-07-27T04:40:11Z</updated>
+  <updated>2025-08-11T02:25:20Z</updated>
   <id>https://rseeber.github.io/blog/</id>
   <author>
     <name>River Seeber</name>
     <email>riverseeber12@gmail.com</email>
   </author>
   <entry>
-    <title>Get Off Social Media, Embrace The Web</title>
-    <link href="https://rseeber.github.io/post/embrace-the-web/" />
-    <updated>2025-07-27T04:40:11Z</updated>
-    <id>https://rseeber.github.io/post/embrace-the-web/</id>
-    <content type="html">&lt;p&gt;&lt;em&gt;July 27, 2025&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;Lots of people right now feel inundated by information. In our digital age, it&#39;s like everything is flying at us all at once, and we&#39;re always just trying to sip from this super-powered firehouse of information. This is largely the fault of social media. Some people today, especially those of us in our 20s, are looking for an escape from this. People are trying to get away from social media, but we don&#39;t want to stop connecting with our friends. We all know that the internet is a great thing! We just want to get away from some of the ills presented by the usage of social media (which is just one of &lt;em&gt;many&lt;/em&gt; ways to use the internet).&lt;/p&gt;
-&lt;p&gt;Many people will have many different strategies for doing this, but in this blog, I&#39;ll be presenting a kind of guide for how to use the World Wide Web as a replacement technology -- a new (old) way to stay online, without having to conform to the limiting format of a centralized service like Facebook or Instagram.&lt;/p&gt;
-&lt;h1&gt;Why The Web?&lt;/h1&gt;
-&lt;p&gt;The point of the internet is to facilitate the mass spread of information, without necessarily always needing to go through traditional publishers or gatekeepers. Anyone with an idea can spread it. But when all of that information goes through the bottleneck of a small collection of major platforms -- platforms that can control what is and isn&#39;t allowed -- doesn&#39;t it seem that we&#39;ve lost the point of it all?&lt;/p&gt;
-&lt;p&gt;And even if you&#39;re not going at it for publishing subversive ideas or something like that, the web is still better than our existing social media platforms. The web is an open format. The web is less conducive to mindless consumption. The web encourages more intentional use. Every post you see is because you clicked a link and went there. Content exploration is also easier. You get recommended things online by people who share links to them. Those links post to external sites, not just more content hosted on the same service. There&#39;s no monolithic algorithms over-analyzing your decisions and coming up with recommendations that show up on your &amp;quot;feed&amp;quot;. You have to explore. This already weeds out a lot of the more negative elements of social media, since it requires you to put thought into what you do.&lt;/p&gt;
-&lt;p&gt;It leads to less negativity from people in the comments, and less anxiety created by impulsive scrolling.&lt;/p&gt;
-&lt;p&gt;But all of this requires there to be a community on the web. A community of people who put their things on the web instead of social media, and who offer out links to interesting things they found recently.&lt;/p&gt;
-&lt;p&gt;So let&#39;s begin, how do we get on the web, and what can we do once we&#39;re there?&lt;/p&gt;
-&lt;h1&gt;Getting on the web&lt;/h1&gt;
-&lt;p&gt;The easiest method for getting on the web is to just sign up for a blog. You don&#39;t really have to make it function like a traditional blog though. Blogs are just websites that don&#39;t require you to learn HTML in order to create. You don&#39;t need to be writing entire articles and essays on here. You can just use it as an easy way to have a webpage and make social posts about yourself.&lt;/p&gt;
-&lt;p&gt;On Instagram, perhaps you might have posted a dozen pictures you took when you went to an event, with a one or two sentence long caption underneath. You could do the same thing here. Post your images, and include some text at the bottom (read ahead for how to embed your images if your blog provider doesn&#39;t host them for you). But you&#39;re also free to expand from this if you like. You&#39;re no longer creating something for a bored, apathetic audience with a low attention-span, who will ultimately be looking at your post through an algorithmic feed of junk. On the web, the people looking at your posts are likely to have longer attention-spans. If you wanted to write a whole paragraph or two about your experience, you&#39;d be free to do so, without feeling as though people will scroll past and not read what you&#39;re trying to express.&lt;/p&gt;
-&lt;p&gt;Basically, you can use a blog, or the web in general, as a way to post the same type of thing you would normally post on social media. The benefit, however, is that you don&#39;t have to cater to the low-attention span that social media creates in people while they&#39;re using it. When you&#39;re on your computer browsing the web, you&#39;re often willing to spend more time looking at a single post than you would be if you were scrolling your phone while bored in line, for instance.&lt;/p&gt;
-&lt;p&gt;So, let&#39;s get into the more specific guide of &lt;em&gt;how to actually do it&lt;/em&gt;.&lt;/p&gt;
-&lt;h1&gt;The Guide&lt;/h1&gt;
-&lt;h2&gt;The Blog&lt;/h2&gt;
-&lt;p&gt;First thing&#39;s first, you need to sign up for a blog service. There&#39;s a lot of options out there of course. Honestly, if you wanted, you could even just run a blog by making your own website, but doing all that isn&#39;t necessary. My personal recommendation is to sign up with Bear Blog. They&#39;re great. It&#39;s a small, independent blogging service. They&#39;re simple, but offer plenty of customization. And the whole thing is entirely free. There&#39;s a paid tier that unlocks some extra stuff, but all of the core features you expect from a blog are available without needing to pay for anything.
-&lt;br&gt;
-&lt;br&gt;
-  &lt;a href=&quot;https://bearblog.dev/&quot;&gt;https://bearblog.dev/&lt;/a&gt;
-&lt;br&gt;&lt;/p&gt;
-&lt;p&gt;Anyways, you&#39;re going to sign up with something. If you&#39;d prefer a bigger name, you can use something like Substack, Medium, Blogger, or anything else. All these services offer more less the same thing -- a place online that belongs to you.&lt;/p&gt;
-&lt;p&gt;You might also go ahead and pick a theme for your blog, or even make a custom one yourself, but that&#39;s not strictly necessary, it&#39;s just nice is all. Some blogging services have a few pre-built themes you can just click and apply to your page, which makes things a lot easier.&lt;/p&gt;
-&lt;h2&gt;Hosting Images&lt;/h2&gt;
-&lt;p&gt;At a certain point, you might get the idea that you want to post some images. This is where we&#39;ll need to invoke the use of another service, since most blogs limit the amount of images that they&#39;ll host for you. We&#39;ll want to find a service that hosts images that can be referenced with a permalink to the image file. The best option I&#39;m aware of for this is Imgur, although alternatives definitely exist. We can make an account on Imgur, upload our images, then right click &amp;quot;open image in new tab&amp;quot; and copy the image URL.
-&lt;br&gt;
-&lt;br&gt;
-  &lt;a href=&quot;https://imgur.com/&quot;&gt;https://imgur.com/&lt;/a&gt;
-&lt;br&gt;&lt;/p&gt;
-&lt;p&gt;This URL is what we will use to embed it into our blog post. This way, the reader can see the image without having to click on any link. If you&#39;re using a service that uses a markdown format, you can embed an image like so:&lt;/p&gt;
-&lt;p&gt;  &lt;code&gt;![Image description](image url)&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;Where you replace &#39;image URL&#39; with the URL that you copied, and ideally also fill in an actual description as well.&lt;/p&gt;
-&lt;p&gt;If you&#39;re using a visual editor for your blog, you&#39;ll have to dig around for yourself for any image embed buttons.&lt;/p&gt;
-&lt;h1&gt;Examples&lt;/h1&gt;
-&lt;p&gt;Okay, so you&#39;ve seen the guide, but now you wanna see what the final product should look like in action. I&#39;ve included two examples. The first is a blog designed by me. You can notice how I&#39;m not trying to be professional or sound like an essayist or anything. I&#39;m just writing like as if this were Twitter or Mastodon or something. There&#39;s no reason to try to be super polished about things unless that&#39;s what you wanna do. You have to think about this in the same way you would think about social media. Do you feel the need for everything on Instagram to be high fidelity content? If not, why should you feel any differently about a blog where you more less post the same type of stuff.&lt;/p&gt;
-&lt;p&gt;The second example was done by my friend Trezha, who worked on this idea with me of how the web can be used as a better way to connect online.&lt;/p&gt;
-&lt;p&gt;&amp;quot;Post-Roadtrip Thoughts&amp;quot; (by me)
-&lt;br&gt;
-&lt;br&gt;
-  &lt;a href=&quot;https://riverpunk.bearblog.dev/post-roadtrip-thoughts/&quot;&gt;https://riverpunk.bearblog.dev/post-roadtrip-thoughts/&lt;/a&gt;
-&lt;br&gt;&lt;/p&gt;
-&lt;p&gt;&amp;quot;I went to a Concert&amp;quot; (by Trezha):
-&lt;br&gt;
-&lt;br&gt;
-  &lt;a href=&quot;https://myfirst.bearblog.dev/i-went-to-a-concert/&quot;&gt;https://myfirst.bearblog.dev/i-went-to-a-concert/&lt;/a&gt;
-&lt;br&gt;&lt;/p&gt;
-&lt;h1&gt;Closing&lt;/h1&gt;
-&lt;p&gt;The web is an amazing tool that allows for personal creative expression, and enables us to share those expressions with our friends. It&#39;s a tool that should connect us together. I find that social media doesn&#39;t always promote meaningful connection, and a lot of people my age seem to agree with me. We feel that there are better potential ways to connect with one another than just through the walled garden of social media.&lt;/p&gt;
-&lt;p&gt;I hope you&#39;ll consider creating a space for yourself on the free and open web, as opposed to the locked up platforms of Instagram, Facebook, Twitter, or otherwise. You don&#39;t have to leave your social media accounts if you get on the web, you can have both if you like. I just feel that society would be better off if more people felt free to create and post things on the web, and so that content could become linked together. We would develop longer attention spans, the things we post would become more meaningful (even if the content itself didn&#39;t change much), and people would be free to view it without needing to sign up through an authoritarian tech platform that values money over people.&lt;/p&gt;
-&lt;hr&gt;
-&lt;br&gt;
-&lt;p&gt;&lt;em&gt;This article, as well as mine and Trezha&#39;s example posts, were made as part of our team&#39;s submission for the &lt;a href=&quot;https://csgirlies.devpost.com/&quot;&gt;CS Girlies Hackathon&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
     <title>The Web Was Designed to Be Open</title>
     <link href="https://rseeber.github.io/post/the-web-was-designed-to-be-open/" />
-    <updated>2025-07-16T22:58:51Z</updated>
+    <updated>2025-08-11T02:25:20Z</updated>
     <id>https://rseeber.github.io/post/the-web-was-designed-to-be-open/</id>
     <content type="html">&lt;p&gt;&lt;em&gt;July 13, 2025&lt;/em&gt;&lt;/p&gt;
 &lt;h1&gt;The Free and Open Web&lt;/h1&gt;
@@ -112,7 +53,7 @@ You would have two sides to the network. There would be clients, AKA &quot;users
   <entry>
     <title>Use Technology Creatively</title>
     <link href="https://rseeber.github.io/post/use-technology-creatively/" />
-    <updated>2025-07-16T22:58:34Z</updated>
+    <updated>2025-08-11T02:25:17Z</updated>
     <id>https://rseeber.github.io/post/use-technology-creatively/</id>
     <content type="html">&lt;p&gt;&lt;em&gt;July 16, 2025&lt;/em&gt;&lt;/p&gt;
 &lt;h1&gt;Email is magic&lt;/h1&gt;
@@ -182,6 +123,123 @@ You would have two sides to the network. There would be clients, AKA &quot;users
   &lt;a href=&quot;https://craphound.com/lifehacksetcon04.txt&quot;&gt;https://craphound.com/lifehacksetcon04.txt&lt;/a&gt;
 &lt;br&gt;&lt;/p&gt;
 &lt;p&gt;I&#39;m only really just starting down the path of experimenting with and discovering creative ideas like the ones I&#39;ve laid out in this post. If you&#39;ve got any of your own that I didn&#39;t mention and you think I&#39;d like it, I&#39;d be happy to hear from you. You can feel free to shoot me an &lt;a href=&quot;https://rseeber.github.io/about.html&quot;&gt;email&lt;/a&gt; telling me all about it. I love getting emails from real people -- it&#39;s the explicit reason that I ever went about cleaning my inbox in the first place.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Get Off Social Media, Embrace The Web</title>
+    <link href="https://rseeber.github.io/post/embrace-the-web/" />
+    <updated>2025-08-11T02:25:14Z</updated>
+    <id>https://rseeber.github.io/post/embrace-the-web/</id>
+    <content type="html">&lt;p&gt;&lt;em&gt;July 27, 2025&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Lots of people right now feel inundated by information. In our digital age, it&#39;s like everything is flying at us all at once, and we&#39;re always just trying to sip from this super-powered firehouse of information. This is largely the fault of social media. Some people today, especially those of us in our 20s, are looking for an escape from this. People are trying to get away from social media, but we don&#39;t want to stop connecting with our friends. We all know that the internet is a great thing! We just want to get away from some of the ills presented by the usage of social media (which is just one of &lt;em&gt;many&lt;/em&gt; ways to use the internet).&lt;/p&gt;
+&lt;p&gt;Many people will have many different strategies for doing this, but in this blog, I&#39;ll be presenting a kind of guide for how to use the World Wide Web as a replacement technology -- a new (old) way to stay online, without having to conform to the limiting format of a centralized service like Facebook or Instagram.&lt;/p&gt;
+&lt;h1&gt;Why The Web?&lt;/h1&gt;
+&lt;p&gt;The point of the internet is to facilitate the mass spread of information, without necessarily always needing to go through traditional publishers or gatekeepers. Anyone with an idea can spread it. But when all of that information goes through the bottleneck of a small collection of major platforms -- platforms that can control what is and isn&#39;t allowed -- doesn&#39;t it seem that we&#39;ve lost the point of it all?&lt;/p&gt;
+&lt;p&gt;And even if you&#39;re not going at it for publishing subversive ideas or something like that, the web is still better than our existing social media platforms. The web is an open format. The web is less conducive to mindless consumption. The web encourages more intentional use. Every post you see is because you clicked a link and went there. Content exploration is also easier. You get recommended things online by people who share links to them. Those links post to external sites, not just more content hosted on the same service. There&#39;s no monolithic algorithms over-analyzing your decisions and coming up with recommendations that show up on your &amp;quot;feed&amp;quot;. You have to explore. This already weeds out a lot of the more negative elements of social media, since it requires you to put thought into what you do.&lt;/p&gt;
+&lt;p&gt;It leads to less negativity from people in the comments, and less anxiety created by impulsive scrolling.&lt;/p&gt;
+&lt;p&gt;But all of this requires there to be a community on the web. A community of people who put their things on the web instead of social media, and who offer out links to interesting things they found recently.&lt;/p&gt;
+&lt;p&gt;So let&#39;s begin, how do we get on the web, and what can we do once we&#39;re there?&lt;/p&gt;
+&lt;h1&gt;Getting on the web&lt;/h1&gt;
+&lt;p&gt;The easiest method for getting on the web is to just sign up for a blog. You don&#39;t really have to make it function like a traditional blog though. Blogs are just websites that don&#39;t require you to learn HTML in order to create. You don&#39;t need to be writing entire articles and essays on here. You can just use it as an easy way to have a webpage and make social posts about yourself.&lt;/p&gt;
+&lt;p&gt;On Instagram, perhaps you might have posted a dozen pictures you took when you went to an event, with a one or two sentence long caption underneath. You could do the same thing here. Post your images, and include some text at the bottom (read ahead for how to embed your images if your blog provider doesn&#39;t host them for you). But you&#39;re also free to expand from this if you like. You&#39;re no longer creating something for a bored, apathetic audience with a low attention-span, who will ultimately be looking at your post through an algorithmic feed of junk. On the web, the people looking at your posts are likely to have longer attention-spans. If you wanted to write a whole paragraph or two about your experience, you&#39;d be free to do so, without feeling as though people will scroll past and not read what you&#39;re trying to express.&lt;/p&gt;
+&lt;p&gt;Basically, you can use a blog, or the web in general, as a way to post the same type of thing you would normally post on social media. The benefit, however, is that you don&#39;t have to cater to the low-attention span that social media creates in people while they&#39;re using it. When you&#39;re on your computer browsing the web, you&#39;re often willing to spend more time looking at a single post than you would be if you were scrolling your phone while bored in line, for instance.&lt;/p&gt;
+&lt;p&gt;So, let&#39;s get into the more specific guide of &lt;em&gt;how to actually do it&lt;/em&gt;.&lt;/p&gt;
+&lt;h1&gt;The Guide&lt;/h1&gt;
+&lt;h2&gt;The Blog&lt;/h2&gt;
+&lt;p&gt;First thing&#39;s first, you need to sign up for a blog service. There&#39;s a lot of options out there of course. Honestly, if you wanted, you could even just run a blog by making your own website, but doing all that isn&#39;t necessary. My personal recommendation is to sign up with Bear Blog. They&#39;re great. It&#39;s a small, independent blogging service. They&#39;re simple, but offer plenty of customization. And the whole thing is entirely free. There&#39;s a paid tier that unlocks some extra stuff, but all of the core features you expect from a blog are available without needing to pay for anything.
+&lt;br&gt;
+&lt;br&gt;
+  &lt;a href=&quot;https://bearblog.dev/&quot;&gt;https://bearblog.dev/&lt;/a&gt;
+&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;Anyways, you&#39;re going to sign up with something. If you&#39;d prefer a bigger name, you can use something like Substack, Medium, Blogger, or anything else. All these services offer more less the same thing -- a place online that belongs to you.&lt;/p&gt;
+&lt;p&gt;You might also go ahead and pick a theme for your blog, or even make a custom one yourself, but that&#39;s not strictly necessary, it&#39;s just nice is all. Some blogging services have a few pre-built themes you can just click and apply to your page, which makes things a lot easier.&lt;/p&gt;
+&lt;h2&gt;Hosting Images&lt;/h2&gt;
+&lt;p&gt;At a certain point, you might get the idea that you want to post some images. This is where we&#39;ll need to invoke the use of another service, since most blogs limit the amount of images that they&#39;ll host for you. We&#39;ll want to find a service that hosts images that can be referenced with a permalink to the image file. The best option I&#39;m aware of for this is Imgur, although alternatives definitely exist. We can make an account on Imgur, upload our images, then right click &amp;quot;open image in new tab&amp;quot; and copy the image URL.
+&lt;br&gt;
+&lt;br&gt;
+  &lt;a href=&quot;https://imgur.com/&quot;&gt;https://imgur.com/&lt;/a&gt;
+&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;This URL is what we will use to embed it into our blog post. This way, the reader can see the image without having to click on any link. If you&#39;re using a service that uses a markdown format, you can embed an image like so:&lt;/p&gt;
+&lt;p&gt;  &lt;code&gt;![Image description](image url)&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Where you replace &#39;image URL&#39; with the URL that you copied, and ideally also fill in an actual description as well.&lt;/p&gt;
+&lt;p&gt;If you&#39;re using a visual editor for your blog, you&#39;ll have to dig around for yourself for any image embed buttons.&lt;/p&gt;
+&lt;h1&gt;Examples&lt;/h1&gt;
+&lt;p&gt;Okay, so you&#39;ve seen the guide, but now you wanna see what the final product should look like in action. I&#39;ve included two examples. The first is a blog designed by me. You can notice how I&#39;m not trying to be professional or sound like an essayist or anything. I&#39;m just writing like as if this were Twitter or Mastodon or something. There&#39;s no reason to try to be super polished about things unless that&#39;s what you wanna do. You have to think about this in the same way you would think about social media. Do you feel the need for everything on Instagram to be high fidelity content? If not, why should you feel any differently about a blog where you more less post the same type of stuff.&lt;/p&gt;
+&lt;p&gt;The second example was done by my friend Trezha, who worked on this idea with me of how the web can be used as a better way to connect online.&lt;/p&gt;
+&lt;p&gt;&amp;quot;Post-Roadtrip Thoughts&amp;quot; (by me)
+&lt;br&gt;
+&lt;br&gt;
+  &lt;a href=&quot;https://riverpunk.bearblog.dev/post-roadtrip-thoughts/&quot;&gt;https://riverpunk.bearblog.dev/post-roadtrip-thoughts/&lt;/a&gt;
+&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;&amp;quot;I went to a Concert&amp;quot; (by Trezha):
+&lt;br&gt;
+&lt;br&gt;
+  &lt;a href=&quot;https://myfirst.bearblog.dev/i-went-to-a-concert/&quot;&gt;https://myfirst.bearblog.dev/i-went-to-a-concert/&lt;/a&gt;
+&lt;br&gt;&lt;/p&gt;
+&lt;h1&gt;Closing&lt;/h1&gt;
+&lt;p&gt;The web is an amazing tool that allows for personal creative expression, and enables us to share those expressions with our friends. It&#39;s a tool that should connect us together. I find that social media doesn&#39;t always promote meaningful connection, and a lot of people my age seem to agree with me. We feel that there are better potential ways to connect with one another than just through the walled garden of social media.&lt;/p&gt;
+&lt;p&gt;I hope you&#39;ll consider creating a space for yourself on the free and open web, as opposed to the locked up platforms of Instagram, Facebook, Twitter, or otherwise. You don&#39;t have to leave your social media accounts if you get on the web, you can have both if you like. I just feel that society would be better off if more people felt free to create and post things on the web, and so that content could become linked together. We would develop longer attention spans, the things we post would become more meaningful (even if the content itself didn&#39;t change much), and people would be free to view it without needing to sign up through an authoritarian tech platform that values money over people.&lt;/p&gt;
+&lt;hr&gt;
+&lt;br&gt;
+&lt;p&gt;&lt;em&gt;This article, as well as mine and Trezha&#39;s example posts, were made as part of our team&#39;s submission for the &lt;a href=&quot;https://csgirlies.devpost.com/&quot;&gt;CS Girlies Hackathon&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>How I use VimWiki for note taking</title>
+    <link href="https://rseeber.github.io/post/how-i-use-vimwiki-for-note-taking/" />
+    <updated>2025-08-10T00:00:00Z</updated>
+    <id>https://rseeber.github.io/post/how-i-use-vimwiki-for-note-taking/</id>
+    <content type="html">&lt;p&gt;&lt;em&gt;August 10, 2025&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;I made an earlier post where I tried my best to inspire folks to use simple tech solutions in strategically useful ways in order to get large gains out of the tech they already have. Among one of the things I discussed was the power of using simple text files to keep track of things. I&#39;d like to expand on that point here and give some of my own technical details of what I use. Of course, any old text editor will work for the job. I&#39;m going above and beyond so I can have extra features and efficiency.
+&lt;br&gt;
+&lt;br&gt;
+  &lt;a href=&quot;https://rseeber.github.io/blog/post/use-technology-creatively/&quot;&gt;https://rseeber.github.io/blog/post/use-technology-creatively/&lt;/a&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;/p&gt;
+&lt;h1&gt;VimWiki&lt;/h1&gt;
+&lt;p&gt;So we&#39;re going to be using VimWiki. It&#39;s an extension for the terminal-based text editor vim. First, install vim. After that, the README for the VimWiki project tells you to simply git clone the project into a plugins folder, and run a special command to generate the help pages. It&#39;s all just copy paste into the terminal, super easy stuff.
+&lt;br&gt;
+&lt;br&gt;
+  &lt;a href=&quot;https://github.com/vimwiki/vimwiki?tab=readme-ov-file#installation&quot;&gt;https://github.com/vimwiki/vimwiki?tab=readme-ov-file#installation&lt;/a&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;Veronica Explains did a pretty good blog post and video tutorial about using VimWiki, which you can take a look at if the official documentation isn&#39;t enough for you. My post is mostly going to be about what you can &lt;em&gt;do with it&lt;/em&gt;, not necessarily a tutorial on the details.
+&lt;br&gt;
+&lt;br&gt;
+  &lt;a href=&quot;https://vkc.sh/vimwiki-101/&quot;&gt;https://vkc.sh/vimwiki-101/&lt;/a&gt;
+&lt;br&gt;
+&lt;br&gt;
+  &lt;a href=&quot;https://www.youtube.com/watch?v=RmEtH5FQs28&quot;&gt;https://www.youtube.com/watch?v=RmEtH5FQs28&lt;/a&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;/p&gt;
+&lt;h1&gt;Using it&lt;/h1&gt;
+&lt;p&gt;Okay, so now you&#39;ve got it installed. Open vim, and type &amp;quot;&lt;code&gt;&#92;ww&lt;/code&gt;&amp;quot; to enter VimWiki. It will create a folder in your home directory called &lt;code&gt;~/vimwiki/&lt;/code&gt; where all files will go by default. VimWiki is basically just vim with internal hyperlinks to other text files on your computer. When you create a link to a file and open it, it will automatically &lt;em&gt;create&lt;/em&gt; the file, if it doesn&#39;t already exist. You never need to leave the editor in order to add new files.&lt;/p&gt;
+&lt;p&gt;You can of course use nested directories for different types of notes. For instance, you might use &lt;code&gt;~/vimwiki/blog/&lt;/code&gt; for writing up your blog posts, and &lt;code&gt;~/vimwiki/daily/&lt;/code&gt; for all the notes you need at the beginning of your day. That kind of thing. All links are relative, so if you add an index page to &lt;code&gt;~/vimwiki/blog/&lt;/code&gt;, you can refer to all posts as simply their filename without the full path.&lt;/p&gt;
+&lt;h1&gt;How I use it&lt;/h1&gt;
+&lt;p&gt;A natural hierarchical order comes out of this system. You can begin at the top level index page, which lists sub-pages of different categories. Each sub-page lists either actual pages, or even more detailed categories, until finally you dig all the way down to a file where you&#39;re actually writing in, not just listing links. The hierarchy is saved entirely in your &lt;code&gt;~/vimwiki/&lt;/code&gt; folder. It&#39;s all just files and folders. So if you ever want to switch to a different management system and ditch vimwiki, there&#39;s no conversion tool needed, everything is already is an easily readable format. There&#39;s no special vimwiki-specific metadata or databases or anything.&lt;/p&gt;
+&lt;p&gt;I have a few big category pages, including &amp;quot;Journals&amp;quot;, &amp;quot;Writing&amp;quot;, &amp;quot;Blog&amp;quot;, and some for different projects I&#39;m working on, like school clubs or things.&lt;/p&gt;
+&lt;p&gt;I use the journals folder to keep all my generic notes. There&#39;s your typical examples of just brief ideas or little details I need to record for later, but I also like to keep links to or names of media I&#39;ve enjoyed, or that I plan to take a look at later when I have time. I also keep a todo list and a suspense file.
+&lt;br&gt;
+&lt;br&gt;
+  &lt;a href=&quot;https://pluralistic.net/2024/10/26/one-weird-trick/&quot;&gt;https://pluralistic.net/2024/10/26/one-weird-trick/&lt;/a&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;/p&gt;
+&lt;h2&gt;Blog posts + static site generator&lt;/h2&gt;
+&lt;p&gt;Next, I also have the blog folder. This site is self-run using a static site hosting service (GitHub pages currently), and I use the static site generator eleventy to turn my markdown files into html pages based on the template for the site. All I do is install the node package into &lt;code&gt;~/vimwiki/blog/&lt;/code&gt; and have it generate my site whenever I finish a new post. I&#39;ve got it configured to output files to a custom directory where I keep the git repo for the website. So when I run the command, it updates my website repo. When I like how it looks, I commit and push the changes, and they become public within a few moments.&lt;/p&gt;
+&lt;p&gt;Just for convenience sake, I also keep a &lt;code&gt;~/vimwiki/blog/drafts/&lt;/code&gt; folder which I&#39;ve instructed eleventy to ignore. Once I finish writing a draft, I move it into the parent folder where it can be seen by eleventy.&lt;/p&gt;
+&lt;p&gt;Of course, you&#39;ll probably want to configure your VimWiki to use markdown files if you&#39;re doing this, rather than it&#39;s default &lt;code&gt;.wiki&lt;/code&gt; files, which I&#39;m unaware as to whether eleventy can support, but I would assume markdown has better support in any case. You also don&#39;t necessarily need to use eleventy -- any static site generator that is comfortable for you will do.
+&lt;br&gt;
+&lt;br&gt;
+  &lt;a href=&quot;https://www.11ty.dev/&quot;&gt;https://www.11ty.dev/&lt;/a&gt;
+&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;The idea to this whole system is that all your external tools for memory are stored into a singular place. Rather than having to think about where you keep movie suggestions, read later list, todo lists, favorite quotes, and notes on different projects, you can just know that everything is in your VimWiki folder. Just start following links down your category until you land on what you&#39;re looking for. It eases the friction for getting started on a task, and it also makes it easier to transition from one task to another, since your notes are going to be all stored in the same place.&lt;/p&gt;
+&lt;h1&gt;Cloud sync + mobile access&lt;/h1&gt;
+&lt;p&gt;Okay, this is getting into perhaps the more technical, but still doable. You can actually sync your entire &lt;code&gt;~/vimwiki/&lt;/code&gt; folder to the so-called &lt;em&gt;&amp;quot;&amp;quot;cloud&amp;quot;&amp;quot;&lt;/em&gt; using git. Initialize the repo, and commit all changes. Pick a server you want to use for syncing. I use GitHub because it&#39;s what I know, but some may prefer to use GitLab, or even a VPS or something like that if you&#39;re hoping for some privacy from Big Tech services.&lt;/p&gt;
+&lt;p&gt;Anyhow, simply set up a &lt;em&gt;private&lt;/em&gt; git repo and push your changes. You&#39;ll need to of course authenticate first to prove you&#39;re allowed access, but after that it should all work. You want it to be this way so that nobody can read your notes or drafts unless they have access.&lt;/p&gt;
+&lt;p&gt;If you want to access it from somewhere else, simply git clone the folder to a separate device, edit the files, then commit and push. The benefit of using simple text files instead of more advanced files like Word Documents is that you can edit them from basically any device, even a phone. A lot of file managers for your phone will come with a text editor pre-installed.&lt;/p&gt;
+&lt;p&gt;You can get even fancier than that though. If you have an Android, you can install a terminal emulator like Termux, which enables you to install packages such as git and vim on your phone. That&#39;s what I do, I git pull my vimwiki folder to get the latest version, and then I open it with vim. I even have the VimWiki plugin installed on it too. I make my edits, then commit and push back up. Of course, that&#39;s not your only option. All you need is a way to push and pull a git repo to your phone, and some kind of generic text editor.&lt;/p&gt;
+&lt;h1&gt;Closing&lt;/h1&gt;
+&lt;p&gt;I really enjoy my experience with VimWiki, creating a hierarchical note system. I try not to get carried away with the data structure of it all, instead focusing on just keeping notes on important stuff. If you have any other tricks how to make the most out of this tool, feel free to let me know about it! I love endlessly tweaking with my workflow on my laptop to optimize efficiency (or often just coolness factor).&lt;/p&gt;
 </content>
   </entry>
 </feed>

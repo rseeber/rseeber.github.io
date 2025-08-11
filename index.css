@@ -200,6 +200,23 @@ hr{
     color: sandybrown;
 }
 
+code {
+    background-color: bisque;
+}
+
+button {
+    color: white;
+    background-color: #d2691e;
+    font-size: larger;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a.button {
+    text-decoration: none;
+}
+
 .mono{
     font-family: monospace;
     background-color: floralwhite;
