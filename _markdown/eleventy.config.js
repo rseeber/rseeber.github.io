@@ -25,6 +25,6 @@ export default function (eleventyConfig) {
 
 export const config = {
   dir: {
-		output: "/home/river/code/web/rseeber2/_site/",
+		output: "/home/river/code/web/rseeber2/docs/",
   }
 };
