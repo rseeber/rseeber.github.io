@@ -5,7 +5,7 @@ export default function (eleventyConfig) {
 
 	eleventyConfig.addPlugin(feedPlugin, {
 		type: "atom", // or "rss", "json"
-		outputPath: "/feed.xml",
+		outputPath: "/blog/feed.xml",
 		collection: {
 			name: "post", // iterate over `collections.post`
 			limit: 20,     // 0 means no limit
@@ -25,6 +25,6 @@ export default function (eleventyConfig) {
 
 export const config = {
   dir: {
-		output: "/home/river/code/web/rseeber2/",
+		output: "/home/river/code/web/rseeber2/_site/",
   }
 };

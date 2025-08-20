@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <title>River&#39;s Blog</title>
   <subtitle>A blog about whatever technical stuff I feel like talking about today</subtitle>
-  <link href="https://rseeber.github.io/feed.xml" rel="self" />
+  <link href="https://rseeber.github.io/blog/feed.xml" rel="self" />
   <link href="https://rseeber.github.io/blog/" />
   <updated>2025-08-19T03:32:34Z</updated>
   <id>https://rseeber.github.io/blog/</id>
