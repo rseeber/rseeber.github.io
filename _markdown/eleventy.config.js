@@ -21,10 +21,28 @@ export default function (eleventyConfig) {
 			}
 		}
 	});
+
+
+	// What is this? It's a shortcode! Basically, you can call {% box "box1" %} ... {% endbox %}
+	// with markdown content in between. The markdown is saved to this.page[id], in the
+	// case of our example, our id = "box1", so this.page["box1"] stores our content.
+	// Nothing is returned, we will use this saved content in the renderBox shortcode below.
+	eleventyConfig.addPairedShortcode("box", function(content, id) {
+		this.page[id] = content;
+		return "";
+	});
+
+	// Shortcode to render a captured box anywhere in your layout
+	// Usage in layout: {% renderBox "[id]" %}, replacing [id] but keeping the quotes.
+	// You can use this just like {{ content }} or {{ title }} or anything else.
+	eleventyConfig.addShortcode("renderBox", function(id) {
+		return this.page[id] || ""; // Outputs stored content, or empty string if undefined
+	});
+
 };
 
 export const config = {
   dir: {
-		output: "/home/river/code/web/rseeber2/docs/",
+		output: "/home/river/code/web/rseeber/docs/",
   }
 };

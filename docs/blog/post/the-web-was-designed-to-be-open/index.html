@@ -1,33 +1,31 @@
-<html>
-    <link rel="stylesheet" href="/index.css">
-    <head>
-        <title>The Web Was Designed to Be Open</title>
-    </head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTjF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat" rel="stylesheet">
+    <link rel="stylesheet" href="/style.css">
+    <title>The Web Was Designed to Be Open</title>
+</head>
+<body>
+    <script>
+        if(screen.width < 720){
+            alert("Note: This Website was designed for desktop. It's reccomended to turn your phone sideways for things to render properly :)");
+        }
+    </script>
+    <div class="big-box">
 
-    <body>
-        <div id="container">
-            <!--Header-->
-            <div id="header"></div>
-            <!--Navigation Bar-->
-            <div id="headerArea">
-                <nav id="navbar" style="margin-bottom: 0px;">
-                    <ul>
-                        <li><a href="/">Home</a></li>
-                        <li><a href="/projects/">Projects</a></li>
-                        <li><a href="/reading/">Reading</a></li>
-                        <li><a href="/interests/">Interests</a></li>
-                        <li><a href="/blog/">Blog</a></li>
-                        <li><a href="/about/">About</a></li></ul></nav>
+        <!-- LEFT -->
+        <div class="container" id="left">
+            <div class="panel" id="cover-image">
             </div>
-            <!--Main Content-->
-            <div id="flex">
-                <!--Sidebar (deleted)-->
-
-                <!--Main Page Content-->
-                <main>
-                    <h1 class="title">The Web Was Designed to Be Open</h1>
-                    <!--Paste page html here (and remove line below)-->
-                    <p><em>July 13, 2025</em></p>
+            <!-- MAIN ARTICLE CONTENT -->
+            <div class="panel">
+                    <main>
+                        
+<h1 class="title">The Web Was Designed to Be Open</h1>
+<!--Paste page html here (and remove line below)-->
+<p><em>July 13, 2025</em></p>
 <h1>The Free and Open Web</h1>
 <p>The internet is a truly incredible thing. Founded on the principle of shared ownership, the internet does not belong to any one group or person, it is shared by all of us. There is no single group you must go through in order to access the internet, nor in order to host an online service. There is no single set of rules governing what is and is not allowed to be posted on the internet. The internet deters censorship because new sovereign territory can be created online simply by hosting a server. With that server, you are created a new space on the internet, a new node added to the network. Within that node, you are free to do anything you like, so long as it is legal in the country you're hosting it in -- otherwise you might get some knocks on your door IRL.</p>
 <p>The internet being this way means that it cannot be controlled, truncated, censored, or destroyed by any overzealous entities -- be they politicians, tech corporations, or otherwise anyone else with the power to attempt a move like that. The internet remains strong, unfettered by the whims of would-be autocrats.</p>
@@ -61,18 +59,32 @@ You would have two sides to the network. There would be clients, AKA "users", an
 <h1>Closing</h1>
 <p>Perhaps some of the specific recommendations for the protocol wouldn't be perfect. A lot more thinking needs to go into this kind of thing. But as it stands right now, we are very dry on alternatives to the corporate social media platforms that are seen by many as the only real choice available. Creating social media in a way that mimics the shape of the free and open Web in my estimations would leave the world better off, assuming we could actually get it to take off from the ground, achieving a tangible level of success in terms of users and community support.</p>
 
-                    <hr>
-                    <br>
-                    <a href="mailto:riverseeber12@gmail.com" class="button"><button>Reply via Email!</button></a>
-                </main>
+<hr>
+<br>
+<a href="mailto:riverseeber12@gmail.com" class="button"><button>Reply via Email!</button></a>
+                    </main>
+            </div>
+        </div>
+
+        <!-- RIGHT -->
+        <div class="container" id="right">
+            <!-- spacer -->
+            <div style="height: 10vw"></div>
+            <div class="panel" id="navbar">
+                    <h1>Navbar</h1>
+                    <ul>
+                        <li><a href="/"          >Home</a></li>
+                        <li><a href="/projects/" >Projects</a></li>
+                        <li><a href="/reading/"  >Reading</a></li>
+                        <li><a href="/interests/">Interests</a></li>
+                        <li><a href="/blog/"     >Blog</a></li>
+                        <li><a href="/about/"    >About</a></li>
+                    </ul>
+            </div>
+            <div class="panel">
                 
             </div>
-            <!--Footer-->
-            <footer id="footer" style="margin-top: 0px;">
-                <p style="font-size: 0px;">This site is owned by River Seeber</p>
-            </footer>
-
-            <div class="spacer"></div>
         </div>
-    </body>
+    </div>
+</body>
 </html>

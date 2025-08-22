@@ -9,3 +9,6 @@
 <p>GPG Fingerprint: <span style="font-family:'Courier New', Courier, monospace;">1EA6 76C4 67C2 C64B 4525  88F4 FC60 437B FA3B 3331</span></p>
 <hr>
 <p><em>All images and photographs on this site are my own. Do not reuse my images without my permission.</em></p>
+
+{% box "sidebar" %}
+{% endbox %}

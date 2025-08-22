@@ -1,32 +1,28 @@
-<html>
-    <link rel="stylesheet" href="/index.css">
-    <head>
-        <title>River's Website :)</title>
-    </head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTjF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat" rel="stylesheet">
+    <link rel="stylesheet" href="/style.css">
+    <title></title>
+</head>
+<body>
+    <script>
+        if(screen.width < 720){
+            alert("Note: This Website was designed for desktop. It's reccomended to turn your phone sideways for things to render properly :)");
+        }
+    </script>
+    <div class="big-box">
 
-    <body>
-        <div id="container">
-            <!--Header-->
-            <div id="header"></div>
-            <!--Navigation Bar-->
-            <div id="headerArea">
-                <nav id="navbar" style="margin-bottom: 0px;">
-                    <ul>
-                        <li><a href="/">Home</a></li>
-                        <li><a href="/projects/">Projects</a></li>
-                        <li><a href="/reading/">Reading</a></li>
-                        <li><a href="/interests/">Interests</a></li>
-                        <li><a href="/blog/">Blog</a></li>
-                        <li><a href="/about/">About</a></li></ul></nav>
+        <!-- LEFT -->
+        <div class="container" id="left">
+            <div class="panel" id="cover-image">
             </div>
-            <!--Main Content-->
-            <div id="flex">
-                <!--Sidebar (deleted)-->
-
-                <!--Main Page Content-->
-                <main>
-                    <!--Paste page html here (and remove line below)-->
-                    <img src="/images/me-1.jpg" class="sideImage" width="200" height="200" alt="River, wearing a hair bow and a red flannel. Mirror selfie">
+            <!-- MAIN ARTICLE CONTENT -->
+            <div class="panel">
+                    <main>
+                        <img src="/images/me-1.jpg" class="sideImage" width="200" height="200" alt="River, wearing a hair bow and a red flannel. Mirror selfie">
 <h1>Contact and Links</h1>
 <p><strong style="color: inherit; text-decoration: underline;">River Seeber</strong></p>
 <p>Email: <a href="mailto:riverseeber12@gmail.com">riverseeber12@gmail.com</a></p>
@@ -37,15 +33,31 @@
 <p>GPG Fingerprint: <span style="font-family:'Courier New', Courier, monospace;">1EA6 76C4 67C2 C64B 4525  88F4 FC60 437B FA3B 3331</span></p>
 <hr>
 <p><em>All images and photographs on this site are my own. Do not reuse my images without my permission.</em></p>
-                </main>
-                
-            </div>
-            <!--Footer-->
-            <footer id="footer" style="margin-top: 0px;">
-                <p style="font-size: 0px;">This site is owned by River Seeber</p>
-            </footer>
 
-            <div class="spacer"></div>
+                    </main>
+            </div>
         </div>
-    </body>
+
+        <!-- RIGHT -->
+        <div class="container" id="right">
+            <!-- spacer -->
+            <div style="height: 10vw"></div>
+            <div class="panel" id="navbar">
+                    <h1>Navbar</h1>
+                    <ul>
+                        <li><a href="/"          >Home</a></li>
+                        <li><a href="/projects/" >Projects</a></li>
+                        <li><a href="/reading/"  >Reading</a></li>
+                        <li><a href="/interests/">Interests</a></li>
+                        <li><a href="/blog/"     >Blog</a></li>
+                        <li><a href="/about/"    >About</a></li>
+                    </ul>
+            </div>
+            <div class="panel">
+                
+
+            </div>
+        </div>
+    </div>
+</body>
 </html>

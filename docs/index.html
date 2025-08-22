@@ -1,32 +1,28 @@
-<html>
-    <link rel="stylesheet" href="/index.css">
-    <head>
-        <title>River's Website :)</title>
-    </head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTjF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat" rel="stylesheet">
+    <link rel="stylesheet" href="/style.css">
+    <title></title>
+</head>
+<body>
+    <script>
+        if(screen.width < 720){
+            alert("Note: This Website was designed for desktop. It's reccomended to turn your phone sideways for things to render properly :)");
+        }
+    </script>
+    <div class="big-box">
 
-    <body>
-        <div id="container">
-            <!--Header-->
-            <div id="header"></div>
-            <!--Navigation Bar-->
-            <div id="headerArea">
-                <nav id="navbar" style="margin-bottom: 0px;">
-                    <ul>
-                        <li><a href="/">Home</a></li>
-                        <li><a href="/projects/">Projects</a></li>
-                        <li><a href="/reading/">Reading</a></li>
-                        <li><a href="/interests/">Interests</a></li>
-                        <li><a href="/blog/">Blog</a></li>
-                        <li><a href="/about/">About</a></li></ul></nav>
+        <!-- LEFT -->
+        <div class="container" id="left">
+            <div class="panel" id="cover-image">
             </div>
-            <!--Main Content-->
-            <div id="flex">
-                <!--Sidebar (deleted)-->
-
-                <!--Main Page Content-->
-                <main>
-                    <!--Paste page html here (and remove line below)-->
-                    <h1>Hey There! I'm River!</h1>
+            <!-- MAIN ARTICLE CONTENT -->
+            <div class="panel">
+                    <main>
+                        <h1>Hey There! I'm River!</h1>
 <img src="images/me-3.jpg" class="sideImage" width="200" height="200" alt="River, wearing a hat and a red flannel. Smiling upwards at the camera.">   
 <p>I'm a Computer Science student at AVC, planning to minor in Political Science.</p>
 <p><strong>Some of my bigger interests include:</strong></p>
@@ -41,15 +37,29 @@
 <p>If you have any questions about anything I post on my site, or just wanted to send me something you think I should read, 
     feel totally free to send me an <a href="/about.html">email</a>! I really don't mind getting emails 
     when it's from actual people instead of automated mailing lists. :)</p>
-                </main>
+                    </main>
+            </div>
+        </div>
+
+        <!-- RIGHT -->
+        <div class="container" id="right">
+            <!-- spacer -->
+            <div style="height: 10vw"></div>
+            <div class="panel" id="navbar">
+                    <h1>Navbar</h1>
+                    <ul>
+                        <li><a href="/"          >Home</a></li>
+                        <li><a href="/projects/" >Projects</a></li>
+                        <li><a href="/reading/"  >Reading</a></li>
+                        <li><a href="/interests/">Interests</a></li>
+                        <li><a href="/blog/"     >Blog</a></li>
+                        <li><a href="/about/"    >About</a></li>
+                    </ul>
+            </div>
+            <div class="panel">
                 
             </div>
-            <!--Footer-->
-            <footer id="footer" style="margin-top: 0px;">
-                <p style="font-size: 0px;">This site is owned by River Seeber</p>
-            </footer>
-
-            <div class="spacer"></div>
         </div>
-    </body>
+    </div>
+</body>
 </html>

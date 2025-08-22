@@ -1,33 +1,31 @@
-<html>
-    <link rel="stylesheet" href="/index.css">
-    <head>
-        <title>How I use VimWiki for note taking</title>
-    </head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTjF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat" rel="stylesheet">
+    <link rel="stylesheet" href="/style.css">
+    <title>How I use VimWiki for note taking</title>
+</head>
+<body>
+    <script>
+        if(screen.width < 720){
+            alert("Note: This Website was designed for desktop. It's reccomended to turn your phone sideways for things to render properly :)");
+        }
+    </script>
+    <div class="big-box">
 
-    <body>
-        <div id="container">
-            <!--Header-->
-            <div id="header"></div>
-            <!--Navigation Bar-->
-            <div id="headerArea">
-                <nav id="navbar" style="margin-bottom: 0px;">
-                    <ul>
-                        <li><a href="/">Home</a></li>
-                        <li><a href="/projects/">Projects</a></li>
-                        <li><a href="/reading/">Reading</a></li>
-                        <li><a href="/interests/">Interests</a></li>
-                        <li><a href="/blog/">Blog</a></li>
-                        <li><a href="/about/">About</a></li></ul></nav>
+        <!-- LEFT -->
+        <div class="container" id="left">
+            <div class="panel" id="cover-image">
             </div>
-            <!--Main Content-->
-            <div id="flex">
-                <!--Sidebar (deleted)-->
-
-                <!--Main Page Content-->
-                <main>
-                    <h1 class="title">How I use VimWiki for note taking</h1>
-                    <!--Paste page html here (and remove line below)-->
-                    <p><em>August 10, 2025</em></p>
+            <!-- MAIN ARTICLE CONTENT -->
+            <div class="panel">
+                    <main>
+                        
+<h1 class="title">How I use VimWiki for note taking</h1>
+<!--Paste page html here (and remove line below)-->
+<p><em>August 10, 2025</em></p>
 <p>I made an earlier post where I tried my best to inspire folks to use simple tech solutions in strategically useful ways in order to get large gains out of the tech they already have. Among one of the things I discussed was the power of using simple text files to keep track of things. I'd like to expand on that point here and give some of my own technical details of what I use. Of course, any old text editor will work for the job. I'm going above and beyond so I can have extra features and efficiency.
 <br>
 <br>
@@ -79,18 +77,32 @@
 <h1>Closing</h1>
 <p>I really enjoy my experience with VimWiki, creating a hierarchical note system. I try not to get carried away with the data structure of it all, instead focusing on just keeping notes on important stuff. If you have any other tricks how to make the most out of this tool, feel free to let me know about it! I love endlessly tweaking with my workflow on my laptop to optimize efficiency (or often just coolness factor).</p>
 
-                    <hr>
-                    <br>
-                    <a href="mailto:riverseeber12@gmail.com" class="button"><button>Reply via Email!</button></a>
-                </main>
+<hr>
+<br>
+<a href="mailto:riverseeber12@gmail.com" class="button"><button>Reply via Email!</button></a>
+                    </main>
+            </div>
+        </div>
+
+        <!-- RIGHT -->
+        <div class="container" id="right">
+            <!-- spacer -->
+            <div style="height: 10vw"></div>
+            <div class="panel" id="navbar">
+                    <h1>Navbar</h1>
+                    <ul>
+                        <li><a href="/"          >Home</a></li>
+                        <li><a href="/projects/" >Projects</a></li>
+                        <li><a href="/reading/"  >Reading</a></li>
+                        <li><a href="/interests/">Interests</a></li>
+                        <li><a href="/blog/"     >Blog</a></li>
+                        <li><a href="/about/"    >About</a></li>
+                    </ul>
+            </div>
+            <div class="panel">
                 
             </div>
-            <!--Footer-->
-            <footer id="footer" style="margin-top: 0px;">
-                <p style="font-size: 0px;">This site is owned by River Seeber</p>
-            </footer>
-
-            <div class="spacer"></div>
         </div>
-    </body>
+    </div>
+</body>
 </html>
