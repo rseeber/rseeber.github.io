@@ -15,6 +15,7 @@ body {
 .big-box {
     margin: 0 auto;
     max-width: 80em;
+    display: flex;
 }
 
 .container {
@@ -26,10 +27,12 @@ body {
 .container#left {
     width: 60%;
     margin-left: 5em;
+    order: 0;
 }
 
 .container#right {
     width: 25%;
+    order: 1;
 }
 
 .panel {
@@ -47,11 +50,31 @@ body {
 
 .panel#navbar {
     width: 10em;
+    margin-top: 10vw;
 }
 
 .panel#navbar > ul {
     line-height: 1.5;
     text-indent: 0px;
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+
+}
+
+.panel#navbar li {
+    padding: 4px;
+    background-color: chocolate;
+    border-radius: 2px;
+    margin: 2px;
+}
+.panel#navbar a {
+    color: white;
+    text-decoration: none;
+}
+.panel#navbar a:hover {
+    color: yellow;
+    font-style: italic;
 }
 
 .panel#cover-image {
@@ -80,4 +103,65 @@ h1.title {
 
 code {
     background-color: burlywood;
+}
+
+/*
+    Starting at 1000px or less, remove the left margin on the left container
+*/
+@media only screen and (max-width: 1000px) {
+
+    .container#left{
+        margin-left: 0;
+    }
+
+}
+
+/*
+    Starting at 850px or less, put the left column on top of the right column
+    (I know it's kind of weird, just bear with me)
+
+    We will also make the navbar horizontal instead of vertical, and 
+*/
+@media only screen and (max-width: 850px) {
+    .big-box {
+        display: grid;
+    }
+    .container#left {
+        order: 2;
+        width: 100%;
+        margin-top: 0;
+    }
+    .container#right {
+        width: 100%;
+        margin-top: 0;
+        margin-left: 0;
+    }
+    .panel#navbar {
+        margin-top: 0;
+        width: initial;
+    }
+    .panel#navbar ul {
+        list-style-type: none;
+        text-align: center;
+        padding: 0;
+    }
+    .panel#navbar li {
+        display: inline-block;
+        padding: 4px;
+        background-color: chocolate;
+        border-radius: 2px;
+        margin: 2px;
+    }
+    .panel#navbar a {
+        color: white;
+        text-decoration: none;
+    }
+    .panel#navbar a:hover {
+        color: yellow;
+    }
+    .panel#sidebar {
+        max-height: 300px;
+        overflow-y: scroll;
+        min-height: 100px;
+    }
 }
