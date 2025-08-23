@@ -53,6 +53,10 @@ body {
     margin-top: 10vw;
 }
 
+#navbar h1 {
+    margin: 0;
+}
+
 .panel#navbar > ul {
     line-height: 1.5;
     text-indent: 0px;
@@ -77,6 +81,10 @@ body {
     font-style: italic;
 }
 
+.panel#mobile-notice {
+    display: none;
+}
+
 .panel#cover-image {
     background-image: url('https://rseeber.github.io/images/desertTrees.JPG'); 
     background-position: 50% 35%;
@@ -91,10 +99,23 @@ h1,
 h2,
 h3 {
     text-indent: 0px;
+    color: blue;
 }
 
 h1.title {
     text-align: center;
+}
+
+h4, h5, h6 {
+    text-indent: 0;
+}
+
+a {
+    color: mediumblue;
+}
+
+ul {
+    text-indent: 0;
 }
 
 .sideImage {
@@ -104,6 +125,10 @@ h1.title {
 code {
     background-color: burlywood;
 }
+
+
+
+/* === MEDIA QUERY STUFF FOR MOBILE VERSION OF SITE === */
 
 /*
     Starting at 1000px or less, remove the left margin on the left container
@@ -163,5 +188,14 @@ code {
         max-height: 300px;
         overflow-y: scroll;
         min-height: 100px;
+    }
+
+    .panel#mobile-notice {
+        display: inherit;
+        min-height: 0;
+        text-indent: 0;
+    }
+    .panel#mobile-notice p {
+        margin: 0;
     }
 }

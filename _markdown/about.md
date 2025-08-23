@@ -1,3 +1,6 @@
+---
+title: "About me"
+---
 <img src="/images/me-1.jpg" class="sideImage" width="200" height="200" alt="River, wearing a hair bow and a red flannel. Mirror selfie">
 <h1>Contact and Links</h1>
 <p><strong style="color: inherit; text-decoration: underline;">River Seeber</strong></p>

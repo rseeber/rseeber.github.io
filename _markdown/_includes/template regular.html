@@ -8,11 +8,6 @@
     <title>{{ title }}</title>
 </head>
 <body>
-    <script>
-        if(screen.width < 720){
-            alert("Note: This Website was designed for desktop. It's reccomended to turn your phone sideways for things to render properly :)");
-        }
-    </script>
     <div class="big-box">
 
         <!-- LEFT -->
@@ -43,6 +38,11 @@
             <div class="panel" id="sidebar">
                 <h1>Sidebar:</h1>
                 {% renderBox "sidebar" %}
+            </div>
+            <div class="panel" id="mobile-notice">
+                <p>
+                    This site is best viewed on desktop, but you can still go ahead anyways.
+                </p>
             </div>
         </div>
     </div>

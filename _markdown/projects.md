@@ -1,3 +1,6 @@
+---
+title: "Projects"
+---
 <h1>My Projects</h1>
 <p>Below I've included a couple of my projects.</p><br><br>
 
