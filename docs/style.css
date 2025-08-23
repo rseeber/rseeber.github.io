@@ -91,6 +91,15 @@ body {
     height: 28vh;
 }
 
+.badge {
+    image-rendering: pixelated;
+    display: inline-block;
+    width: 100px;
+}
+
+.badgeHolder {
+    text-indent: 0;
+}
 
 /* -------------------------- */
 /* === ARTICLE FORMATTING === */
