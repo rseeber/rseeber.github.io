@@ -6,6 +6,8 @@
 - _The Crisis of German Ideology: Intellectual Origins of the Third Reich_ (1964) by George L. Mosse
     + A free giveaway I got from the library. I've been trying to do more learning about the rise of totalitarian governments and what allowed them to succeed. I'm finding this book pretty interesting.
 
+- _How to Argue With a Racist: What Our Genes Do (and Don't) Say about Human Difference_ (2020) by Adam Rutherford
+
 # Have Reads
 
 - _Digital Minimalism_ by Cal Newport
