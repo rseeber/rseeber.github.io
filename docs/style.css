@@ -156,7 +156,7 @@ code {
 
     We will also make the navbar horizontal instead of vertical, and 
 */
-@media only screen and (max-width: 850px) {
+@media only screen and (max-width: 650px) {
     .big-box {
         display: grid;
     }
