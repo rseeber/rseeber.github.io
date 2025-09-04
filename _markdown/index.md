@@ -19,5 +19,5 @@ tags: page
     when it's from actual people instead of automated mailing lists. :)</p>
 
 {% box "sidebar" %}
-<p>Hello and welcome. Please feel to check out my blog</p>
+<p>Hey check it out! I've got a new layout for the website! Feel free to poke around. It should all be more less the same content, just in a new form.</p>
 {% endbox %}
