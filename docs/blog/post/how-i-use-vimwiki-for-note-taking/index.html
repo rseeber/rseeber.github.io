@@ -1,33 +1,26 @@
-<html>
-    <link rel="stylesheet" href="/index.css">
-    <head>
-        <title>How I use VimWiki for note taking</title>
-    </head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTjF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat" rel="stylesheet">
+    <link rel="stylesheet" href="/style.css">
+    <title>How I use VimWiki for note taking</title>
+</head>
+<body>
+    <div class="big-box">
 
-    <body>
-        <div id="container">
-            <!--Header-->
-            <div id="header"></div>
-            <!--Navigation Bar-->
-            <div id="headerArea">
-                <nav id="navbar" style="margin-bottom: 0px;">
-                    <ul>
-                        <li><a href="/">Home</a></li>
-                        <li><a href="/projects/">Projects</a></li>
-                        <li><a href="/reading/">Reading</a></li>
-                        <li><a href="/interests/">Interests</a></li>
-                        <li><a href="/blog/">Blog</a></li>
-                        <li><a href="/about/">About</a></li></ul></nav>
+        <!-- LEFT -->
+        <div class="container" id="left">
+            <div class="panel" id="cover-image">
             </div>
-            <!--Main Content-->
-            <div id="flex">
-                <!--Sidebar (deleted)-->
-
-                <!--Main Page Content-->
-                <main>
-                    <h1 class="title">How I use VimWiki for note taking</h1>
-                    <!--Paste page html here (and remove line below)-->
-                    <p><em>August 10, 2025</em></p>
+            <!-- MAIN ARTICLE CONTENT -->
+            <div class="panel">
+                    <main>
+                        
+<h1 class="title">How I use VimWiki for note taking</h1>
+<!--Paste page html here (and remove line below)-->
+<p><em>August 10, 2025</em></p>
 <p>I made an earlier post where I tried my best to inspire folks to use simple tech solutions in strategically useful ways in order to get large gains out of the tech they already have. Among one of the things I discussed was the power of using simple text files to keep track of things. I'd like to expand on that point here and give some of my own technical details of what I use. Of course, any old text editor will work for the job. I'm going above and beyond so I can have extra features and efficiency.
 <br>
 <br>
@@ -79,18 +72,40 @@
 <h1>Closing</h1>
 <p>I really enjoy my experience with VimWiki, creating a hierarchical note system. I try not to get carried away with the data structure of it all, instead focusing on just keeping notes on important stuff. If you have any other tricks how to make the most out of this tool, feel free to let me know about it! I love endlessly tweaking with my workflow on my laptop to optimize efficiency (or often just coolness factor).</p>
 
-                    <hr>
-                    <br>
-                    <a href="mailto:riverseeber12@gmail.com" class="button"><button>Reply via Email!</button></a>
-                </main>
-                
+<hr>
+<br>
+<a href="mailto:riverseeber12@gmail.com" class="button"><button>Reply via Email!</button></a>
+                    </main>
             </div>
-            <!--Footer-->
-            <footer id="footer" style="margin-top: 0px;">
-                <p style="font-size: 0px;">This site is owned by River Seeber</p>
-            </footer>
-
-            <div class="spacer"></div>
         </div>
-    </body>
+
+        <!-- RIGHT -->
+        <div class="container" id="right">
+            <div class="panel" id="navbar">
+                    <h1>Navbar</h1>
+                    <ul>
+                        <li><a href="/"          >Home</a></li>
+                        <li><a href="/projects/" >Projects</a></li>
+                        <li><a href="/reading/"  >Reading</a></li>
+                        <li><a href="/interests/">Interests</a></li>
+                        <li><a href="/blog/"     >Blog</a></li>
+                        <li><a href="/about/"    >About</a></li>
+                    </ul>
+            </div>
+            <div class="panel" id="sidebar">
+                <h1>Sidebar:</h1>
+                
+                <div class="badgeHolder">
+                    <a href="https://11ty.dev/" target="blank"><img src="/images/88x31/builtWith11ty_88x31.gif" alt="88x31: This site was built with eleventy (11ty.dev)" class="badge"></a>
+                    <a href="https://archlinux.org/" target="_blank"><img src="/images/88x31/stupidArchMeme_88x31.png" alt="88x31: I use Arch btw" class="badge"></a>
+                </div>
+            </div>
+            <div class="panel" id="mobile-notice">
+                <p>
+                    This site is best viewed in fullscreen desktop, but you can still go ahead anyways.
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
 </html>

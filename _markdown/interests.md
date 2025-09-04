@@ -1,3 +1,6 @@
+---
+title: "Interests"
+---
 <h1>Some things I like</h1>
 <h3>Websites</h3>
 <ul>
@@ -22,8 +25,8 @@
     <li><a href="https://calibre-ebook.com/">Calibre</a> - for viewing, managing, and sharing ebooks</li>
     <li><a href="https://mullvad.net/en">Mullvad VPN</a> - doesn't track your data like NordVPN and others</li>
     <li><a href="https://en.wikipedia.org/wiki/Linux">Linux operating system</a> - Not for everyone, but the most free your 
-            computer will ever be. <a href="https://www.linuxmint.com/">Mint</a></li> is a good flavor for
-            beginners. Currently I'm using <a href="https://archlinux.org/">Arch</a>, which is catered towards more advanced users.
+            computer will ever be. <a href="https://www.linuxmint.com/">Mint</a> is a good flavor for
+            beginners. Currently I'm using <a href="https://archlinux.org/">Arch</a>, which is catered towards more advanced users.</li>
 </ul>
 
 <h3>Textbooks / Reference Manuals</h3>

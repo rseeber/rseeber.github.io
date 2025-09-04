@@ -1,0 +1,210 @@
+body {
+    margin: 5 auto;
+    background-color: burlywood;
+    background-image: url("https://rseeber.github.io/images/poppyField2.JPG");
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
+    letter-spacing: 0.7px;
+    text-indent: 2em;
+    line-height: 2;
+}
+
+.big-box {
+    margin: 0 auto;
+    max-width: 80em;
+    display: flex;
+}
+
+.container {
+    float: left;
+    margin: 0.5em;
+    margin-top: 2em;
+}
+
+.container#left {
+    width: 60%;
+    margin-left: 5em;
+    order: 0;
+}
+
+.container#right {
+    width: 25%;
+    order: 1;
+}
+
+.panel {
+    min-height: 20vh;
+    background-color: blanchedalmond;
+    border: 2px;
+    border-color: aqua;
+    border-radius: 0.75em;
+    padding: 20px;
+    margin-bottom: 0.6em;
+    border-color: chocolate;
+    border-width: 2px;
+    border-style: solid;
+}
+
+.panel#navbar {
+    width: 10em;
+    margin-top: 10vw;
+}
+
+#navbar h1 {
+    margin: 0;
+}
+
+.panel#navbar > ul {
+    line-height: 1.5;
+    text-indent: 0px;
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+
+}
+
+.panel#navbar li {
+    padding: 4px;
+    background-color: chocolate;
+    border-radius: 2px;
+    margin: 2px;
+}
+.panel#navbar a {
+    color: white;
+    text-decoration: none;
+}
+.panel#navbar a:hover {
+    color: yellow;
+    font-style: italic;
+}
+
+.panel#mobile-notice {
+    display: none;
+}
+
+.panel#cover-image {
+    background-image: url('https://rseeber.github.io/images/desertTrees.JPG'); 
+    background-position: 50% 35%;
+    height: 28vh;
+}
+
+.badge {
+    image-rendering: pixelated;
+    display: inline-block;
+    width: 100px;
+}
+
+.badgeHolder {
+    text-indent: 0;
+}
+
+/* -------------------------- */
+/* === ARTICLE FORMATTING === */
+
+h1,
+h2,
+h3 {
+    text-indent: 0px;
+    color: blue;
+}
+
+h1.title {
+    text-align: center;
+}
+
+h4, h5, h6 {
+    text-indent: 0;
+}
+
+a {
+    color: mediumblue;
+}
+
+ul {
+    text-indent: 0;
+}
+
+.sideImage {
+    float: right;
+}
+
+code {
+    background-color: burlywood;
+}
+
+
+
+/* === MEDIA QUERY STUFF FOR MOBILE VERSION OF SITE === */
+
+/*
+    Starting at 1000px or less, remove the left margin on the left container
+*/
+@media only screen and (max-width: 1000px) {
+
+    .container#left{
+        margin-left: 0;
+    }
+
+}
+
+/*
+    Starting at 850px or less, put the left column on top of the right column
+    (I know it's kind of weird, just bear with me)
+
+    We will also make the navbar horizontal instead of vertical, and 
+*/
+@media only screen and (max-width: 650px) {
+    .big-box {
+        display: grid;
+    }
+    .container#left {
+        order: 2;
+        width: 100%;
+        margin-top: 0;
+    }
+    .container#right {
+        width: 100%;
+        margin-top: 0;
+        margin-left: 0;
+    }
+    .panel#navbar {
+        margin-top: 0;
+        width: initial;
+    }
+    .panel#navbar ul {
+        list-style-type: none;
+        text-align: center;
+        padding: 0;
+    }
+    .panel#navbar li {
+        display: inline-block;
+        padding: 4px;
+        background-color: chocolate;
+        border-radius: 2px;
+        margin: 2px;
+    }
+    .panel#navbar a {
+        color: white;
+        text-decoration: none;
+    }
+    .panel#navbar a:hover {
+        color: yellow;
+    }
+    .panel#sidebar {
+        max-height: 300px;
+        overflow-y: scroll;
+        min-height: 100px;
+    }
+
+    .panel#mobile-notice {
+        display: inherit;
+        min-height: 0;
+        text-indent: 0;
+    }
+    .panel#mobile-notice p {
+        margin: 0;
+    }
+}
