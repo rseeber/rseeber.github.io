@@ -1,15 +1,22 @@
 body {
-    margin: 5 auto;
+    /*margin: 5 auto;*/
+    margin: 0;
     background-color: burlywood;
+    min-height: 100vh;
+
     background-image: url("https://rseeber.github.io/images/poppyField2.JPG");
     background-size: cover;
     background-repeat: no-repeat;
-    min-height: 100vh;
+    background-attachment: fixed;
 
     font-family: Montserrat, Arial, Helvetica, sans-serif;
     letter-spacing: 0.7px;
     text-indent: 2em;
     line-height: 2;
+}
+
+.bg {
+    max-height: 5000px;
 }
 
 .big-box {
@@ -111,7 +118,7 @@ h3 {
     color: blue;
 }
 
-h1.title {
+h1.title,h2.title {
     text-align: center;
 }
 
@@ -133,6 +140,13 @@ ul {
 
 code {
     background-color: burlywood;
+}
+
+blockquote {
+    border-left: 2px solid chocolate;
+    padding-left: 10px;
+    text-indent: 0;
+    font-style: italic;
 }
 
 
