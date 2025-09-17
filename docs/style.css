@@ -128,6 +128,14 @@ h4, h5, h6 {
 
 a {
     color: mediumblue;
+
+    /* Prevents long links from not wrapping around.
+       See here: https://stackoverflow.com/a/5241448/18014565 */
+    white-space: pre-wrap; /* CSS3 */    
+    white-space: -moz-pre-wrap; /* Mozilla, since 1999 */
+    white-space: -pre-wrap; /* Opera 4-6 */    
+    white-space: -o-pre-wrap; /* Opera 7 */    
+    word-wrap: break-word; /* Internet Explorer 5.5+ */
 }
 
 ul {
@@ -154,6 +162,8 @@ blockquote {
 /* === MEDIA QUERY STUFF FOR MOBILE VERSION OF SITE === */
 
 /*
+    === WINDOWED EXPERIENCE ===
+
     Starting at 1000px or less, remove the left margin on the left container
 */
 @media only screen and (max-width: 1000px) {
@@ -165,6 +175,8 @@ blockquote {
 }
 
 /*
+    === MOBILE EXPERIENCE ===
+
     Starting at 850px or less, put the left column on top of the right column
     (I know it's kind of weird, just bear with me)
 
@@ -176,11 +188,11 @@ blockquote {
     }
     .container#left {
         order: 2;
-        width: 100%;
+        width: 100vw;
         margin-top: 0;
     }
     .container#right {
-        width: 100%;
+        width: 100vw;
         margin-top: 0;
         margin-left: 0;
     }
@@ -211,6 +223,7 @@ blockquote {
         max-height: 300px;
         overflow-y: scroll;
         min-height: 100px;
+        display: none;
     }
 
     .panel#mobile-notice {
