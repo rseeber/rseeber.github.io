@@ -38,7 +38,15 @@
             </div>
             <div class="panel" id="sidebar">
                 <h1>Sidebar:</h1>
-                {% renderBox "sidebar" %}
+                <!-- This is the sidebar content that is "universal" on every single page -->
+                {% markdown "sidebarContent" %}{% include "sidebar.md" %}{% endmarkdown %}
+                {% if page.sidebar %}
+                <hr>
+                <!-- This is sidebar content unique to the specific page -->
+                <!-- This, as well as the <hr> tag, should only render if the renderBox is not an empty string -->
+                {% markdown "sidebarContent" %}{% renderBox "sidebar" %}{% endmarkdown %}
+                {% endif %}
+
                 <br>
                 <div class="badgeHolder">
                     <a href="https://11ty.dev/" target="blank"><img src="/images/88x31/builtWith11ty_88x31.gif" alt="88x31: This site was built with eleventy (11ty.dev)" class="badge"></a>

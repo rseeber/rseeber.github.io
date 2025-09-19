@@ -17,7 +17,3 @@ tags: page
 <p>If you have any questions about anything I post on my site, or just wanted to send me something you think I should read, 
     feel totally free to send me an <a href="/about">email</a>! I really don't mind getting emails 
     when it's from actual people instead of automated mailing lists. :)</p>
-
-{% box "sidebar" %}
-<p>Hey check it out! I've got a new layout for the website! Feel free to poke around. It should all be more less the same content, just in a new form.</p>
-{% endbox %}

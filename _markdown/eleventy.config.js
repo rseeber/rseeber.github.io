@@ -1,4 +1,6 @@
 import { feedPlugin } from "@11ty/eleventy-plugin-rss";
+import markdownIt from "markdown-it";
+
 
 export default function (eleventyConfig) {
 	eleventyConfig.ignores.add("**blog/drafts/**");
@@ -37,6 +39,15 @@ export default function (eleventyConfig) {
 	// You can use this just like {{ content }} or {{ title }} or anything else.
 	eleventyConfig.addShortcode("renderBox", function(id) {
 		return this.page[id] || ""; // Outputs stored content, or empty string if undefined
+	});
+
+
+	//get a markdown engine, call it md
+	let md = markdownIt({html:true});
+
+	// paired shortcode: {% markdown %}## Hi{% endmarkdown %}
+	eleventyConfig.addPairedShortcode("markdown", (content) => {
+		return `<div class="md-block">${md.render(content)}</div>`;
 	});
 
 };
