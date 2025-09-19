@@ -172,6 +172,10 @@ blockquote {
         margin-left: 0;
     }
 
+    .container#right{
+        width: 35%;
+    }
+
 }
 
 /*
