@@ -6,7 +6,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat" rel="stylesheet">
     <link rel="stylesheet" href="/style.css">
     <link rel="icon" type="image/x-icon" href="/favicon.ico">
-    <title>{{ title }}</title>
+    <title>{{ title }}{% if subtitle %}: {{subtitle}}{% endif %}</title>
 </head>
 <body>
     <div class="big-box">
@@ -43,7 +43,7 @@
                 {% if page.sidebar %}
                 <hr>
                 <!-- This is sidebar content unique to the specific page -->
-                <!-- This, as well as the <hr> tag, should only render if the renderBox is not an empty string -->
+                <!-- This, as well as the above <hr> tag, should only render if page.sidebar is not an empty string -->
                 {% markdown "sidebarContent" %}{% renderBox "sidebar" %}{% endmarkdown %}
                 {% endif %}
 
