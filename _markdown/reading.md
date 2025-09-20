@@ -49,6 +49,9 @@ _Yeah, I read a lot of books concurrently. No, I am not fast at finishing them, 
 
 - _In Dubious Battle_ (1936) by John Steinbeck
 
+- _How To Stand Up To A Dictator_ (2022) by Maria Ressa
+    + Written by a Filipino journalist who has fought against her own authoritarian government in publishing stories critical of the then-President. I heard about this book from Jon Oliver's special on Trump & The Press.
+
 - _All The President's Men_ (1974) by Carl Bernstein and Bob Woodward
 
 - _Mein Kampf_ (1925) by Adolf Hitler
