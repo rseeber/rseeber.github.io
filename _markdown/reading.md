@@ -3,20 +3,58 @@ title: Reading
 ---
 # Currently Reading
 
-- _The Caves of Steel_ by Isaac Asimov 
+_Yeah, I read a lot of books concurrently. No, I am not fast at finishing them, that's why I do it in such a chaotic way. I'm trying to get better at it though._
+
+<br>
+
+- _The Caves of Steel_ (1953) by Isaac Asimov 
     + My first Asimov novel, hoping to read plenty more!
 	+ ([OpenLibrary](https://openlibrary.org/books/OL10684706M/The_Caves_of_Steel))
+
+<br>
+
+- _The Nazi Movement_ (1938) by Theodore Abel
+    + A history of the political context of the Hitler Movement, as well as a (then modern) history of how Hitler came to power. Written during WWII.
+	+ ([OpenLibrary](https://openlibrary.org/books/OL42887763M/The_Nazi_movement))
+
+<br>
+
+- _The Wealth of Nations: Book I_ (1776) by Adam Smith
+	+ Adam Smith is often credited as being the 'Father of Capitalism' for his inquiry into how markets work in this book. Technically, he never really said the word Capitalism in the book, but that doesn't really matter. I've been trying to learn more about markets, so this has been an interesting read, and once you get used to the 18th century dialect, he's actually got a pretty engaging writers voice.
+	+ ([Project Gutenburg](https://www.gutenberg.org/files/38194/38194-h/38194-h.htm)) ([Wikipedia](https://en.wikipedia.org/wiki/The_Wealth_of_Nations))
+
+<br>
+
+- _Lessons in Magic and Disaster_ (2025) by Charlie Jane Anders
+	+ The copies for this finally arrived at the library, so I get to read it now. I know very little about it except that I heard about it from a review by Cory Doctorow. I just know it has themes of queer identity, family difficulties, magic, and all that fun stuff. So far I'm really enjoying it.
+	+ ([OpenLibrary](https://openlibrary.org/books/OL59776634M/Lessons_in_Magic_and_Disaster)) ([Tor Publishing](https://torpublishinggroup.com/lessons-in-magic-and-disaster/?isbn=9781250867322&format=hardback))
+
+<br>
+
+- _How to Argue With a Racist: What Our Genes Do (and Don't) Say about Human Difference_ (2020) by Adam Rutherford
+	+ ([OpenLibrary](https://openlibrary.org/books/OL28195872M/How_to_Argue_With_a_Racist))
+
+<br>
 
 - _The Crisis of German Ideology: Intellectual Origins of the Third Reich_ (1964) by George L. Mosse
     + A free giveaway I got from the library. I've been trying to do more learning about the rise of totalitarian governments and what allowed them to succeed. I'm finding this book pretty interesting.
 	+ ([OpenLibrary](https://openlibrary.org/books/OL4119526M/The_crisis_of_German_ideology))
 
-- _How to Argue With a Racist: What Our Genes Do (and Don't) Say about Human Difference_ (2020) by Adam Rutherford
-	+ ([OpenLibrary](https://openlibrary.org/books/OL28195872M/How_to_Argue_With_a_Racist))
+<br>
+<hr>
 
-- _The Nazi Movement_ (1938) by Theodore Abel
-    + A history of the political context of the Hitler Movement, as well as a (then modern) history of how Hitler came to power. Written during WWII.
-	+ ([OpenLibrary](https://openlibrary.org/books/OL42887763M/The_Nazi_movement))
+# Future Reading List
+
+- _1984_ (1949) by George Orwell
+
+- _In Dubious Battle_ (1936) by John Steinbeck
+
+- _All The President's Men_ (1974) by Carl Bernstein and Bob Woodward
+
+- _Mein Kampf_ (1925) by Adolf Hitler
+	+ I suppose it goes without saying that I read about the Hitler movement not because I admire it, but rather because I despise it so much, and would like to be able to help prevent similar movements as they arise in the future.
+
+<hr>
 
 # Have Reads
 
