@@ -7,12 +7,6 @@ _Yeah, I read a lot of books concurrently. No, I am not fast at finishing them, 
 
 <br>
 
-- _The Caves of Steel_ (1953) by Isaac Asimov 
-    + My first Asimov novel, hoping to read plenty more!
-	+ ([OpenLibrary](https://openlibrary.org/books/OL10684706M/The_Caves_of_Steel))
-
-<br>
-
 - _The Nazi Movement_ (1938) by Theodore Abel
     + A history of the political context of the Hitler Movement, as well as a (then modern) history of how Hitler came to power. Written during WWII.
 	+ ([OpenLibrary](https://openlibrary.org/books/OL42887763M/The_Nazi_movement))
@@ -60,6 +54,16 @@ _Yeah, I read a lot of books concurrently. No, I am not fast at finishing them, 
 <hr>
 
 # Have Reads
+
+## 2025
+### September
+
+- _The Caves of Steel_ (1953) by Isaac Asimov 
+    + A detective case featuring Earthman Lije Baley partnered up with robot Daneel Olivaw from Spacetown, working to solve a murder case. Involves themes of social stratification, Luddism (under a different name), and the threat of automation.
+    + ([My review](/blog/post/isaac-asimov-robots-ai-and-luddism))
+	+ ([OpenLibrary](https://openlibrary.org/books/OL10684706M/The_Caves_of_Steel))
+
+## Older
 
 - _Digital Minimalism_ by Cal Newport
     + 10/10 would recommend to anyone who is even mildly critical of their cellphone use.
