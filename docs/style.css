@@ -157,6 +157,12 @@ blockquote {
     font-style: italic;
 }
 
+img.introImg {
+    float: right;
+    height: 400px;
+    margin: 1em;
+}
+
 
 
 /* === MEDIA QUERY STUFF FOR MOBILE VERSION OF SITE === */
