@@ -32,18 +32,18 @@ title: "Interests"
     ([Wikipedia](https://en.wikipedia.org/wiki/Introduction_to_Algorithms))
 
 ### Movies
-- The Secret Life of Walter Mitty
-- Back To The Future trilogy
-- Pirates of the Carribean
-- The Princess Bride
-- Wargames
-- Ferris Bueller's Day Off
+- _The Secret Life of Walter Mitty_
+- _Back To The Future_ trilogy
+- _Pirates of the Carribean_
+- _The Princess Bride_
+- _Wargames_
+- _Ferris Bueller's Day Off_
 
 ### TV Shows
-- Doctor Who (both 2005 and 1963)
-- Rick and Morty
-- Adventure Time
-- Futurama
+- _Doctor Who_ (both 2005 and 1963)
+- _Rick and Morty_
+- _Adventure Time_
+- _Futurama_
 
 ### Podcasts
 - _Soul Boom with Rainn Wilson_ ([Website](https://www.soulboom.com/)) or ([YouTube](https://www.youtube.com/@SoulBoom))
