@@ -51,8 +51,10 @@ title: "Projects"
     <p>Orbiting Bodies is a simple physics simulator. Take control of a space rocket, and fly away from Earth!
         Enter into orbit, or take off all the way to the moon! Some indicators are shown to help you navigate.
     </p>
-    <a href="https://shadowlancer42.itch.io/orbiting-bodies">Check out the game (itch.io)</a><br>
-    <a href="https://github.com/rseeber/Orbiting-Bodies">Source code (Github)</a>
+
+    [Check out the game (itch.io)](https://shadowlancer42.itch.io/orbiting-bodies)
+
+    [Github (Source code)](https://github.com/rseeber/Orbiting-Bodies)
 </div><br>
 
 <div class="box" >

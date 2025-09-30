@@ -7,6 +7,12 @@ _Yeah, I read a lot of books concurrently. No, I am not fast at finishing them, 
 
 <br>
 
+- _The Naked Sun_ (1957) by Isaac Asimov
+    + Part 2 in the Lije Baley & and R. Daneel Olivaw series. This time, we follow detective Baley on a new, alien planet, and interacting with many foreign cultural habits and taboos that conflict with his own Earthly habits and experiences.
+    + ([Goodreads](https://www.goodreads.com/book/show/30016.The_Naked_Sun))
+
+<br>
+
 - _The Nazi Movement_ (1938) by Theodore Abel
     + A history of the political context of the Hitler Movement, as well as a (then modern) history of how Hitler came to power. Written during WWII.
 	+ ([OpenLibrary](https://openlibrary.org/books/OL42887763M/The_Nazi_movement))
@@ -25,10 +31,6 @@ _Yeah, I read a lot of books concurrently. No, I am not fast at finishing them, 
 
 <br>
 
-- _How to Argue With a Racist: What Our Genes Do (and Don't) Say about Human Difference_ (2020) by Adam Rutherford
-	+ ([OpenLibrary](https://openlibrary.org/books/OL28195872M/How_to_Argue_With_a_Racist))
-
-<br>
 
 - _The Crisis of German Ideology: Intellectual Origins of the Third Reich_ (1964) by George L. Mosse
     + A free giveaway I got from the library. I've been trying to do more learning about the rise of totalitarian governments and what allowed them to succeed. I'm finding this book pretty interesting.
@@ -57,6 +59,9 @@ _Yeah, I read a lot of books concurrently. No, I am not fast at finishing them, 
 
 ## 2025
 ### September
+
+- _How to Argue With a Racist: What Our Genes Do (and Don't) Say about Human Difference_ (2020) by Adam Rutherford
+	+ ([OpenLibrary](https://openlibrary.org/books/OL28195872M/How_to_Argue_With_a_Racist))
 
 - _The Caves of Steel_ (1953) by Isaac Asimov 
     + A detective case featuring Earthman Lije Baley partnered up with robot Daneel Olivaw from Spacetown, working to solve a murder case. Involves themes of social stratification, Luddism (under a different name), and the threat of automation.

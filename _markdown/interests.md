@@ -1,79 +1,61 @@
 ---
 title: "Interests"
 ---
-<h1>Some things I like</h1>
-<h3>Websites</h3>
-<ul>
-    <li><a href="https://archive.org/">Archive.org</a></li>
-    <li><a href="https://web.archive.org/">The Wayback Machine</a></li>
-    <li><a href="https://annas-archive.org/">Anna's Archive</a></li>
-</ul>
-<h4>Forums and documentation</h4>
-<ul>
-    <li><a href="https://wiki.archlinux.org">Arch Wiki</a> - Best wiki for Unix and GNU software/tools, focused specifically for Arch Linux, but most information works on other OS's too</li>
-    <li><a href="https://www.w3schools.com/">W3Schools</a></li>
-    <li><a href="https://stackoverflow.com/">Stack Overflow</a></li>
-    <li><a href="https://superuser.com/">Super User</a></li>
-    <li><a href="https://www.man7.org/linux/man-pages/">Man Pages</a> - alternatively, you can just use the 'man' command in a Linux terminal</li>
-    <li><a href="https://developer.mozilla.org">MDN Web Docs</a> - Detailed documentation and guides for different parts of the web, run by Mozilla</li>
-</ul>
+# Some things I like
+### Websites
+- [Archive.org](https://archive.org/)
+- [The Wayback Machine](https://web.archive.org/)
+- [Anna's Archive](https://annas-archive.org/)
 
-<h3>Software</h3>
-<ul>
-    <li><a href="https://en.wikipedia.org/wiki/Mozilla_Thunderbird">Mozilla Thunderbird</a> - amazing email client that allows you to escape the grasp of
-            google and microsoft mail clients, even if you're still bound to using them as your mail provider.</li>
-    <li><a href="https://calibre-ebook.com/">Calibre</a> - for viewing, managing, and sharing ebooks</li>
-    <li><a href="https://mullvad.net/en">Mullvad VPN</a> - doesn't track your data like NordVPN and others</li>
-    <li><a href="https://en.wikipedia.org/wiki/Linux">Linux operating system</a> - Not for everyone, but the most free your 
-            computer will ever be. <a href="https://www.linuxmint.com/">Mint</a> is a good flavor for
-            beginners. Currently I'm using <a href="https://archlinux.org/">Arch</a>, which is catered towards more advanced users.</li>
-</ul>
+#### Forums and documentation
+- [Arch Wiki](https://wiki.archlinux.org) - Best wiki for Unix and GNU software/tools, focused specifically for Arch Linux, but most information works on other OS's too
+- [W3Schools](https://www.w3schools.com/)
+- [Stack Overflow](https://stackoverflow.com/)
+- [Super User](https://superuser.com/)
+- [Man Pages](https://www.man7.org/linux/man-pages/) - alternatively, you can just use the 'man' command in a Linux terminal
+- [MDN Web Docs](https://developer.mozilla.org) - Detailed documentation and guides for different parts of the web, run by Mozilla
 
-<h3>Textbooks / Reference Manuals</h3>
-<ul>
-    <li><em><u>The C Programming Language</u></em><br>
-        (<a href="https://en.wikipedia.org/wiki/The_C_Programming_Language">Wikipedia</a>) 
-    </li>
-    <br>
-    <li><em><u>UNIX Network Programming, 3rd edition, vol 1</u></em> - An essential guide book for learning how to make programs that communicate across a 
-        network. If you're working outside of a POSIX environment, the code itself won't work, but general concepts still apply.<br>
-        (<a href="https://en.wikipedia.org/wiki/UNIX_Network_Programming">Wikipedia</a>) 
-    </li>
-    <br>
-    <li><em><u>Introduction to Algorithms</u></em> - "CLRS" - Useful reference for Data Stuctures <br> 
-        (<a href="https://en.wikipedia.org/wiki/Introduction_to_Algorithms">Wikipedia</a>) 
-</ul>
+### Software
+- [Mozilla Thunderbird](https://en.wikipedia.org/wiki/Mozilla_Thunderbird) - amazing email client that allows you to escape the grasp of google and microsoft mail clients, even if you're still bound to using them as your mail provider.
+- [Calibre](https://calibre-ebook.com/) - for viewing, managing, and sharing ebooks
+- [Mullvad VPN](https://mullvad.net/en) - doesn't track your data like NordVPN and others
+- [Linux operating system](https://en.wikipedia.org/wiki/Linux) - Not for everyone, but the most free your computer will ever be. [Mint](https://www.linuxmint.com/) is a good flavor for beginners. Currently I'm using [Arch](https://archlinux.org/), which is catered towards more advanced users.
 
-<h3>Movies</h3>
-<ul>
-    <li>The Secret Life of Walter Mitty</li>
-    <li>Back To The Future trilogy</li>
-    <li>Pirates of the Carribean</li>
-    <li>The Princess Bride</li>
-    <li>Wargames</li>
-    <li>Ferris Bueller's Day Off</li>
-</ul>
+### Textbooks / Reference Manuals
+- _<u>The C Programming Language</u>_\
+    ([Wikipedia](https://en.wikipedia.org/wiki/The_C_Programming_Language))
 
-<h3>TV Shows</h3>
-<ul>
-    <li>Doctor Who (both 2005 and 1963)</li>
-    <li>Rick and Morty</li>
-    <li>Adventure Time</li>
-    <li>Futurama</li>
-</ul>
+- _<u>UNIX Network Programming, 3rd edition, vol 1</u>_ - An essential guide book for learning how to make programs that communicate across a network. If you're working outside of a POSIX environment, the code itself won't work, but general concepts still apply.\
+    ([Wikipedia](https://en.wikipedia.org/wiki/UNIX_Network_Programming))
 
-<h3>Podcasts</h3>
-<ul>
-    <li>Soul Boom with Rainn Wilson (<a href="https://www.soulboom.com/">Website</a>) or (<a href="https://www.youtube.com/@SoulBoom">YouTube</a>)</li>
-</ul>
+- _<u>Introduction to Algorithms</u>_ - "CLRS" - Useful reference for Data Stuctures\
+    ([Wikipedia](https://en.wikipedia.org/wiki/Introduction_to_Algorithms))
 
-<h3>Social Media</h3>
-<ul>
-    <li>None. They're all terrible and you should delete them from your phone. Read "Digital Minimalism" by Cal Newport if you wanna know why I think this. Even just the intro and the first chapter are worth reading if nothing else.</li>
-</ul>
-<br>
-<p>That's enough for now, I don't want this page to get too cluttered. 
-    If you want any more stuff to read or watch, feel free to send me an email, I'd be happy to dump even more information onto you.
-    <br> <br>
-    I'm also happy to recieve any reccomendations for media you think I might enjoy!
-    </p>
+### Movies
+- The Secret Life of Walter Mitty
+- Back To The Future trilogy
+- Pirates of the Carribean
+- The Princess Bride
+- Wargames
+- Ferris Bueller's Day Off
+
+### TV Shows
+- Doctor Who (both 2005 and 1963)
+- Rick and Morty
+- Adventure Time
+- Futurama
+
+### Podcasts
+- _Soul Boom with Rainn Wilson_ ([Website](https://www.soulboom.com/)) or ([YouTube](https://www.youtube.com/@SoulBoom))
+
+### Blogs
+- Cory Doctorow's _Pluralistic_ - <https://pluralistic.net/>
+- Hamilton Nolan's _How Things Work_ - <https://www.hamiltonnolan.com/>
+- Robert Reich's blog - <https://robertreich.substack.com/>
+- John Ganz's _Unpopular Front_ - <https://www.unpopularfront.news/>
+
+<hr>
+
+That's enough for now, I don't want this page to get too cluttered. If you want any more stuff to read or watch, feel free to send me an email, I'd be happy to dump even more information onto you.
+
+I'm also happy to recieve any reccomendations for media you think I might enjoy!
