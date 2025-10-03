@@ -30,3 +30,7 @@ Then just search my handle: **@riverpunk@defcon.social**.
 ## RSS
 
 Of course, there's always the good old RSS feed. If you'd like to stay away from the social apps, you can keep up with my content by saving my [RSS Feed Link](/blog/feed.xml) into your preferred Feed Reader of choice.
+
+- If you don't know what RSS is, here is a helpful 3 minute video: [RSS Made Easy](https://www.youtube.com/watch?v=6HNUqDL-pI8)
+
+- If you don't know which reader app to download, here is a good list: [The best RSS reader apps](https://lifehacker.com/tech/best-rss-readers#the-best-rss-reader-apps-in-2024)
