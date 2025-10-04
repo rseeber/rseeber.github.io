@@ -203,6 +203,11 @@ img.introImg {
         max-width: 300px;
     }
 
+    /* Get rid of the cover image */
+    .panel#cover-image{
+        display: none;
+    }
+
     .big-box {
         display: grid;
     }
@@ -213,12 +218,17 @@ img.introImg {
     }
     .container#right {
         width: 100vw;
-        margin-top: 0;
-        margin-left: 0;
+        /* margin-top: 0; */
+        /* margin-left: 0; */
+        margin: 0;
     }
     .panel#navbar {
         margin-top: 0;
         width: initial;
+    }
+    /* Get rid of the navbar title */
+    .panel#navbar h1 {
+        display: none;
     }
     .panel#navbar ul {
         list-style-type: none;
@@ -253,5 +263,6 @@ img.introImg {
     }
     .panel#mobile-notice p {
         margin: 0;
+        font-size: 80%;
     }
 }

@@ -5,27 +5,25 @@ tags: page
 
 # How to follow my blog
 
-There's a few different ways you can follow my [blog](/blog/), depending on your preferences and digital habits:
+There's a few different ways you can follow my [blog](/blog/), depending on your preferences and digital habits. I post links to all my new blog posts on the following platforms:
 
 ## Mastodon
 
-If you're on Mastodon, I post links to all my new blog posts on there. 
+<https://defcon.social/@riverpunk>
 
-Link: <https://defcon.social/@riverpunk>
-
-Handle: **@riverpunk@defcon.social**
+**@riverpunk@defcon.social**
 
 ## Bluesky
 
-I've also set up [Bridgy Fed](https://fed.brid.gy/) to relay my Mastodon profile over to Bluesky. You don't need to enable any special settings to follow it.
+I've used [Bridgy Fed](https://fed.brid.gy/) to duplicate my Mastodon account over to Bluesky, so you can follow me there instead if you like.
 
-Link: <https://bsky.app/profile/riverseeber.net>
+<https://bsky.app/profile/riverseeber.net>
 
 ## Threads
 
-My Mastodon account is also accessible via the Threads app (the Twitter clone made by Meta). First, you need to enable Fediverse Sharing: _Settings > Account > Fediverse Sharing (beta)_.
+My Mastodon account is also accessible via the Threads app (the Twitter clone made by Meta). First, you need to enable Fediverse Sharing: _Settings > Account > Fediverse Sharing (beta)_. Then just search my handle: 
 
-Then just search my handle: **@riverpunk@defcon.social**.
+**@riverpunk@defcon.social**.
 
 ## RSS
 
