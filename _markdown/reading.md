@@ -7,9 +7,14 @@ _Yeah, I read a lot of books concurrently. No, I am not fast at finishing them, 
 
 <br>
 
-- _The Naked Sun_ (1957) by Isaac Asimov
-    + Part 2 in the Lije Baley & and R. Daneel Olivaw series. This time, we follow detective Baley on a new, alien planet, and interacting with many foreign cultural habits and taboos that conflict with his own Earthly habits and experiences.
-    + ([Goodreads](https://www.goodreads.com/book/show/30016.The_Naked_Sun))
+- _The Wealth of Nations: Book I_ (1776) by Adam Smith
+	+ Adam Smith is often credited as being the 'Father of Capitalism' for his inquiry into how markets work in this book. Technically, he never really said the word Capitalism in the book, but that doesn't really matter. I've been trying to learn more about markets, so this has been an interesting read, and once you get used to the 18th century dialect, he's actually got a pretty engaging writers voice.
+	+ ([Project Gutenburg](https://www.gutenberg.org/files/38194/38194-h/38194-h.htm)) ([Wikipedia](https://en.wikipedia.org/wiki/The_Wealth_of_Nations))
+
+<br>
+
+- _How To Stand Up To A Dictator_ (2022) by Maria Ressa
+    + Written by a Filipino journalist who has fought against her own authoritarian government in publishing stories critical of the then-President. I heard about this book from Jon Oliver's special on Trump & The Press.
 
 <br>
 
@@ -19,18 +24,11 @@ _Yeah, I read a lot of books concurrently. No, I am not fast at finishing them, 
 
 <br>
 
-- _The Wealth of Nations: Book I_ (1776) by Adam Smith
-	+ Adam Smith is often credited as being the 'Father of Capitalism' for his inquiry into how markets work in this book. Technically, he never really said the word Capitalism in the book, but that doesn't really matter. I've been trying to learn more about markets, so this has been an interesting read, and once you get used to the 18th century dialect, he's actually got a pretty engaging writers voice.
-	+ ([Project Gutenburg](https://www.gutenberg.org/files/38194/38194-h/38194-h.htm)) ([Wikipedia](https://en.wikipedia.org/wiki/The_Wealth_of_Nations))
-
-<br>
-
 - _Lessons in Magic and Disaster_ (2025) by Charlie Jane Anders
 	+ The copies for this finally arrived at the library, so I get to read it now. I know very little about it except that I heard about it from a review by Cory Doctorow. I just know it has themes of queer identity, family difficulties, magic, and all that fun stuff. So far I'm really enjoying it.
 	+ ([OpenLibrary](https://openlibrary.org/books/OL59776634M/Lessons_in_Magic_and_Disaster)) ([Tor Publishing](https://torpublishinggroup.com/lessons-in-magic-and-disaster/?isbn=9781250867322&format=hardback))
 
 <br>
-
 
 - _The Crisis of German Ideology: Intellectual Origins of the Third Reich_ (1964) by George L. Mosse
     + A free giveaway I got from the library. I've been trying to do more learning about the rise of totalitarian governments and what allowed them to succeed. I'm finding this book pretty interesting.
@@ -45,8 +43,6 @@ _Yeah, I read a lot of books concurrently. No, I am not fast at finishing them, 
 
 - _In Dubious Battle_ (1936) by John Steinbeck
 
-- _How To Stand Up To A Dictator_ (2022) by Maria Ressa
-    + Written by a Filipino journalist who has fought against her own authoritarian government in publishing stories critical of the then-President. I heard about this book from Jon Oliver's special on Trump & The Press.
 
 - _All The President's Men_ (1974) by Carl Bernstein and Bob Woodward
 
@@ -58,6 +54,12 @@ _Yeah, I read a lot of books concurrently. No, I am not fast at finishing them, 
 # Have Reads
 
 ## 2025
+### October
+
+- _The Naked Sun_ (1957) by Isaac Asimov
+    + Part 2 in the Lije Baley & and R. Daneel Olivaw series. This time, we follow detective Baley on a new, alien planet, and interacting with many foreign cultural habits and taboos that conflict with his own Earthly habits and experiences.
+    + ([Goodreads](https://www.goodreads.com/book/show/30016.The_Naked_Sun))
+
 ### September
 
 - _How to Argue With a Racist: What Our Genes Do (and Don't) Say about Human Difference_ (2020) by Adam Rutherford
