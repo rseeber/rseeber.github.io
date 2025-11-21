@@ -1,29 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat" rel="stylesheet">
-    <link rel="stylesheet" href="/style.css">
-    <link rel="icon" type="image/x-icon" href="/favicon.ico">
-    <title>Projects</title>
-
-    <!-- This is a very small pageview counter. I am not tracking you across the web with this. -->
-    <script data-goatcounter="https://rseeber.goatcounter.com/count"
-        async src="//gc.zgo.at/count.js"></script>
-</head>
-<body>
-    <div class="big-box">
-
-        <!-- LEFT -->
-        <div class="container" id="left">
-            <div class="panel" id="cover-image">
-            </div>
-            <!-- MAIN ARTICLE CONTENT -->
-            <div class="panel">
-                    <main>
-                        <h1>My Projects</h1>
+---
+title: "Projects"
+---
+<h1>My Projects</h1>
 <p>Below I've included a couple of my projects.</p><br><br>
+
 <div class="box" style="height: 200;">
     <!--<img src="images/cli-tools_promo.png" alt="" width="30%" style="float: right;"><br>-->
     <a href="/projects/SLIM/"><h2 style="font-family: monospace; font-size: 200%;">SLIM</h2></a>
@@ -34,6 +14,7 @@
         such as web cookies.
     </p>
 </div><br>
+
 <div class="box" style="height: 150;">
     <!--<img src="images/cli-tools_promo.png" alt="" width="30%" style="float: right;"><br>-->
     <a href="https://github.com/rseeber/slim-cli"><h2 style="font-family: monospace; font-size: 200%;">slim-cli</h2></a>
@@ -41,6 +22,7 @@
     <p>A command line wrapper for the SLIM C++ library using a stateless API.
     </p>
 </div><br>
+
 <!-- Still in development...
 <div class="box" style="height: 200;">
     </!--<img src="images/cli-tools_promo.png" alt="" width="30%" style="float: right;"><br>--/>
@@ -51,6 +33,7 @@
     </p>
 </div><br>
 -->
+
 <div class="box" style="height: 180;">
     <!--<img src="images/cli-tools_promo.png" alt="" width="30%" style="float: right;"><br>-->
     <a href="https://github.com/rseeber/cli-tools"><h2 style="font-family: monospace; font-size: 200%;">cli-tools</h2></a>
@@ -60,6 +43,7 @@
         a good portion of the <span class="mono">less</span> command.
     </p>
 </div><br>
+
 <div class="box" style="height: 300;">
     <a href="https://shadowlancer42.itch.io/orbiting-bodies"><h2>Orbiting Bodies</h2></a>
     <img src="/images/orbitingBodiesPromo.png" alt="" width="40%" style="float: right;"><br>
@@ -67,53 +51,15 @@
     <p>Orbiting Bodies is a simple physics simulator. Take control of a space rocket, and fly away from Earth!
         Enter into orbit, or take off all the way to the moon! Some indicators are shown to help you navigate.
     </p>
-<p><a href="https://shadowlancer42.itch.io/orbiting-bodies">Check out the game (itch.io)</a></p>
-<p><a href="https://github.com/rseeber/Orbiting-Bodies">Github (Source code)</a></p>
+
+    [Check out the game (itch.io)](https://shadowlancer42.itch.io/orbiting-bodies)
+
+    [Github (Source code)](https://github.com/rseeber/Orbiting-Bodies)
 </div><br>
+
 <div class="box" >
     <h2>...More Projects Coming Soon!</h2>
     <p>I tend to be a perfectionist, so I rarely publish the half baked stuff I put together,
         but once I do make something presentable, you can rest assured that it'll show up here!
     </p>
 </div>
-                    </main>
-            </div>
-        </div>
-
-        <!-- RIGHT -->
-        <div class="container" id="right">
-            <div class="panel" id="navbar">
-                    <h1>Navbar</h1>
-                    <ul>
-                        <li><a href="/"          >Home</a></li>
-                        <li><a href="/projects/" >Projects</a></li>
-                        <li><a href="/reading/"  >Reading</a></li>
-                        <li><a href="/interests/">Interests</a></li>
-                        <li><a href="/blog/"     >Blog</a></li>
-                        <li><a href="/follow-me/"     >Follow Me</a></li>
-                        <li><a href="/about/"    >About</a></li>
-                    </ul>
-            </div>
-            <div class="panel" id="sidebar">
-                <h1>Updates:</h1>
-                <!-- This is the sidebar content that is "universal" on every single page -->
-                <div class="md-block"><p>I've added a <a href="/follow-me">Follow Me</a> page to the site! Check it out!</p>
-</div>
-                
-
-                <br>
-                <div class="badgeHolder">
-                    <a href="https://11ty.dev/" target="blank"><img src="/images/88x31/builtWith11ty_88x31.gif" alt="88x31: This site was built with eleventy (11ty.dev)" class="badge"></a>
-                    <a href="https://archlinux.org/" target="_blank"><img src="/images/88x31/stupidArchMeme_88x31.png" alt="88x31: I use Arch btw" class="badge"></a>
-                </div>
-            </div>
-            <div class="panel" id="mobile-notice">
-                <p>
-                    This site is best viewed in fullscreen desktop, but you can still go ahead anyways.
-                </p>
-            </div>
-        </div>
-    </div>
-
-</body>
-</html>
