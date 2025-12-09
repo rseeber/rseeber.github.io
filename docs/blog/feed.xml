@@ -4,12 +4,78 @@
   <subtitle>A blog about whatever technical stuff I feel like talking about today</subtitle>
   <link href="https://rseeber.github.io/blog/feed.xml" rel="self" />
   <link href="https://rseeber.github.io/blog/" />
-  <updated>2025-09-24T00:00:00Z</updated>
+  <updated>2025-12-08T00:00:00Z</updated>
   <id>https://rseeber.github.io/blog/</id>
   <author>
     <name>River Seeber</name>
     <email>riverseeber12@gmail.com</email>
   </author>
+  <entry>
+    <title>Post-Semester Linkdump</title>
+    <link href="https://rseeber.github.io/blog/post/post-semester-linkdump/" />
+    <updated>2025-12-08T00:00:00Z</updated>
+    <id>https://rseeber.github.io/blog/post/post-semester-linkdump/</id>
+    <content type="html">&lt;p&gt;&lt;em&gt;December 08, 2025&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Well, it&#39;s been a minute since I&#39;ve made a post. I&#39;ve been &lt;em&gt;busy busy busy&lt;/em&gt; going through a crazy semester in college. There was nothing in particular that made it this stressful, just a large collection of several independent factors all dragging me down in tiny ways. With the semester now coming to a close and everything sorting itself out, I wanted to come back and make another post.&lt;/p&gt;
+&lt;p&gt;I haven&#39;t really been doing a deep level of creative thinking lately, and haven&#39;t had the time to read any new books, so this post is just going to be a linkdump, since that seems easy and fun for me to write. I&#39;m mostly copying the idea from Cory Doctorow, but who&#39;s keeping track anyways?&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;&lt;a href=&quot;https://pluralistic.net/tag/linkdump/&quot;&gt;https://pluralistic.net/tag/linkdump/&lt;/a&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;With us on the topic, I recently caught up on a good post he made last week, &amp;quot;Normie diffusion and technophilia&amp;quot;. The basic idea is that &amp;quot;early adapters&amp;quot; of new technologies aren&#39;t just doing it because they&#39;re &amp;quot;tech-savvy,&amp;quot; if fact, most often they &lt;em&gt;aren&#39;t&lt;/em&gt; savvy at all -- at least not innately. The majority of people who switch to using new technologies, especially communication technologies, do so because they have some intrinsic need to switch &lt;em&gt;away&lt;/em&gt; from what already exists.&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;&lt;a href=&quot;https://pluralistic.net/2025/11/27/early-adapters/&quot;&gt;https://pluralistic.net/2025/11/27/early-adapters/&lt;/a&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;Speaking of new communication tech, I&#39;ve recently started using Mastodon. It&#39;s a decentralized social microblogging network. It&#39;s designed with fire exits built in -- that is to say, if or when Mastodon (the company) gets bought up by private equity and decides it wants to screw the user instead of being nice to them (much like Facebook, Instagram, Threads, X, TikTok, Tumblr, etc are screwing their users already), users of Mastodon (the product/network/platform) can leave to a server that isn&#39;t as shitty. When they leave, they just add back all their old friends again -- even the friends who &lt;em&gt;didn&#39;t&lt;/em&gt; switch to the new server.&lt;/p&gt;
+&lt;p&gt;It&#39;s a lot like how you have an Android, your cousin has an iPhone, and your uncle still has a flip-phone for some reason, and yet all of you can talk in the same group chat together. Now apply that concept to social media and that&#39;s the Mastodon network. If Mastodon (the company) goes full Elon-mode, you still have other options on the Mastodon network you can switch to, without losing access to your friends. It promotes competition, and keeps the server owners from going crazy like they have with all the major corporate platforms.&lt;/p&gt;
+&lt;p&gt;Anyways, I make a few tweets (I&#39;ve been informed they&#39;re called &amp;quot;toots&amp;quot;) on there from time to time, and I plan to post links each time I make a new blog post, so if RSS isn&#39;t your thing but you still want to follow my blog posts, you can follow my account on Mastodon. The cool thing about open platforms is how easy it is to syndicate in many different places from a single account. Check out some of the other places it&#39;s possible to follow the account from over on my Follow Me page.&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;&lt;a href=&quot;https://riverseeber.net/follow-me/&quot;&gt;https://riverseeber.net/follow-me/&lt;/a&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;Since we&#39;re on the topic of Mastodon, here&#39;s a cool little site I found that tracks how decentralized in practice the various platforms are that purport to be theoretically decentralized. It shows the Mastodon network being fairly decentralized, Bluesky/AT Proto being highly concentrated. It&#39;s also got some stats on other networked services like Git or Web Hosting that you can look into as well.&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;&lt;a href=&quot;https://arewedecentralizedyet.online/&quot;&gt;https://arewedecentralizedyet.online/&lt;/a&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;I recently read a pretty good post by Robert Kingett about web accessibility and his experience as a blind user trying to get corporations to fix their unusable shit -- and actually succeeding and seeing results. If you create things that get used by people with accessibility needs -- that is to say, if you create things -- you should really give this a look. Accessibility is heavily under looked, and the few advances we&#39;ve made as a society since Bush senior passed the ADA are being threatened to be pulled back as Republican politicians have been criticizing the measure in recent years. Now is probably a good time to start paying attention to people&#39;s accessibility needs.&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;&lt;a href=&quot;https://sightlessscribbles.com/posts/20250724/&quot;&gt;https://sightlessscribbles.com/posts/20250724/&lt;/a&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;Awhile back, I watched a great video about writing and AI (but mostly just about writing). The video is titled &amp;quot;You are a better writer than AI. (Yes, you.)&amp;quot; on YouTube. It took things pretty foundational, and has changed how I think about a lot of things when it comes to communication. I recently gave it a rewatch and managed to still get something out of the second go around. I don&#39;t really know how else to explain it other than by letting you watch it.&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=V5wLQ-8eyQI&quot;&gt;https://www.youtube.com/watch?v=V5wLQ-8eyQI&lt;/a&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;It seems we&#39;re getting into rapid-fire mode here. In case you&#39;ve never looked into it before, here&#39;s some reasons why Salvation Army is kind of an awful organization that doesn&#39;t deserve your money (hint: it&#39;s not even primarily just the homophobia).&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;&lt;a href=&quot;https://libcom.org/article/starvation-army-twelve-reasons-reject-salvation-army&quot;&gt;https://libcom.org/article/starvation-army-twelve-reasons-reject-salvation-army&lt;/a&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;While I don&#39;t necessarily agree with point #3 in the article (I&#39;d say they&#39;re being overly harsh on religion as a concept), what I&#39;m trying to share is that Salvation Army has made a mission out of upholding the status quo of economic inequality, actively making things worse for poor people on an institutional level. They&#39;ve been fighting with the working class since their founding. As far back as in the early 20th century, they would engage in constant altercations with union workers and organizers. The Union organizers would counter protest the Army by singing their songs back at them with new lyrics satirizing them. Joe Hill wrote &amp;quot;The Preacher and the Slave&amp;quot; in this fashion back in 1911. Here&#39;s a good performance of it by legendary folk singer Pete Seeger, along with some good commentary and history.&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=cj02R-R8Who&quot;&gt;https://www.youtube.com/watch?v=cj02R-R8Who&lt;/a&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;Since we&#39;re somewhat on the topic of history, how about I include this blog post I read from an actual historian about how &amp;quot;The Dark Ages&amp;quot; is a stupid term when used in the pop culture sense, and how the fall of the Roman Empire was a good thing, actually. All delivered in the format of a rant against an annoying Twitter (well, Bluesky) interaction.&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;&lt;a href=&quot;https://going-medieval.com/2025/11/25/on-contrarian-history/&quot;&gt;https://going-medieval.com/2025/11/25/on-contrarian-history/&lt;/a&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;Going from that, here&#39;s an interesting little short blog post about excellence, discussing Mamdani&#39;s victory speech, and drawing ties to the writings of Marx. Not much to say on it, it&#39;s super short, just read it if you&#39;re interested.&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;&lt;a href=&quot;https://coreyrobin.com/2025/11/15/excellence-over-mediocrity-from-mamdani-to-marx-to-food/&quot;&gt;https://coreyrobin.com/2025/11/15/excellence-over-mediocrity-from-mamdani-to-marx-to-food/&lt;/a&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;Finally, let&#39;s round things off with a fun card game I found while doing some research for my tabletop RPG games. It&#39;s called &lt;em&gt;Scoundrel&lt;/em&gt;, and it&#39;s a solo dungeon crawling game. It can easily be modified to be played with multiple players, or to include additional mechanics. I&#39;ll be using it at some point for sure. Just thought I&#39;d drop the link for anyone else who plays TTRPG games.&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=7fP-QLtWQZs&quot;&gt;https://www.youtube.com/watch?v=7fP-QLtWQZs&lt;/a&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>Isaac Asimov, Robots, AI, and Luddism</title>
     <link href="https://rseeber.github.io/blog/post/isaac-asimov-robots-ai-and-luddism/" />
