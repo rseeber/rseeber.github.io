@@ -9,6 +9,9 @@ _Yeah, I read a lot of books concurrently. No, I am not fast at finishing them, 
 
 # Currently Reading
 
+- _The Robots of Dawn_ (1983) by Isaac Asimov
+    + Part 3 in the Lije Baley and R. Daneel Olivaw trilogy. It was written over 20 years after the completion of the previous installment, so I expect to see probably some kind of difference between this one and the previous books.
+    + ([Wikipedia](https://en.wikipedia.org/wiki/The_Robots_of_Dawn))
 
 - _When the Clock Broke_ (2024) by John Ganz
     + Mostly reading it because I enjoy his writings on his blog, [Unpopular Front](https://www.unpopularfront.news/). It tells the story of how America was politically changed during the 1990s. That's about all I know so far.
