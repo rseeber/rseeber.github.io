@@ -1,6 +1,14 @@
 ---
 title: Reading
 ---
+{% box "sidebar" %}
+## Jump to section
+- [Currently Reading](#panel1)
+- [On Pause](#panel2)
+- [Future Reading List](#panel3)
+- [Have Reads](#panel4)
+{% endbox %}
+
 <h1 class="title">Books</h1>
 
 _Yeah, I read a lot of books concurrently. No, I am not fast at finishing them, that's why I do it in such a chaotic way. I'm trying to get better at it though._
