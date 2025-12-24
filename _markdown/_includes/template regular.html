@@ -20,11 +20,46 @@
             <div class="panel" id="cover-image">
             </div>
             <!-- MAIN ARTICLE CONTENT -->
-            <div class="panel">
-                    <main>
-                        {{ content }}
-                    </main>
-            </div>
+            <main>
+                <!-- HEADER PANEL -->
+                {%- if page.panel0 -%}
+                <div class="panel" id="panel0">
+                    {% markdown %}{% renderBox "panel0" %}{% endmarkdown %}
+                </div>
+                {%- endif -%}
+
+                <!-- PRIMARY CONTENT FIELD -->
+                <div class="panel" id="mainPanel">
+                            {{ content }}
+                </div>
+
+                {%- if page.panel1 -%}
+                <div class="panel" id="panel1">
+                    {% markdown %}{% renderBox "panel1" %}{% endmarkdown %}
+                </div>
+                {%- endif -%}
+                {%- if page.panel2 -%}
+                <div class="panel" id="panel2">
+                    {% markdown %}{% renderBox "panel2" %}{% endmarkdown %}
+                </div>
+                {%- endif -%}
+                {%- if page.panel3 -%}
+                <div class="panel" id="panel3">
+                    {% markdown %}{% renderBox "panel3" %}{% endmarkdown %}
+                </div>
+                {%- endif -%}
+                {%- if page.panel4 -%}
+                <div class="panel" id="panel4">
+                    {% markdown %}{% renderBox "panel4" %}{% endmarkdown %}
+                </div>
+                {%- endif -%}
+                {%- if page.panel5 -%}
+                <div class="panel" id="panel5">
+                    {% markdown %}{% renderBox "panel5" %}{% endmarkdown %}
+                </div>
+                {%- endif -%}
+            </main>
+
         </div>
 
         <!-- RIGHT -->
@@ -41,22 +76,22 @@
                         <li><a href="/about/"    >About</a></li>
                     </ul>
             </div>
+            {% if page.sidebar %}
             <div class="panel" id="sidebar">
+                <!-- This is sidebar content unique to the specific page -->
+                <!-- This should only render if page.sidebar is not an empty string -->
+                {% markdown "sidebarContent" %}{% renderBox "sidebar" %}{% endmarkdown %}
+            </div>
+            {% endif %}
+            <div class="panel" id="sidebarUpdates">
                 <h1>Updates:</h1>
                 <!-- This is the sidebar content that is "universal" on every single page -->
                 {% markdown "sidebarContent" %}{% include "sidebar.md" %}{% endmarkdown %}
-                {% if page.sidebar %}
-                <hr>
-                <!-- This is sidebar content unique to the specific page -->
-                <!-- This, as well as the above <hr> tag, should only render if page.sidebar is not an empty string -->
-                {% markdown "sidebarContent" %}{% renderBox "sidebar" %}{% endmarkdown %}
-                {% endif %}
-
-                <br>
                 <div class="badgeHolder">
                     <a href="https://11ty.dev/" target="blank"><img src="/images/88x31/builtWith11ty_88x31.gif" alt="88x31: This site was built with eleventy (11ty.dev)" class="badge"></a>
                     <a href="https://archlinux.org/" target="_blank"><img src="/images/88x31/stupidArchMeme_88x31.png" alt="88x31: I use Arch btw" class="badge"></a>
                 </div>
+
             </div>
             <div class="panel" id="mobile-notice">
                 <p>

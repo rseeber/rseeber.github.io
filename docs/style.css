@@ -43,7 +43,7 @@ body {
 }
 
 .panel {
-    min-height: 20vh;
+    /* min-height: 20vh; */
     background-color: blanchedalmond;
     border: 2px;
     border-color: aqua;
@@ -253,6 +253,10 @@ img.introImg {
         max-height: 300px;
         overflow-y: scroll;
         min-height: 100px;
+        display: none;
+    }
+    
+    .panel#sidebarUpdates{
         display: none;
     }
 

@@ -1,9 +1,24 @@
 ---
 title: Reading
 ---
-# Currently Reading
+<h1 class="title">Books</h1>
 
 _Yeah, I read a lot of books concurrently. No, I am not fast at finishing them, that's why I do it in such a chaotic way. I'm trying to get better at it though._
+
+{% box "panel1" %}
+
+# Currently Reading
+
+
+- _When the Clock Broke_ (2024) by John Ganz
+    + Mostly reading it because I enjoy his writings on his blog, [Unpopular Front](https://www.unpopularfront.news/). It tells the story of how America was politically changed during the 1990s. That's about all I know so far.
+    + ([Bookshop](https://bookshop.org/p/books/when-the-clock-broke-con-men-conspiracists-and-how-america-cracked-up-in-the-early-1990s-john-ganz/6d9a7da14ca25ffa)) ([Goodreads](https://www.goodreads.com/book/show/195790601-when-the-clock-broke))
+
+<br>
+
+- _Campus Free Speech: A Pocket Guide_ (2024) by Cass Sunstein
+    + I really enjoyed Sunstein's neutral and sober writing in _How To Interpret The Constitution_, so I figured I'd give this tiny little book a go as well. It covers only explicit _rules_ with _punishments_, not _norms_ or _standards_ which go unenforced except by culture. It's not one of those "anti-woke" books or anything.
+    + ([Harvard University Press](https://www.hup.harvard.edu/books/9780674298781))
 
 <br>
 
@@ -13,14 +28,20 @@ _Yeah, I read a lot of books concurrently. No, I am not fast at finishing them, 
 
 <br>
 
-- _How To Stand Up To A Dictator_ (2022) by Maria Ressa
-    + Written by a Filipino journalist who has fought against her own authoritarian government in publishing stories critical of the then-President. I heard about this book from Jon Oliver's special on Trump & The Press.
-
-<br>
 
 - _The Nazi Movement_ (1938) by Theodore Abel
     + A history of the political context of the Hitler Movement, as well as a (then modern) history of how Hitler came to power. Written during WWII.
 	+ ([OpenLibrary](https://openlibrary.org/books/OL42887763M/The_Nazi_movement))
+
+{% endbox %}
+
+{% box "panel2" %}
+
+# On Pause
+## The library wanted them back (or I stopped reading them)...
+
+- _How To Stand Up To A Dictator_ (2022) by Maria Ressa
+    + Written by a Filipino journalist who has fought against her own authoritarian government in publishing stories critical of the then-President. I heard about this book from Jon Oliver's special on Trump & The Press.
 
 <br>
 
@@ -34,8 +55,9 @@ _Yeah, I read a lot of books concurrently. No, I am not fast at finishing them, 
     + A free giveaway I got from the library. I've been trying to do more learning about the rise of totalitarian governments and what allowed them to succeed. I'm finding this book pretty interesting.
 	+ ([OpenLibrary](https://openlibrary.org/books/OL4119526M/The_crisis_of_German_ideology))
 
-<br>
-<hr>
+{% endbox %}
+
+{% box "panel3" %}
 
 # Future Reading List
 
@@ -49,7 +71,9 @@ _Yeah, I read a lot of books concurrently. No, I am not fast at finishing them, 
 - _Mein Kampf_ (1925) by Adolf Hitler
 	+ I suppose it goes without saying that I read about the Hitler movement not because I admire it, but rather because I despise it so much, and would like to be able to help prevent similar movements as they arise in the future.
 
-<hr>
+{% endbox %}
+
+{% box "panel4" %}
 
 # Have Reads
 
@@ -89,3 +113,5 @@ _Yeah, I read a lot of books concurrently. No, I am not fast at finishing them, 
 
 - _Permanent Record_ by Edward Snowden
     + An autobiography of his life, focusing mostly on his being a whistle blower of the NSA, exposing mass, warrantless surveillance of United States citizens by our government. Includes a lot of his own opinions as well, though I think that's fair given the context.
+
+{% endbox %}

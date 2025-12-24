@@ -1,9 +1,12 @@
 import { feedPlugin } from "@11ty/eleventy-plugin-rss";
 import markdownIt from "markdown-it";
+import footnote_plugin from 'markdown-it-footnote';
 
 
 export default function (eleventyConfig) {
 	eleventyConfig.ignores.add("**blog/drafts/**");
+	
+	eleventyConfig.amendLibrary("md", (mdLib) => mdLib.use(footnote_plugin));
 
 	eleventyConfig.addPlugin(feedPlugin, {
 		type: "atom", // or "rss", "json"
@@ -34,6 +37,7 @@ export default function (eleventyConfig) {
 		return "";
 	});
 
+
 	// Shortcode to render a captured box anywhere in your layout
 	// Usage in layout: {% renderBox "[id]" %}, replacing [id] but keeping the quotes.
 	// You can use this just like {{ content }} or {{ title }} or anything else.
@@ -41,6 +45,25 @@ export default function (eleventyConfig) {
 		return this.page[id] || ""; // Outputs stored content, or empty string if undefined
 	});
 
+	//basically same thing as the "box" shortcode, but it adds the content to a collection
+	// of snippets, stored at `this.page["snippets"] = {...}`. The snippets collection is
+	// empty until you add something with the shortcode.
+	// You can render elements in the snippets collection using a for loop and the 
+	// "renderbox" shortcode
+	// Usage: {% snip %} ... {% endsnip %}
+	eleventyConfig.addPairedShortcode("snip", function(content, id) {
+		//check if the snippets buffer is an array, if not, make it an empty array.
+		this.page.snippets ??= [];
+
+		//append `content` to the list of snippets
+		this.page.snippets[id] = content;
+		return "";
+	});
+
+	//renders a snippet -- much like the renderBox shortcode for boxes.
+	eleventyConfig.addShortcode("renderSnip", function(id) {
+		return this.page.box[id] || ""; // Outputs stored content, or empty string if undefined
+	});
 
 	//get a markdown engine, call it md
 	let md = markdownIt({html:true});
