@@ -157,6 +157,10 @@ blockquote {
     font-style: italic;
 }
 
+img {
+    max-width: 90vw;
+}
+
 img.introImg {
     float: right;
     height: 400px;
