@@ -19,7 +19,7 @@ body {
     max-height: 5000px;
 }
 
-.big-box {
+.bigBox {
     margin: 0 auto;
     max-width: 80em;
     display: flex;
@@ -92,7 +92,7 @@ body {
     display: none;
 }
 
-.panel#cover-image {
+.panel#coverImage {
     background-image: url('https://rseeber.github.io/images/desertTrees.JPG'); 
     background-position: 50% 35%;
     height: 28vh;
@@ -208,11 +208,11 @@ img.introImg {
     }
 
     /* Get rid of the cover image */
-    .panel#cover-image{
+    .panel#coverImage{
         display: none;
     }
 
-    .big-box {
+    .bigBox {
         display: grid;
     }
     .container#left {

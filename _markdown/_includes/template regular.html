@@ -24,11 +24,11 @@
         async src="//gc.zgo.at/count.js"></script>
 </head>
 <body>
-    <div class="big-box">
+    <div class="bigBox" id="top">
 
         <!-- LEFT -->
         <div class="container" id="left">
-            <div class="panel" id="cover-image">
+            <div class="panel" id="coverImage">
             </div>
             <!-- MAIN ARTICLE CONTENT -->
             <main>
@@ -44,31 +44,36 @@
                             {{ content }}
                 </div>
 
-                {%- if page.panel1 -%}
-                <div class="panel" id="panel1">
-                    {% markdown %}{% renderBox "panel1" %}{% endmarkdown %}
+                <!-- POST BLOG CONTENT -->
+                <div id="postBlog">
+                    <!-- PANEL #1 ("Check this out")-->
+                    {%- if page.panel1 -%}
+                    <div class="panel" id="panel1">
+                        {% markdown %}{% renderBox "panel1" %}{% endmarkdown %}
+                    </div>
+                    {%- endif -%}
+
+                    {%- if page.panel2 -%}
+                    <div class="panel" id="panel2">
+                        {% markdown %}{% renderBox "panel2" %}{% endmarkdown %}
+                    </div>
+                    {%- endif -%}
+                    {%- if page.panel3 -%}
+                    <div class="panel" id="panel3">
+                        {% markdown %}{% renderBox "panel3" %}{% endmarkdown %}
+                    </div>
+                    {%- endif -%}
+                    {%- if page.panel4 -%}
+                    <div class="panel" id="panel4">
+                        {% markdown %}{% renderBox "panel4" %}{% endmarkdown %}
+                    </div>
+                    {%- endif -%}
+                    {%- if page.panel5 -%}
+                    <div class="panel" id="panel5">
+                        {% markdown %}{% renderBox "panel5" %}{% endmarkdown %}
+                    </div>
+                    {%- endif -%}
                 </div>
-                {%- endif -%}
-                {%- if page.panel2 -%}
-                <div class="panel" id="panel2">
-                    {% markdown %}{% renderBox "panel2" %}{% endmarkdown %}
-                </div>
-                {%- endif -%}
-                {%- if page.panel3 -%}
-                <div class="panel" id="panel3">
-                    {% markdown %}{% renderBox "panel3" %}{% endmarkdown %}
-                </div>
-                {%- endif -%}
-                {%- if page.panel4 -%}
-                <div class="panel" id="panel4">
-                    {% markdown %}{% renderBox "panel4" %}{% endmarkdown %}
-                </div>
-                {%- endif -%}
-                {%- if page.panel5 -%}
-                <div class="panel" id="panel5">
-                    {% markdown %}{% renderBox "panel5" %}{% endmarkdown %}
-                </div>
-                {%- endif -%}
             </main>
 
         </div>
