@@ -23,6 +23,13 @@ title: "Projects"
     </p>
 </div><br>
 
+<div class="box">
+<a href="/projects/art/"><h2>Art</h2></a>
+
+Some of the art I've done, all in one place.
+
+</div><br>
+
 <!-- Still in development...
 <div class="box" style="height: 200;">
     </!--<img src="images/cli-tools_promo.png" alt="" width="30%" style="float: right;"><br>--/>
