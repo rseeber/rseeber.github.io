@@ -33,21 +33,17 @@
                 <!-- HEADER PANEL --><!-- PRIMARY CONTENT FIELD -->
                 <div class="panel" id="mainPanel">
                             <h1>How to follow my blog</h1>
-<p>There's a few different ways you can follow my <a href="/blog/">blog</a>, depending on your preferences and digital habits.</p>
 <h2>RSS</h2>
-<p>RSS is the most anti-enshittificatory way you can consume news and articles from the web. Most sites support it, but few people take advantage of it. You can follow my blog by copying <a href="/blog/feed.xml">this link</a> and adding it to your feed reader of choice.</p>
-<p>If you wanna learn more, this is a video about <a href="https://www.youtube.com/watch?v=6HNUqDL-pI8">what RSS is</a>, and here's a good <a href="https://lifehacker.com/tech/best-rss-readers#the-best-rss-reader-apps-in-2024">list of feed reader apps</a>.</p>
+<p>You can follow my blog as an RSS feed by going <a href="/blog/rss-follow/">here</a>.</p>
 <h2>Email</h2>
-<p>You can sign up for email notifications by using <a href="https://feedmail.org/">feedmail.org</a>. Fill out your email, and it will redirect you to the site, where you will have full control over how notifications are handled. This is easy for me, because it means you're able to handle your own subscription feed instead of me having access to a bunch of email addresses. It works by just forwarding my RSS feed to your inbox.</p>
-<form action="https://feedmail.org/subscriptions/confirm">
-	<!-- The URL of your feed. -->
-	<input type=hidden name=url value="https://riverseeber.net/blog/feed.xml">
-<p><!-- Return URL after subscription is confirmed. Optional -->
-<input type=hidden name=r value="https://riverseeber.net/blog/"></p>
-<p><label>Email: <input type=email name=email required></label>
-<button>Subscribe</button></p>
-</form>
-<hr>
+<p>You can sign up for email notifications of my blog posts by filling out the form on <a href="/blog/newsletter/">this page</a></p>
+
+                </div>
+
+                <!-- POST BLOG CONTENT -->
+                <div id="postBlog">
+                    <!-- PANEL #1 ("Check this out")--><div class="panel" id="panel1">
+                        <div class="md-block"><h1>Socials</h1>
 <h2>Mastodon</h2>
 <p>I post links to every new blog post on Mastodon after I publish it. I also post about other stuff too, so follow only if you're okay with non-blog content as well.</p>
 <p><a href="https://defcon.social/@riverpunk">https://defcon.social/@riverpunk</a></p>
@@ -58,12 +54,8 @@
 <h2>Threads</h2>
 <p>My Mastodon account is also accessible via the Threads app (the Twitter clone made by Meta). First, you need to enable Fediverse Sharing: <em>Settings &gt; Account &gt; Fediverse Sharing (beta)</em>. Then just search my handle:</p>
 <p><strong>@riverpunk@defcon.social</strong>.</p>
-
-                </div>
-
-                <!-- POST BLOG CONTENT -->
-                <div id="postBlog">
-                    <!-- PANEL #1 ("Check this out")--></div>
+</div>
+                    </div></div>
             </main>
 
         </div>
@@ -86,7 +78,7 @@
             <div class="panel" id="sidebarUpdates">
                 <h1>Updates:</h1>
                 <!-- This is the sidebar content that is "universal" on every single page -->
-                <div class="md-block"><p>I've added a <a href="/follow-me">Follow Me</a> page to the site! Check it out!</p>
+                <div class="md-block"><p>I've updated the <a href="/follow-me/">Follow Me</a> page to be simpler, and added a <a href="/blog/newsletter/">newsletter</a> option to it.</p>
 </div>
                 <div class="badgeHolder">
                     <a href="https://11ty.dev/" target="blank"><img src="/images/88x31/builtWith11ty_88x31.gif" alt="88x31: This site was built with eleventy (11ty.dev)" class="badge"></a>

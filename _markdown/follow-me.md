@@ -5,31 +5,17 @@ tags: page
 
 # How to follow my blog
 
-There's a few different ways you can follow my [blog](/blog/), depending on your preferences and digital habits.
-
 ## RSS 
 
-RSS is the most anti-enshittificatory way you can consume news and articles from the web. Most sites support it, but few people take advantage of it. You can follow my blog by copying [this link](/blog/feed.xml) and adding it to your feed reader of choice. 
-
-If you wanna learn more, this is a video about [what RSS is](https://www.youtube.com/watch?v=6HNUqDL-pI8), and here's a good [list of feed reader apps](https://lifehacker.com/tech/best-rss-readers#the-best-rss-reader-apps-in-2024).
-
+You can follow my blog as an RSS feed by going [here](/blog/rss-follow/).
 
 ## Email
 
-You can sign up for email notifications by using [feedmail.org](https://feedmail.org/). Fill out your email, and it will redirect you to the site, where you will have full control over how notifications are handled. This is easy for me, because it means you're able to handle your own subscription feed instead of me having access to a bunch of email addresses. It works by just forwarding my RSS feed to your inbox.
+You can sign up for email notifications of my blog posts by filling out the form on [this page](/blog/newsletter/)
 
-<form action="https://feedmail.org/subscriptions/confirm">
-	<!-- The URL of your feed. -->
-	<input type=hidden name=url value="https://riverseeber.net/blog/feed.xml">
+{% box "panel1" %}
 
-	<!-- Return URL after subscription is confirmed. Optional -->
-	<input type=hidden name=r value="https://riverseeber.net/blog/">
-
-	<label>Email: <input type=email name=email required></label>
-	<button>Subscribe</button>
-</form>
-
-***
+# Socials
 
 ## Mastodon
 
@@ -50,3 +36,5 @@ I've used [Bridgy Fed](https://fed.brid.gy/) to duplicate my Mastodon account ov
 My Mastodon account is also accessible via the Threads app (the Twitter clone made by Meta). First, you need to enable Fediverse Sharing: _Settings > Account > Fediverse Sharing (beta)_. Then just search my handle: 
 
 **@riverpunk@defcon.social**.
+
+{% endbox %}

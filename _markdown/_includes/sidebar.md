@@ -1,1 +1,1 @@
-I've added a [Follow Me](/follow-me) page to the site! Check it out!
+I've updated the [Follow Me](/follow-me/) page to be simpler, and added a [newsletter](/blog/newsletter/) option to it.
