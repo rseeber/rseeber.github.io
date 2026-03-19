@@ -274,3 +274,119 @@ img.introImg {
         font-size: 80%;
     }
 }
+
+/*
+=== PRINT FORMATTING ===
+Makes the print use less paper by not
+printing the headers and navbar and such.
+*/
+@media print {
+    #vimwiki-notice {
+        display: none;
+    }
+
+    table, th, td {
+        border: 3px solid black;
+    }
+
+    p, h1, h2, h3, h4, h5, h6, blockquote, pre, img, figure, table {
+        page-break-inside: avoid; /* legacy */
+        break-inside: avoid;      /* modern */
+        -webkit-column-break-inside: avoid; /* WebKit */
+        orphans: 3;
+        widows: 3;
+    }
+
+    img {
+        max-width: 100%;
+    }
+
+    img.introImg{
+        display: none;
+        float: initial;
+        height: auto;
+        width: 70vw;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 300px;
+    }
+
+    img.introImgSmall{
+        float: initial;
+        height: auto;
+        width: 70vw;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 300px;
+    }
+
+    /* Get rid of the cover image */
+    .panel#cover-image{
+        display: none;
+    }
+
+    .big-box {
+        display: grid;
+    }
+    .container#left {
+        order: 2;
+        width: 100vw;
+        margin: 0;
+    }
+    .container#right {
+        display: none;
+        width: 100vw;
+        /* margin-top: 0; */
+        /* margin-left: 0; */
+        margin: 0;
+    }
+    .panel#navbar {
+        margin-top: 0;
+        width: initial;
+    }
+    /* Get rid of the navbar title */
+    .panel#navbar h1 {
+        display: none;
+    }
+    .panel#navbar ul {
+        list-style-type: none;
+        text-align: center;
+        padding: 0;
+    }
+    .panel#navbar li {
+        display: inline-block;
+        padding: 4px;
+        background-color: chocolate;
+        border-radius: 2px;
+        margin: 2px;
+    }
+    .panel#navbar a {
+        color: white;
+        text-decoration: none;
+    }
+    .panel#navbar a:hover {
+        color: yellow;
+    }
+    .panel#sidebar {
+        max-height: 300px;
+        overflow-y: scroll;
+        min-height: 100px;
+        display: none;
+    }
+    
+    .panel#sidebarUpdates{
+        display: none;
+    }
+
+    .panel#mobile-notice {
+        display: inherit;
+        min-height: 0;
+        text-indent: 0;
+    }
+    .panel#mobile-notice p {
+        margin: 0;
+        font-size: 80%;
+    }
+}
