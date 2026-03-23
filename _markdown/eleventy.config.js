@@ -19,7 +19,7 @@ export default function (eleventyConfig) {
 			language: "en",
 			title: "River's Blog",
 			subtitle: "A blog about whatever technical stuff I feel like talking about today",
-			base: "https://rseeber.github.io/blog/",
+			base: "https://riverseeber.net/blog/",
 			author: {
 				name: "River Seeber",
 				email: "riverseeber12@gmail.com", // Optional
