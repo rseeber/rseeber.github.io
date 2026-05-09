@@ -28,8 +28,14 @@ title: "Interests"
 - _<u>UNIX Network Programming, 3rd edition, vol 1</u>_ - An essential guide book for learning how to make programs that communicate across a network. If you're working outside of a POSIX environment, the code itself won't work, but general concepts still apply.\
     ([Wikipedia](https://en.wikipedia.org/wiki/UNIX_Network_Programming))
 
-- _<u>Introduction to Algorithms</u>_ - "CLRS" - Useful reference for Data Stuctures\
+- _<u>Introduction to Algorithms</u>_ - "CLRS" - Useful reference for Data Stuctures and Algorithms\
     ([Wikipedia](https://en.wikipedia.org/wiki/Introduction_to_Algorithms))
+
+- _<u>Reinforcement Learning: An Introduction, 2nd ed</u>_ - A great resource on RL Machine Learning, written by the father of Reinforcement Learning. Very mathematical in nature. Focuses on theory over application. If you've got any good application-heavy reccomendations, please do let me know, I'd love to read it!\
+    ([PDF](https://github.com/MrinmoiHossain/Reinforcement-Learning-Specialization-Coursera/blob/master/Book/Reinforcement%20Learning%20An%20introduction%20(Second%20Edition)%20by%20Richard%20S.%20Sutton%20and%20Andrew%20G.%20Barto.pdf))[^1]
+
+
+[^1]: The PDF is free to share legally, since the text is licensed under [CC BY-NC-ND 2.0](https://creativecommons.org/licenses/by-nc-nd/2.0/). You can confirm this fact by reading the copyright page.
 
 ### Movies
 - _The Secret Life of Walter Mitty_
