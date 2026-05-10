@@ -147,6 +147,15 @@ ul {
 }
 
 code {
+    font-family: 'Maple Mono', monospace;
+    background-color: burlywood;
+}
+
+/* is this any good? */
+code.codeblock {
+    padding-left: 10px;
+    text-indent: 0;
+    font-family: 'Maple Mono', monospace;
     background-color: burlywood;
 }
 
@@ -155,6 +164,11 @@ blockquote {
     padding-left: 10px;
     text-indent: 0;
     font-style: italic;
+}
+
+.mono {
+    font-family: 'Maple Mono', monospace;
+    background-color: burlywood;
 }
 
 img {
