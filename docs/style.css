@@ -181,7 +181,32 @@ img.introImg {
     margin: 1em;
 }
 
+/* only those with no class attribute */
+hr:not([class]) {
+  text-indent: 0;
+  border: none;
+  border-top: 3px double #333333;
+  color: #333333;
+  overflow: visible;
+  text-align: center;
+  height: 5px;
+  width: 75%;
+  margin-top: 3em;
+  margin-bottom: 3em;
 
+}
+
+hr:not([class])::after {
+  background: blanchedalmond;
+  content: "* * *";
+  padding: 1px;
+  padding-left: 10%;
+  padding-right: 10%;
+  position: relative;
+  top: -1.6ex;
+  color: black;
+  font-size: 30px;
+}
 
 /* === MEDIA QUERY STUFF FOR MOBILE VERSION OF SITE === */
 
