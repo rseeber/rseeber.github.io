@@ -3,12 +3,6 @@ title: Race and Society
 layout: template regular.html
 edited: "May 25, 2026"
 ---
-{%- box "sidebar" -%}
-# Resources
-
-- <https://www.youtube.com/watch?v=CVxAlmAPHec>
-{%- endbox -%}
-
 <style>
 blockquote {
 	font-style: normal;
