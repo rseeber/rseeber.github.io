@@ -1,5 +1,6 @@
 ---
 title: Race and Society
+subtitle: ENGL 257 Culminating Project
 layout: template regular.html
 edited: "May 25, 2026"
 ---
@@ -19,8 +20,7 @@ Talk about the ways that this categorization has been used to hurt so many peopl
 First explicitly, then implicitly through systemic racism. Lots of room for easy tie-in to the themes of my thesis from the last project.
 -->
 <h1 class="title">{{title}}</h1>
-
-_This page is my submission for the ENGL 257 Culminating Project_
+<h2 class="title">{{subtitle}}</h1>
 
 _By **River Seeber**_
 
@@ -52,6 +52,7 @@ Would it surprise you to learn that there is more diversity between individual p
 
 [^african-diversity]: This is from the geneticist and science communicator, Adam Rutherford's book "[How To Argue With a Racist](https://theexperimentpublishing.com/catalogs/spring-2020/how-to-argue-with-a-racist/)", which I read a few semesters ago.
 
+<!--
 The anthropologist Jonathan Marks puts into perspective the extent to which human diversity does (or rather, does not) stem from our biology or genetics:
 
 > By the 1970s, it had become clear that (1) most human differences were cultural; (2) what was not cultural was principally polymorphic – that is to say, found in diverse groups of people at different frequencies; (3) what was not cultural or polymorphic was principally clinal – that is to say, gradually variable over geography; and (4) what was left – the component of human diversity that was not cultural, polymorphic, or clinal – was very small.
@@ -62,12 +63,16 @@ The anthropologist Jonathan Marks puts into perspective the extent to which huma
 
 [^3]: You can also read this quote in the context of the [Wikipedia page where I discovered it](https://en.wikipedia.org/wiki/Race_(human_categorization)#Biological_classification)
 
+-->
+
 # Oppression
+
+<img class="introImg" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Black_Kettle_at_Sand_Creek.jpg/960px-Black_Kettle_at_Sand_Creek.jpg">
 
 One might wonder why this matters. A grouping once thought to belong to the sciences actually ends up belonging to the humanities department. So what?
 
-The reason we care is that we have started wars in the name of our supposed racial differences. We've committed [genocides](https://en.wikipedia.org/wiki/Native_American_genocide_in_the_United_States) on the basis of racial categorizations. Even in hubs of Western ideals democratic freedom and liberty such as the United States, we've totally [stratified our societies](https://en.wikipedia.org/wiki/Redlining) following the arbitrary lines of modern racial categorizations.
+The reason we care is that we have started wars in the name of our supposed racial differences. We've committed [genocides](https://en.wikipedia.org/wiki/Native_American_genocide_in_the_United_States) on the basis of racial categorizations. Even in hubs of Western ideals of democratic freedom and liberty such as the United States, we've totally [stratified our societies](https://en.wikipedia.org/wiki/Redlining) following the arbitrary lines of modern racial categorizations.
 
 In the past, such violence was often very clear and explicit, such as the genocide of Native Americans in order to make room for European colonizers and the enslaved Africans they brought with them.
 
-Over time, the violence became more implicit, pitting marginalized communities against [systemic, Kafka-esque institutions](https://en.wikipedia.org/wiki/Institutional_racism) which disproportionately end up hurting non-white people more than their white counterparts. But because across the entire process, there was no instance of a white racist yelling rude profanities at anybody, its easy for external observers to not see the racism in the system. It's easy for white folks to look at the world around them, the lack of _explicit_ racism (as opposed to the implicit, systemic racism), and declare that "racism is mostly gone in the United States".
+Over time, the violence became more implicit, pitting marginalized communities against [systemic, Kafka-esque institutions](https://en.wikipedia.org/wiki/Institutional_racism) which disproportionately end up hurting non-white people more than their white counterparts. But because there's no instance of a white racist yelling rude profanities at anybody, its easy for those who are unaffected to not see the racism in the system. It's easy for white folks to look at the world around them, the lack of _explicit_ racism (as opposed to the implicit, systemic racism), and declare that "racism is mostly gone in the United States".
