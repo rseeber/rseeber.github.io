@@ -83,3 +83,15 @@ The reason we care is that we have started wars in the name of our supposed raci
 In the past, such violence was often very clear and explicit, such as the genocide of Native Americans in order to make room for European colonizers and the enslaved Africans they brought with them.
 
 Over time, the violence became more implicit, pitting marginalized communities against [systemic, Kafka-esque institutions](https://en.wikipedia.org/wiki/Institutional_racism) which disproportionately end up hurting non-white people more than their white counterparts. But because there's no instance of a white racist yelling rude profanities at anybody, its easy for those who are unaffected to not see the racism in the system. It's easy for white folks to look at the world around them, the lack of _explicit_ racism (as opposed to the implicit, systemic racism), and declare that "racism is mostly gone in the United States".
+
+{%- box "panel1" -%}
+# Written Reflection
+
+1. _What aspect of the class has impacted you? Why?_
+
+Two things really impacted me a lot in this class. First was the way that race really is just utterly arbitrary, and that the lines we divide our races on could easily be drawn differently, and that they very well might be drawn differently in the future. What has ended up happening is that our culture chose to divide itself among lines which were advantageous to the people in power. Additionally, I felt impacted by learning the way systemic racism impacts non-white people. We didn't go over it specifically, but I felt that it was emphasized a lot throughout the book _There, There_ by Tommy Orange.
+
+2. _How does your creative project reflect something from the class that you think is important?_
+
+I discussed the way that Europeans defined race in such a way as to advance themselves, and to put down other people groups such as Africans and Native Americans &mdash; who were perceived as obstacles to be cleared by the Europeans during this time. I also discussed lightly the way that these arbitrary lines have been used to justify horrific events in history &mdash; as well as events even into the present day which still continue to occur.
+{%- endbox -%}
