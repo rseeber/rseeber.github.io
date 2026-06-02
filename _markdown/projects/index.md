@@ -46,6 +46,12 @@ Some of the art I've done, all in one place.
 {%- endbox -%}
 
 {%- box "panel6" -%}
+## [ENGL 257 Culminating Project](/projects/engl257/)
+
+This page is what I turned in for my Culminating Project for English 257 (Native American Literature). Enjoy.
+{%- endbox -%}
+
+{%- box "panel7" -%}
 <h2>...More Projects Coming Soon!</h2>
 <p>I tend to be a perfectionist, so I rarely publish the half baked stuff I put together,
     but once I do make something presentable, you can rest assured that it'll show up here!
