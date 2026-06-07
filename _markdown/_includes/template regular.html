@@ -47,17 +47,23 @@
 
                 <!-- POST BLOG CONTENT -->
                 <div id="postBlog">
-
+                    <!-- Panel stack -->
+                    {% assign max = 20 %}
                     {% for i in (1..20) %}
-                    {% assign key = "panel" | append:i %}
+                    {% assign key = "panelStack" | append:forloop.rindex %}
                     {% if page[key] %}
                     <div class="panel" id="{{key}}">
                         {% markdown %}{% renderBox key %}{% endmarkdown %}
                     </div>
                     {% endif %}
                     {% endfor %}
-
+                    <!-- Standard Order (queue) -->
+                    {% for i in (1..20) %}{% assign key = "panel" | append:i %}{% if page[key] %}
+                    <div class="panel" id="{{key}}">
+                        {% markdown %}{% renderBox key %}{% endmarkdown %}
+                    </div>{% endif %}{% endfor %}
                     {%- if page.panelEnd -%}
+                    <!-- End Panel -->
                     <div class="panel" id="panelEnd">
                         {% markdown %}{% renderBox "panelEnd" %}{% endmarkdown %}
                     </div>
