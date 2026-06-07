@@ -49,7 +49,7 @@
                 <div id="postBlog">
 
                     {% for i in (1..20) %}
-                    {% assign key = "panelBuf" | append:i %}
+                    {% assign key = "panel" | append:i %}
                     {% if page[key] %}
                     <div class="panel" id="{{key}}">
                         {% markdown %}{% renderBox key %}{% endmarkdown %}
@@ -57,43 +57,9 @@
                     {% endif %}
                     {% endfor %}
 
-
-
-                    <!-- PANEL #1 ("Check this out")-->
-                    {%- if page.panel1 -%}
-                    <div class="panel" id="panel1">
-                        {% markdown %}{% renderBox "panel1" %}{% endmarkdown %}
-                    </div>
-                    {%- endif -%}
-
-                    {%- if page.panel2 -%}
-                    <div class="panel" id="panel2">
-                        {% markdown %}{% renderBox "panel2" %}{% endmarkdown %}
-                    </div>
-                    {%- endif -%}
-                    {%- if page.panel3 -%}
-                    <div class="panel" id="panel3">
-                        {% markdown %}{% renderBox "panel3" %}{% endmarkdown %}
-                    </div>
-                    {%- endif -%}
-                    {%- if page.panel4 -%}
-                    <div class="panel" id="panel4">
-                        {% markdown %}{% renderBox "panel4" %}{% endmarkdown %}
-                    </div>
-                    {%- endif -%}
-                    {%- if page.panel5 -%}
-                    <div class="panel" id="panel5">
-                        {% markdown %}{% renderBox "panel5" %}{% endmarkdown %}
-                    </div>
-                    {%- endif -%}
-                    {%- if page.panel6 -%}
-                    <div class="panel" id="panel6">
-                        {% markdown %}{% renderBox "panel6" %}{% endmarkdown %}
-                    </div>
-                    {%- endif -%}
-                    {%- if page.panel7 -%}
-                    <div class="panel" id="panel7">
-                        {% markdown %}{% renderBox "panel7" %}{% endmarkdown %}
+                    {%- if page.panelEnd -%}
+                    <div class="panel" id="panelEnd">
+                        {% markdown %}{% renderBox "panelEnd" %}{% endmarkdown %}
                     </div>
                     {%- endif -%}
                 </div>
