@@ -1,13 +1,14 @@
 import { feedPlugin } from "@11ty/eleventy-plugin-rss";
 import markdownIt from "markdown-it";
 import footnote_plugin from 'markdown-it-footnote';
-
-import TeXZilla from "texzilla";
+import katex from 'katex'
+import markdownItKatex from '@vscode/markdown-it-katex'
 
 export default function (eleventyConfig) {
 	eleventyConfig.ignores.add("**blog/drafts/**");
 	
 	eleventyConfig.amendLibrary("md", (mdLib) => mdLib.use(footnote_plugin));
+	eleventyConfig.amendLibrary("md", (mdLib) => mdLib.use(markdownItKatex.default, { katex }));
 
 	eleventyConfig.addPlugin(feedPlugin, {
 		type: "atom", // or "rss", "json"
@@ -44,10 +45,6 @@ export default function (eleventyConfig) {
 	// You can use this just like {{ content }} or {{ title }} or anything else.
 	eleventyConfig.addShortcode("renderBox", function(id) {
 		return this.page[id] || ""; // Outputs stored content, or empty string if undefined
-	});
-
-	eleventyConfig.addPairedShortcode("math", (latex) => {
-		return TeXZilla.toMathMLString(latex, true, false, false);
 	});
 
 	//basically same thing as the "box" shortcode, but it adds the content to a collection
