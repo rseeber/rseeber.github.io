@@ -166,6 +166,12 @@ blockquote {
     font-style: italic;
 }
 
+/* This rule left aligns algorithms within blockquotes, 
+while keeping centering for other LaTeX multi-line expressions */
+blockquote > .katex-block > .katex-display > .katex {
+  text-align: left;
+}
+
 .mono {
     font-family: 'Maple Mono', monospace;
     background-color: burlywood;
