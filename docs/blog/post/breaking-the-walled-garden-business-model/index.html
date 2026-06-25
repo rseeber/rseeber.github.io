@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat" rel="stylesheet">
+    <link href="/fonts/MapleMono-Regular.ttf" rel="stylesheet">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/katex.min.css"/>
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <title>A Reasonable Analysis of the Social Web: or, How Not To Promote A New Tech Alternative</title>
+
+    <link rel="me" href="https://defcon.social/@riverpunk" />
+    <meta name="fediverse:creator" content="@riverpunk@defcon.social">
+    <meta property="og:title" content="A Reasonable Analysis of the Social Web: or, How Not To Promote A New Tech Alternative" />
+    
+    <meta property="og:type" content="article" />
+    
+    <meta property="og:url" content="https://riverseeber.net/blog/post/breaking-the-walled-garden-business-model/" />
+    <meta property="og:image" content="https://riverseeber.net/images/poppyField2.JPG" />
+
+    <!-- This is a very small pageview counter. I am not tracking you across the web with this. -->
+    <script data-goatcounter="https://rseeber.goatcounter.com/count"
+        async src="//gc.zgo.at/count.js"></script>
+</head>
+<body>
+    <div class="bigBox" id="top">
+
+        <!-- LEFT -->
+        <div class="container" id="left">
+            <div class="panel" id="coverImage">
+            </div>
+            <!-- MAIN ARTICLE CONTENT -->
+            <main>
+                <!-- HEADER PANEL --><!-- PRIMARY CONTENT FIELD -->
+                <div class="panel" id="mainPanel">
+                            <style>
+    @media only screen and (min-width: 850px){
+        .container#left{
+            width: 100%;
+            margin-left: 3em;
+        }
+        .container#right{
+            width: 30%;
+        }
+    }
+</style>
+<h1 class="title">A Reasonable Analysis of the Social Web</h1>
+
+<h2 class="title">or, How Not To Promote A New Tech Alternative</h2>
+
+<p><em>June 23, 2026</em></p>
+<p>I think it's become clear to a lot of people that the internet is in a state of decay. Platforms keep us <a href="https://pluralistic.net/2024/03/21/involuntary-die-hards/">locked in</a> as they slowly make the experience worse and worse. And yet we find we can't leave. We are stuck, because, as it turns out, the internet is a wildly useful tool. It is not an option to leave the internet entirely, yet everybody is stuck in the walled gardens of Google, Facebook, Instagram, and Twitter. You might on your own be able to look and find some better platform that doesn't pump algorithmic ragebait content on your feed every other post, but if none of your friends are on there, you might as well not be online at all. The point of the internet is to connect you to people. This is the reason walled gardens work. If you can't leave a platform without leaving your friends, you're probably not going to leave unless things get really bad.</p>
+<p>Well, I'm here to tell you that things have gotten really bad online. The people are <em>dying</em> for a way to get away from Big Tech social media, but they don't want to give up the utility that the platforms initially lured them in with. We want to get away from the trolls, algorithms, and bad moderation of Twitter, Facebook, and Instagram, but we don't want to have to go back to using old-school methods like email or IRC to talk to our contacts. There has to be a better way.</p>
+<h1>The new good internet</h1>
+<p><img class="introImg" src="https://ia600501.us.archive.org/30/items/social-web-graphic/Social%20Web%20graphic.jpg"
+alt="A diagram depicting two situations. Top: A collection of users all collected around a big &quot;Facebook&quot; circle. Text says &quot;Everyone has to go through Facebook to hang out&quot; right arrow &quot;Facebook has control over you&quot;. Bottom: A collection of many circles, all of which are connected to each other. This graphic looks very similar to the logo for the fediverse. Each circle has a few users on it. Text says &quot;You can communicate on the Social Web from any site you would like&quot; right arrow &quot;Leads to community ownership of the internet&quot;">
+</img></p>
+<p>I've already <a href="/blog/post/big-tech-mutual-aid-and-the-social-web/">made a post recently</a> about a new movement online to create something called the &quot;Social Web&quot; (or more formally, the &quot;<em>Open</em> Social Web&quot;)<sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup>, which is an idea where you can access social media by making an account on one of many possible sites. Then, from that site, you can interact with people across the entire network, including those who made their account on a different site than you. Since you can talk to users across different sites, it means you always have the option to change sites if the one you're on begins to <a href="https://en.wikipedia.org/wiki/Enshittification">enshittify</a>. Thus, under this model, it will be functionally impossible for a site to become a walled garden. Everything is open, and anyone can prop up their own new site on the Social Web without needing to get permission from anybody else.</p>
+<p>I want to use this post to talk less about what the Social Web is, and more about how we (the nerds who are going to be building it, and also the nerds who are going to be early to adopting it) need to be acting in order to make sure this ship actually takes off so we can break Big Tech's walled garden. I'd like to proceed with a number of questions we should be asking ourselves, whose answers need to dictate the direction we push design and community organization around this new online paradigm.</p>
+<h2>Who's going to be using it?</h2>
+<p>This is perhaps the single most important question you can ask when you're building something new, especially a digital technology. Who is this Social Web going to be for? If we look at who's using it currently, we see lots of software developers, computer geeks, and lots of other types of nerds. But surely that's not the only people who this tech is being designed for, is it? I would argue that a freer internet should be for everybody — not just nerds, and thus, the Social Web should be too.</p>
+<p>I think that most people involved in trying to make the Social Web happen would probably agree with me, but the way they act tends to not agree. If the Social Web isn't just for nerds, why are we saying stuff like this to newcomers:</p>
+<blockquote>
+<p>Okay, so the fediverse<sup class="footnote-ref"><a href="#fn2" id="fnref2">[2]</a></sup> is like, a bunch of interconnected servers, all talking to each other. They all use the same open protocol, so the whole network is interoperable, and anybody can self-host their own new server whenever they want. You can get on the fediverse through any server. We call these servers &quot;instances&quot;. If you wanna join fedi, you can just go to <a href="https://joinmastodon.com">this website</a> and pick an instance to sign up through. All the instances are referred to by names like &quot;mastodon.social&quot; because we like to use domain names for some reason.</p>
+</blockquote>
+<p>Does this sound like a place where normal people are going to have a good time hanging out?! What are we doing, y'all? This is simply too complicated for regular people to digest. It's not possible for normal people to understand what you're talking about when you say it like this.</p>
+<p>Anytime communication takes place between individuals, there is an unspoken tension between the speaker, who wants to rely on big words in order to more efficiently communicate their idea, and the audience, who only has a vague grasp on some of those bigger words. The speaker often knows more about their topic than the audience (which is why they're talking about it), and so are usually going to know the exact meaning of technical terms more than their audience. They're using these terms because they're really potent when speaking with <em>other experts</em>. When speaking with a general audience, the speaker must use more everyday examples, lest their idea be lost to the words they try to use when expressing it.</p>
+<p>We <em>must</em> keep this in mind when trying to sell the Social Web to people. Normal people don't know what &quot;federated&quot; means — they didn't watch Star Trek, they just think you're a cop. Normal people <em>really</em> don't know what a protocol is, or what interoperability means. Stop talking like this. I also don't know why we're using the word &quot;instance&quot; to refer to servers. &quot;Server&quot; is literally easier to understand even for tech people. Even better than &quot;server&quot; would be &quot;site,&quot; which is the terminology that I tend to use. Here's a better explanation of the Social Web that actually communicates the idea to a normal person:</p>
+<blockquote>
+<p>The Social Web is like social media away from Big Tech. Instead of being a walled garden where you're trapped, the Social Web is like a bunch of different social media websites connected together. You can pick any site to sign up with, and then you can follow people who signed up on <em>other</em> sites too, so it kind of forms one big network, or online space. If you wanna sign up, you can make a Mastodon account (Mastodon is like, one of the categories/types of sites on the Social Web) at <a href="https://joinmastodon.com">this website</a>. You can use the default option, or pick a different &quot;instance&quot; (site) if you want, too. It doesn't really matter which site you decide to sign up with, since you can always change your mind and move to a different one later.</p>
+</blockquote>
+<p>Notice how the hardest parts for a regular person to understand were the parts where I had to translate the <em>terrible</em> terminology that's commonly being used right now? If you think the first version is better, go ahead and read it to one of your friends who isn't into computer science, then ask them to explain it back to you. Then, try and read the second version and see how much better they understand it.</p>
+<p>There are probably technical fixes that could be made to improve the actual <em>experience</em> of Mastodon and other Social Web services for a regular user, but those are engineering problems which are probably quite hard to figure out, and I don't have any specific complaints off the top of my head anyways, so I'll just leave that as a thing for people to consider whether its worth looking into or not. But one thing's for sure is that our communication needs to be improved <em>significantly</em> before this thing can take off properly.</p>
+<h2>What does it do?</h2>
+<p>Next, I think it's time to consider what kind of services ought to exist on the Social Web. Is the Social Web just a place for social media (Twitter/Tumblr-style microblogging, Instagram-style image posts, etc), or should this model also expand to other types of online services? As much as we could say that Instagram has created a walled garden around social media, we surely could say the same of Microsoft Office and Google Drive when it comes to document collaboration, couldn't we? There are exciting things going on right now with Libre Office — the open source document editor — <a href="https://www.howtogeek.com/dont-sleep-on-libreoffices-web-app-its-coming-back-and-this-time-it-might-actually-work/">reviving their web service</a>, and allowing any organization to host it. This could lead to good places, but for now, it still retains the problem that when you and another person are using Libre Office from different websites, they're unlikely to work with each other, unless they decide to implement a Social Web approach to the software, allowing different websites to communicate with each other. That way, I can collaborate on a document with a user on a different website, since both sites communicate to one another.</p>
+<p>This would be exactly the same thing as what happens on the existing parts of the Social Web, except instead of having users interact over text and image posts, they would interact over text documents and slideshows and such.</p>
+<p>I'm not saying that this particular suggestion needs to be implemented right immediately now. The point of saying this is to point out that the Social Web idea can be extended beyond just what is thought of when we talk about &quot;social media&quot; services. The Social Web can free people from nearly every form of walled garden on the internet right now. Some of these services might not end up getting the same kind of popular support as the social media variants (very few people are passionate about online document collaboration), but the sites that show up could rely on an economic model somewhat similar to how Linux gets open source contributions — by providing an essential service, leading to corporations who use it contributing to the project, either financially, or by sending in bug fixes for the source code. It's not going to be a one-to-one matching, but I'm sure whatever ends up happening will take some inspiration from the Linux model.</p>
+<p>The point is that this new good internet isn't just going to be on social media. This can be extended all across the internet. This can show up with blogging services (which provide an alternative to Substack and Medium). We could create something like StackOverflow/StackExchange on the Social Web, so that developers wouldn't need to rely on the crap moderation of the site owners in order to work on their projects and get help for their questions. We already have a Social Web built around online git repositories (although people don't often think of it as being on the Social Web, but you can use GitHub to make commits to a repo that's hosted on GitLab or Codeberg). If this really took off, it might eventually be possible to do streaming for movies and TV on the Social Web, although that gets complicated as you have to get permission from the movie studios in order to share the movie, but in theory, you might be able to make it at least a technical possibility. Same for ebooks and audiobooks, too.</p>
+<p>If we built an online feed reader on the Social Web for RSS and Atom feeds, we might be able to achieve network effects where enough people have an easy to access feed reader, so websites start putting a button that adds their site to your feed reader, leading to more people actually reading things online in long form instead of just scrolling social media for their news summaries (a thing that is all too common, and incredibly worrying as a trend).</p>
+<p>Heck, you might even be able to create a whole shopping site, which allows buyers to <a href="https://pluralistic.net/2022/07/10/view-a-sku/">get directly connected to sellers</a>, skipping the whole middleman of Amazon, who scrapes off a fee on every single transaction on their site. If there were a free (or even just cheaper) network that just let customers buy things directly from sellers, our <a href="https://pluralistic.net/2026/02/25/most-favored-nation/"><em>whole economy</em> would get cheaper</a>. We'd probably still have to develop some kind of system for escrow (some kind of assurance that a customer isn't getting scammed by a fake seller), but I have confidence that solutions could be found if we worked on it.</p>
+<h2>How do we advertise it?</h2>
+<p>Now, I don't want people to read this question in the sense of <em>corporate</em> advertising. Think of it more like the way that the library will put up fliers about the various free services they offer. Those fliers are advertisements, but they're not trying to get you to buy anything. We should be doing the same. We're trying to build something really special, something to get people free of Big Tech. Well, that mission is going to fail if we aren't reaching out to people who have never heard of these options before. We need to reach out and actually get those regular folks into the fold.</p>
+<p>I'm reminded of something written by <em>Dan Fixes Coin Ops</em> <a href="https://retro.social/@ifixcoinops/116712444755950963">on Mastodon</a> (<a href="https://web.archive.org/web/20260615092859/https://retro.social/@ifixcoinops/116712444755950963">archived version</a>). He's describing the history of MP3 players and smartphones. Apple wasn't the first to invent these things, they were just the first to get them in the hands of regular people:</p>
+<blockquote>
+<p>See the iPhone was fucking shit compared to other smartphones at the time, like it was YEARS behind, but apple did that thing where, like, remember how they did it with MP3 players?  Instead of saying stuff like &quot;four gigs of space, six hour battery life&quot; they said &quot;A thousand songs in your pocket and you don't have to fuck around with CDs,&quot; while all the other MP3 player makers were fighting over people who already knew about MP3 players, apple targeted people who'd never used an MP3 player before, and that's what they did with their smartphone.</p>
+</blockquote>
+<p>If our &quot;advertising&quot; is to talk about how cool it is to have decentralized platforms and federation and open protocols, we're fighting over a very small slice of the population (the slice who are probably more likely to discover this technology on their own anyways, if we're being honest). We should be trying to reach out to typical users of existing social media platforms. We need to promote the Social Web in a way that is accessible to regular people, or else we will fail, and the new good internet will not come to fruition.</p>
+<h1>Conclusion</h1>
+<p>I think there's a lot of cool things happening right now in the open source community that are pushing us towards a freer internet, but the Social Web is largely not ready yet for most regular users (otherwise, they would already be here). Thus, we need to focus on how to fix our communication so that regular people can understand it and want to join us! We also should be looking in to the future, and thinking about what kinds of things we are capable of creating, in order to further chip away at Big Tech's control over our lives.</p>
+<hr class="footnotes-sep">
+<section class="footnotes">
+<ol class="footnotes-list">
+<li id="fn1" class="footnote-item"><p>Some people like to call it &quot;The Fediverse&quot; or &quot;Fedi&quot;, but those terms are confusing and overly technical-sounding. You can read more in this <a href="https://forbetter.ghost.io/the-normal-response-to-the-social-web/">good blog post</a>. <a href="#fnref1" class="footnote-backref">↩︎</a></p>
+</li>
+<li id="fn2" class="footnote-item"><p>This is the nerd term for the Social Web <a href="#fnref2" class="footnote-backref">↩︎</a></p>
+</li>
+</ol>
+</section>
+
+<hr class="plain">
+<a href="mailto:riverseeber12@gmail.com?subject=Blog Reply: A Reasonable Analysis of the Social Web" class="button"><button>Reply via Email!</button></a>
+<div style="float: right;"><a href="/blog/feed.xml"><img src="/images/feed.png" height=20em></img></a></div>
+<div style="text-align: center; text-indent: 0;"><a href="#top">Back to top</a></div>
+                </div>
+
+                <!-- POST BLOG CONTENT -->
+                <div id="postBlog">
+                    <!-- Panel stack -->
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    <!-- Standard Order (queue) -->
+                    
+                    <div class="panel" id="panel1">
+                        <div class="md-block"><h1>Check This Out</h1>
+<ul>
+<li>
+<p><a href="https://pluralistic.net/2025/04/24/hermit-kingdom/">Every complex ecosystem has parasites</a> by Cory Doctorow</p>
+</li>
+<li>
+<p><a href="https://www.stopkillingtheinternet.com/"><em>Stop Killing The Internet</em></a></p>
+</li>
+<li>
+<p><a href="https://jneen.ca/posts/2026-03-27-how-to-make-programming-terrible-for-everyone/">How to make programming terrible for everyone</a> by jneen</p>
+</li>
+<li>
+<p><a href="https://blog.joinmastodon.org/2026/06/why-the-social-web-must-work-together/">Why the social web must work together</a> by Hannah Aubry</p>
+</li>
+<li>
+<p><a href="https://backofmind.substack.com/p/tokenalysis-and-john-henry">Tokenalysis and john henry</a> by Dan Davies</p>
+</li>
+</ul>
+</div>
+                    </div></div>
+            </main>
+
+        </div>
+
+        <!-- RIGHT -->
+        <div class="container" id="right">
+            <div class="panel" id="navbar">
+                    <h1>Navbar</h1>
+                    <ul>
+                        <li><a href="/"          >Home</a></li>
+                        <li><a href="/projects/" >Projects</a></li>
+                        <li><a href="/reading/"  >Reading</a></li>
+                        <li><a href="/interests/">Interests</a></li>
+                        <li><a href="/blog/"     >Blog</a></li>
+                        <li><a href="/follow-me/"     >Follow Me</a></li>
+                        <li><a href="/about/"    >About</a></li>
+                    </ul>
+            </div>
+            
+            <div class="panel" id="sidebarUpdates">
+                <h1>Updates:</h1>
+                <!-- This is the sidebar content that is "universal" on every single page -->
+                <div class="md-block"><p>I've updated the <a href="/follow-me/">Follow Me</a> page to be simpler, and added a <a href="/blog/newsletter/">newsletter</a> option to it.</p>
+</div>
+                <div class="badgeHolder">
+                    <a href="https://11ty.dev/" target="blank"><img src="/images/88x31/builtWith11ty_88x31.gif" alt="88x31: This site was built with eleventy (11ty.dev)" class="badge"></a>
+                    <a href="https://archlinux.org/" target="_blank"><img src="/images/88x31/stupidArchMeme_88x31.png" alt="88x31: I use Arch btw" class="badge"></a>
+                </div>
+
+            </div>
+            <div class="panel" id="mobile-notice">
+                <p>
+                    This site is best viewed in fullscreen desktop, but you can still go ahead anyways.
+                </p>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
