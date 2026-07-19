@@ -4,12 +4,60 @@
   <subtitle>A blog about whatever technical stuff I feel like talking about today</subtitle>
   <link href="https://riverseeber.net/blog/feed.xml" rel="self" />
   <link href="https://riverseeber.net/blog/" />
-  <updated>2026-07-18T00:00:00Z</updated>
+  <updated>2026-07-19T00:00:00Z</updated>
   <id>https://riverseeber.net/blog/</id>
   <author>
     <name>River Seeber</name>
     <email>riverseeber12@gmail.com</email>
   </author>
+  <entry>
+    <title>Accessibility in Tech Communication</title>
+    <link href="https://riverseeber.net/blog/post/accessibility-in-tech-communication/" />
+    <updated>2026-07-19T00:00:00Z</updated>
+    <id>https://riverseeber.net/blog/post/accessibility-in-tech-communication/</id>
+    <content type="html">&lt;p&gt;&lt;em&gt;July 19, 2026&lt;/em&gt;&lt;/p&gt;
+&lt;img alt=&quot;XKCD&#39;s comic titled &#39;Average Familiarity&#39;. Even when they&#39;re trying to compensate for it, experts in anything wildly overestimate the average person&#39;s familiarity with their field.&quot; src=&quot;https://imgs.xkcd.com/comics/average_familiarity_2x.png&quot; class=&quot;introImg&quot;&gt;
+&lt;p&gt;Regardless of what the domain of knowledge we&#39;re talking about, there&#39;s a common tendency for people to forget what it was like to be a non-expert.&lt;/p&gt;
+&lt;p&gt;It&#39;s practically a universal fact that the more experienced you become in a particular field, the &lt;em&gt;worse&lt;/em&gt; you become at explaining those concepts to regular folks. This comes as somewhat of a paradox at first. Shouldn&#39;t the people who know the &lt;em&gt;most&lt;/em&gt; about a subject be most qualified to teach it?&lt;/p&gt;
+&lt;p&gt;Until graduating from community college this semester, I&#39;ve spent the last 3 years working as a peer tutor through the school. That is, I was a student, and once I would finish a class (with a good grade), students could come to me for questions in that class. It was often the case at the Learning Center (the building where tutoring happened) that students had a &lt;em&gt;much&lt;/em&gt; easier time understanding concepts when we — college students without degrees — explained them, as opposed to the professor — who would have at least a Master&#39;s or PhD in the subject.&lt;/p&gt;
+&lt;p&gt;You see, after spending over a decade as an expert, they&#39;ve forgotten the type of misunderstandings that a normal person tends to have when approaching the subject. A student who took the class a year or two ago though? They have both things; enough expertise in the subjects covered to explain them, but also a recent memory of what it was like to be a learner — what it was like not to understand the subject yet.&lt;/p&gt;
+&lt;p&gt;I don&#39;t want to give the impression that experts are helpless to this situation, however. It&#39;s largely caused by the amount of time they spend around other experts, and how little time they spend in comparison trying to understand how non-experts think about their field.  There&#39;s also probably something to be said about how little time STEM major (who tend to be most prone to this effect) spend on learning language and communication skills.&lt;/p&gt;
+&lt;h1&gt;Tech communication&lt;/h1&gt;
+&lt;p&gt;This isn&#39;t just an issue for college students, though. This phenomenon becomes incredibly consequential when it comes to the intersection between tech and politics. There&#39;s a lot of really important issues in tech that regular people ought to be paying attention to, but the issues are just too complicated for them to understand on their own. They need somebody more experienced to explain it. The problem? The experts often do a really bad job explaining things.&lt;/p&gt;
+&lt;p&gt;In the summer of 2013, news broke to the world that the United States government had been conducting a mass surveillance program against its own citizens. The information came as part of a giant leak by NSA whistleblower Edward Snowden. Snowden had given the media everything. Mountains and mountains of evidence. Journalists had to pour through this, discovering which documents were important for the American public to be aware of, and which were important to remain private to protect national security.&lt;/p&gt;
+&lt;p&gt;Finally, the importance of the revelations had to be explained in a way that could be understood by regular American people, not just the computer folks. Journalist Nicole Perlroth describes being pulled in to work on the project in her 2021 book &lt;em&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/This_Is_How_They_Tell_Me_the_World_Ends&quot;&gt;This Is How They Tell Me the World Ends&lt;/a&gt;&lt;/em&gt;. She was &lt;em&gt;not&lt;/em&gt; a computer person, and that&#39;s kind of why she had been tasked with covering cybersecurity stories previously, and why she was involved in this project too.&lt;/p&gt;
+&lt;p&gt;She wasn&#39;t a computer person, but she was smart enough that she could understand the importance of computer-related topics, and then explain it back to other regular people. A computer person would&#39;ve just thrown a word salad of jargon at the reader. Somebody like Perlroth is able to explain it in terms that can be understood by the masses.&lt;/p&gt;
+&lt;p&gt;As we enter into the enshittocene, the era of mass &lt;a href=&quot;https://en.wikipedia.org/wiki/Enshittification&quot;&gt;enshittification&lt;/a&gt; — the phenomenon where all parts of the internet we used to really enjoy is turning into shit — it becomes incredibly important that we take note of how much or little of our message is understood by regular people. This is especially true because of the somewhat complicated causes of enshittification.&lt;/p&gt;
+&lt;p&gt;I don&#39;t think the answer is for us computer people to not be the ones talking about this, but I do think that we ought to spend as much time as possible trying to understand how regular folks actually think about these issues, so that we can improve our messaging and actually be understood, instead of just using the most technically correct jargon that gets misunderstood.&lt;/p&gt;
+&lt;p&gt;I find failures in communication all over the place in tech-related topics. I wrote a &lt;a href=&quot;https://riverseeber.net/blog/post/a-reasonable-analysis-of-the-social-web/&quot;&gt;whole blog post&lt;/a&gt; about how bad most people are at explaining the Fediverse (or &amp;quot;Social Web&amp;quot; as I like to call it) to people stuck on Big Tech social media.&lt;/p&gt;
+&lt;p&gt;But this isn&#39;t the only place we suck at this. It&#39;s everywhere, and the more time you spend actually explaining these ideas to your non-expert friends and family, the more you&#39;ll start to notice how bad the communication is.&lt;/p&gt;
+&lt;h1&gt;What Apple did right&lt;/h1&gt;
+&lt;p&gt;We need our message to be accessible to the people who it matters to, and to the people who can help us organize to work on the issue. When we talk about privacy, that conversation should be accessible to anyone smart enough to own and use a cellphone or computer, at &lt;strong&gt;minimum&lt;/strong&gt;! If we&#39;re talking about Big Tech or its alternatives, that should be understandable by &lt;em&gt;anyone who uses those Big Tech products&lt;/em&gt;! This should be intuitive, but it&#39;s not.&lt;/p&gt;
+&lt;p&gt;Just look at the way &lt;a href=&quot;https://friendi.ca/&quot;&gt;Friendica&lt;/a&gt; — an open source, non-Big Tech alternative to Facebook — advertises itself on its own website:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;h2&gt;Decentralization&lt;/h2&gt;
+&lt;p&gt;Decentralized architecture with no central authority or ownership.&lt;/p&gt;
+&lt;p&gt;Relationships can be made across any compatible system, creating a network of Internet scale made up of smaller sites.&lt;/p&gt;
+&lt;p&gt;Seamless wall-to-wall posts and remote comments, even across different network nodes.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;h2&gt;Interoperability&lt;/h2&gt;
+&lt;p&gt;Built-in support for ActivityPub (e.g. Funkwhale, Hubzilla, Mastodon, Pleroma, Pixelfed), OStatus (e.g. StatusNet, GNU social, Quitter) and diaspora* protocols.&lt;/p&gt;
+&lt;p&gt;Support for email contacts and communications (two-way) via IMAP4rev1/ESMTP.&lt;/p&gt;
+&lt;p&gt;Import arbitrary websites and blogs into your social stream via RSS/Atom feeds.&lt;/p&gt;
+&lt;p&gt;Support for other services via plugins.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;This is a terrible advertisement for 90% of the people who actually use Facebook. The only people who even understand what this is saying are people who are &lt;em&gt;heavily&lt;/em&gt; involved in the tech world. What if we catered to the 90% of people who don&#39;t know about this stuff, instead of fighting for the 10% or less that know what &amp;quot;federation&amp;quot; means?&lt;/p&gt;
+&lt;p&gt;We ought to be acting more like Apple used to when they would sell new tech products. Apple invented a lot of things, but on top of that, they were incredibly successful at &lt;em&gt;popularizing&lt;/em&gt; their version of a product that already existed among niche enthusiasts.&lt;/p&gt;
+&lt;p&gt;Apple wasn&#39;t the first to sell an MP3 player, but they were the ones to get it adopted by a mass audience. As &lt;em&gt;Dan Fixes Coin Ops&lt;/em&gt; &lt;a href=&quot;https://retro.social/@ifixcoinops/116712444755950963&quot;&gt;wrote&lt;/a&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Instead of saying stuff like &amp;quot;four gigs of space, six hour battery life&amp;quot; they said &amp;quot;A thousand songs in your pocket and you don&#39;t have to fuck around with CDs,&amp;quot; while all the other MP3 player makers were fighting over people who already knew about MP3 players, apple targeted people who&#39;d never used an MP3 player before&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;The technical details were there to be found for those interested, but they weren&#39;t the headline of the advertisement. The pitch involved why people should care. It was up to them after that to go look up the specs if they wanted to.&lt;/p&gt;
+&lt;p&gt;We need to take this page from Apple in how we advocate for open source alternatives to Big Tech. We also can use it when we explain concepts like interoperability (a term I hate saying, and would love it if somebody could come up with a better phrase) and enshittification.&lt;/p&gt;
+&lt;p&gt;The revolution of the nerds is never going to win, because nerds are not a big enough slice of the population. If we want to improve things, we need to start targeting the general public; getting them to understand and care about the issues in tech, and then getting them to organize with us to fight back!&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>Why We Fight For The Internet</title>
     <link href="https://riverseeber.net/blog/post/why-we-fight-for-the-internet/" />
