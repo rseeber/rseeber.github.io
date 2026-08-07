@@ -15,7 +15,7 @@ You can sign up for email notifications of my blog posts by filling out the form
 
 {% box "panel1" %}
 
-# Socials
+# My Socials
 
 ## Mastodon
 
@@ -36,5 +36,11 @@ I've used [Bridgy Fed](https://fed.brid.gy/) to duplicate my Mastodon account ov
 My Mastodon account is also accessible via the Threads app (the Twitter clone made by Meta). First, you need to enable Fediverse Sharing: _Settings > Account > Fediverse Sharing (beta)_. Then just search my handle: 
 
 **@riverpunk@defcon.social**.
+
+## Instagram
+
+I have an instagram account now, where I'm going to be reposting the text of my blog posts. Check my account at **@river.seeber**
+
+<https://www.instagram.com/river.seeber/>
 
 {% endbox %}
