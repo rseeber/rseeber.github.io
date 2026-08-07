@@ -88,10 +88,6 @@ body {
     font-style: italic;
 }
 
-.panel#mobile-notice {
-    display: none;
-}
-
 .panel#coverImage {
     background-image: url('https://rseeber.github.io/images/desertTrees.JPG'); 
     background-position: 50% 35%;
@@ -310,16 +306,6 @@ hr:not([class])::after {
     .panel#sidebarUpdates{
         display: none;
     }
-
-    .panel#mobile-notice {
-        display: inherit;
-        min-height: 0;
-        text-indent: 0;
-    }
-    .panel#mobile-notice p {
-        margin: 0;
-        font-size: 80%;
-    }
 }
 
 /*
@@ -425,15 +411,5 @@ printing the headers and navbar and such.
     
     .panel#sidebarUpdates{
         display: none;
-    }
-
-    .panel#mobile-notice {
-        display: inherit;
-        min-height: 0;
-        text-indent: 0;
-    }
-    .panel#mobile-notice p {
-        margin: 0;
-        font-size: 80%;
     }
 }
