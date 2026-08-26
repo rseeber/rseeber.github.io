@@ -16,3 +16,5 @@ I'm a Computer Science student at [Cal Poly, San Luis Obispo](https://www.calpol
 - Photography (<em><u>all images on this site are my own!</u></em>)
 
 If you have any questions about anything I post on my site, or just wanted to send me something you think I should read, feel totally free to send me an [email](/about)! I really don't mind getting emails when it's from actual people instead of automated mailing lists. :)
+
+I have an [AI Policy](/ai-policy/) that you can read, if you'd like.
