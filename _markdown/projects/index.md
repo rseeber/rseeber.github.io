@@ -3,7 +3,28 @@ title: "Projects"
 ---
 <h1 class="title">My Projects</h1>
 
-Below I've included a couple of my projects. Check out [my GitHub](https://github.com/rseeber) to see more of my work.
+Below I've included a couple of my projects. Check out [my GitHub](https://github.com/rseeber) and [Codeberg](https://codeberg.org/rseeber) to see more of my work.
+
+{%- box "panelStack8" -%}
+## [Pygame Engine](https://codeberg.org/rseeber/pygame-test)
+
+A proof of concept attempt at creating a simple 2D game engine by using the `pygame-ce` python library.
+
+{%- endbox -%}
+
+{%- box "panelStack7" -%}
+## [Mycelium](https://github.com/rseeber/mycelium)
+
+Mycelium is an 11ty-powered project that allows users to create, edit, and publish a website all within their browser, without ever (needing) to see a single line of markdown or html code.
+
+{%- endbox -%}
+
+{%- box "panelStack6" -%}
+## [webGraph](https://github.com/rseeber/webGraph)
+
+A web scraping tool written in python that allows a user to discover the graph-structure of webpages that are linked together, tracing up to some maximum link depth from a starting page. The tool currently stores nothing about the page except the URL, and what other URLs it links to.
+
+{%- endbox -%}
 
 {%- box "panelStack5" -%}
 ## [Gridworld-rl](https://github.com/rseeber/gridWorld-rl)
