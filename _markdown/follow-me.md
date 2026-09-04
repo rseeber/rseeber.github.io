@@ -44,3 +44,23 @@ I have an instagram account now, where I'm going to be reposting the text of my 
 <https://www.instagram.com/river.seeber/>
 
 {% endbox %}
+
+{% box "panel2" %}
+
+# Etc
+
+## Codeberg and Github
+
+If you want a summary of my projects, see my [projects page](/projects/). I post my work to
+[Codeberg](https://codeberg.org/rseeber/), and occasionally [GitHub](https://github.com/rseeber).
+
+## LinkedIn
+
+I don't really post there, but if you're trying to hire me, you can look at my [LinkedIn](https://www.linkedin.com/in/river-seeber/).
+
+## Contact
+
+You may check out my [About page](/about/) if you'd like to email me. If for whatever reason you need a secure, 
+encrypted way to communicate with me, you may feel free to request my Signal.
+
+{% endbox %}
