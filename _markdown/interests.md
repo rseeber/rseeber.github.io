@@ -16,10 +16,13 @@ title: "Interests"
 - [MDN Web Docs](https://developer.mozilla.org) - Detailed documentation and guides for different parts of the web, run by Mozilla
 
 ### Software
-- [Mozilla Thunderbird](https://en.wikipedia.org/wiki/Mozilla_Thunderbird) - amazing email client that allows you to escape the grasp of google and microsoft mail clients, even if you're still bound to using them as your mail provider.
-- [Calibre](https://calibre-ebook.com/) - for viewing, managing, and sharing ebooks
-- [Mullvad VPN](https://mullvad.net/en) - doesn't track your data like NordVPN and others
-- [Linux operating system](https://en.wikipedia.org/wiki/Linux) - Not for everyone, but the most free your computer will ever be. [Mint](https://www.linuxmint.com/) is a good flavor for beginners. Currently I'm using [Arch](https://archlinux.org/), which is catered towards more advanced users.
+- [ElementaryOS](https://elementary.io/) - Amazingly simple and user-friendly Linux-based operating system. It functions
+very similar to how Mac OS feels, but of course still allows for you to mess around in the system, if you're an advanced 
+user. If you're looking for something closer to how Windows works, I'd check out [Linux Mint](https://www.linuxmint.com/). 
+
+- [Mozilla Thunderbird](https://en.wikipedia.org/wiki/Mozilla_Thunderbird) - amazing email client that allows you to escape the grasp of google and microsoft mail clients, even if you're still bound to using them as your mail provider. 
+
+- [Calibre](https://calibre-ebook.com/) - for viewing, managing, and sharing ebooks 
 
 ### Textbooks / Reference Manuals
 - _<u>The C Programming Language</u>_\
@@ -28,10 +31,10 @@ title: "Interests"
 - _<u>UNIX Network Programming, 3rd edition, vol 1</u>_ - An essential guide book for learning how to make programs that communicate across a network. If you're working outside of a POSIX environment, the code itself won't work, but general concepts still apply.\
     ([Wikipedia](https://en.wikipedia.org/wiki/UNIX_Network_Programming))
 
-- _<u>Introduction to Algorithms</u>_ - "CLRS" - Useful reference for Data Stuctures and Algorithms\
+- _<u>Introduction to Algorithms</u>_ - "CLRS" - Useful reference for Data Structures and Algorithms\
     ([Wikipedia](https://en.wikipedia.org/wiki/Introduction_to_Algorithms))
 
-- _<u>Reinforcement Learning: An Introduction, 2nd ed</u>_ - A great resource on RL Machine Learning, written by the father of Reinforcement Learning. Very mathematical in nature. Focuses on theory over application. If you've got any good application-heavy reccomendations, please do let me know, I'd love to read it!\
+- _<u>Reinforcement Learning: An Introduction, 2nd ed</u>_ - A great resource on RL Machine Learning, written by the father of Reinforcement Learning. Very mathematical in nature. Focuses on theory over application. If you've got any good application-heavy recommendations, please do let me know, I'd love to read it!\
     ([PDF](https://github.com/MrinmoiHossain/Reinforcement-Learning-Specialization-Coursera/blob/master/Book/Reinforcement%20Learning%20An%20introduction%20(Second%20Edition)%20by%20Richard%20S.%20Sutton%20and%20Andrew%20G.%20Barto.pdf))[^1]
 
 
@@ -39,30 +42,24 @@ title: "Interests"
 
 
 ### Movies
+- _Project Hail Mary_
+- _The Martian_
 - _The Secret Life of Walter Mitty_
 - _Back To The Future_ trilogy
-- _Pirates of the Carribean_
+- _Pirates of the Caribbean_
 - _The Princess Bride_
 - _Wargames_
 - _Ferris Bueller's Day Off_
 
 ### TV Shows
+- _Severance_
 - _Doctor Who_ (both 2005 and 1963)
 - _Rick and Morty_
 - _Adventure Time_
 - _Futurama_
 
-### Podcasts
-- _Soul Boom with Rainn Wilson_ ([Website](https://www.soulboom.com/)) or ([YouTube](https://www.youtube.com/@SoulBoom))
-
-### Blogs
-- Cory Doctorow's _Pluralistic_ - <https://pluralistic.net/>
-- Hamilton Nolan's _How Things Work_ - <https://www.hamiltonnolan.com/>
-- Robert Reich's blog - <https://robertreich.substack.com/>
-- John Ganz's _Unpopular Front_ - <https://www.unpopularfront.news/>
-
 <hr>
 
 That's enough for now, I don't want this page to get too cluttered. If you want any more stuff to read or watch, feel free to send me an email, I'd be happy to dump even more information onto you.
 
-I'm also happy to recieve any reccomendations for media you think I might enjoy!
+I'm also happy to receive any recommendations for media you think I might enjoy!
