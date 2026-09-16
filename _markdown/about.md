@@ -11,6 +11,8 @@ Email: [riverseeber12@gmail.com](mailto:riverseeber12@gmail.com)
 
 Github: [https://github.com/rseeber](https://github.com/rseeber)
 
+Resume: [pdf](https://drive.google.com/file/d/1HBo6TDf-bxcOBqq8_-TPUXfuX4zVUaqG/view?usp=sharing)
+
 Feel free to send me an email if you think my site was cool, or if you had any questions about any of my posts on here or my blog! I love getting new emails from real people! :)
 
 <hr>
