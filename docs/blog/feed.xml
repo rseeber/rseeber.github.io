@@ -4,12 +4,95 @@
   <subtitle>A blog about whatever technical stuff I feel like talking about today</subtitle>
   <link href="https://riverseeber.net/blog/feed.xml" rel="self" />
   <link href="https://riverseeber.net/blog/" />
-  <updated>2026-08-08T00:00:00Z</updated>
+  <updated>2026-11-10T00:00:00Z</updated>
   <id>https://riverseeber.net/blog/</id>
   <author>
     <name>River Seeber</name>
     <email>riverseeber12@gmail.com</email>
   </author>
+  <entry>
+    <title>Towards an Ethical Technology</title>
+    <link href="https://riverseeber.net/blog/post/towards-an-ethical-technology/" />
+    <updated>2026-11-10T00:00:00Z</updated>
+    <id>https://riverseeber.net/blog/post/towards-an-ethical-technology/</id>
+    <content type="html">&lt;p&gt;&lt;em&gt;November 10, 2026&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;The Free Software movement is a movement in software development that aims to create software in the interest of user freedom and autonomy. They attempt to achieve this goal through promoting the &amp;quot;&lt;a href=&quot;https://www.gnu.org/philosophy/free-sw.html&quot;&gt;Four Freedoms&lt;/a&gt;&amp;quot;, namely, the ability to:&lt;/p&gt;
+&lt;ol start=&quot;0&quot;&gt;
+&lt;li&gt;Run the program for any purpose&lt;/li&gt;
+&lt;li&gt;Examine and edit the source code in order to make it do the things you want it to&lt;/li&gt;
+&lt;li&gt;Share the original copy with others&lt;/li&gt;
+&lt;li&gt;Share the modified version with others&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;The idea here is that the only way to truly allow users to have freedom over what they&#39;re allowed to do with a PC (as opposed to letting Google or Microsoft dictate what they can or cannot do), is to allow free exchange of the underlying mechanism of the programs we use. We must allow people to study existing programs, and tweak things in order to extend their functionality, or audit existing programs in order to actually understand what they are doing. In order to see developments in this field of computing, we must be open about our discoveries. This is the nature of the scientific method, after all.&lt;/p&gt;
+&lt;p&gt;Alright, well that&#39;s all fine and good. In order for people to be truly liberated by computers — as opposed to &lt;em&gt;subjegated&lt;/em&gt; by them — we must have &amp;quot;Free Open Source Software&amp;quot; (FOSS). While this is surely necessary, it is nowhere near &lt;em&gt;sufficient&lt;/em&gt; if we want computers to be a technology for the greater good of humanity, as opposed to a tool that serves would-be oppressors.&lt;/p&gt;
+&lt;h1&gt;Expanding the model&lt;/h1&gt;
+&lt;p&gt;The &lt;a href=&quot;https://en.wikipedia.org/wiki/Free_Software_Foundation&quot;&gt;Free Software Foundation&lt;/a&gt; (FSF) was founded in the mid-80s by Richard Stallman, and is largely seen as the progenitors and leaders of the so-called Free Software movement. As it stands, the aim of the FSF remains single-mindedly fixed upon freedoms related to source code — the right to run a program, edit its source, and share those modifications.&lt;/p&gt;
+&lt;p&gt;As stated, these freedoms are not sufficient to provide true freedom to users. For instance, the most blatant failure of these Four Freedoms to provide liberation comes when you ask how non-programmers are expected to benefit. Sure, a simple non-programmer user of a program may benefit from the modifications that a programmer decided to make and share, but we must ask what is the mechanism by which all these programmers are deciding to make modifications based on? How can we ensure that most people (the non-programmers, who constitute a majority of the population) are able to inherit programs that actually solve their problems? How do we ensure programmers are creating software to solve the needs of &lt;em&gt;others&lt;/em&gt;, not just themselves&lt;sup class=&quot;footnote-ref&quot;&gt;&lt;a href=&quot;https://riverseeber.net/blog/post/towards-an-ethical-technology/#fn1&quot; id=&quot;fnref1&quot;&gt;[1]&lt;/a&gt;&lt;/sup&gt;?&lt;/p&gt;
+&lt;h2&gt;Intersectionality and the Free Software Foundation&lt;/h2&gt;
+&lt;p&gt;The FSF has shown itself to be wholly uninterested in solving &lt;em&gt;any&lt;/em&gt; of the other problems relating to the liberation of users, except for those covered by their so-called Four Freedoms. The way they see it, any extension beyond this base foundation would result in hair-splitting, and an overall fracturing of their movement.&lt;/p&gt;
+&lt;p&gt;Take, for instance, a recent message in the Emacs mailing list.
+For context, Emacs is a text editor that&#39;s developed by the GNU project. The GNU project is a sort of child of the FSF that aims to write the actual Free Software (as opposed to advocating politically, which is what the FSF mostly does).&lt;/p&gt;
+&lt;p&gt;So, there&#39;s a bit of a scuffle currently in the GNU community over whether the project should or should not allow LLM-assisted contributions, and to what extent. Beyond just concerns about copyright, some developers also have ethical concerns. One such developer who stands in the anti-LLM usage camp proposed the following extreme hypothetical to the &lt;a href=&quot;https://lists.gnu.org/archive/html/emacs-devel/2026-11/msg00128.html&quot;&gt;mailing list&lt;/a&gt; this weekend:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;as a hypothetical example: if i live in a territory that permits
+slavery, and by law i am granted sole ownership of the products of that
+forced labor, and then i use that to create contributions to gnu emacs,
+complete with copyright assignment, and it is technically correct, and,
+above all, you, the emacs maintainers are aware of how this was
+produced, would it be ethical to accept those contributions?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Eli Zaretskii, one of the co-maintainers of the project, responded to this hypothetical as such:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Our answer must be YES.&lt;/p&gt;
+&lt;p&gt;Any other answer is a first step towards splitting our community along
+the many lines of political and ideological divides that have nothing
+to do with software freedoms.  Right now we have contributors from all
+over the world, despite the differences in their regimes and political
+systems, differences in ideologies, and even in the very
+interpretation of the notion of &amp;quot;freedom&amp;quot;.  You are suggesting to
+subject the contributors to some examination of the principles they
+uphold, the ethics of their day-to-day activities, their views on
+matters of policies and important international events, etc.  This
+will immediately fracture our community into many different enclaves.
+And that&#39;s exactly my point, and the main reason why I must reject the
+&amp;quot;Human Emacs&amp;quot; initiative, as it is presented to us.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Look, I respect a lot of the basic tenants of the Free Software movement. I &lt;em&gt;do&lt;/em&gt; think we should push for the Four Freedoms as defined by the FSF. I &lt;em&gt;do&lt;/em&gt; think that keeping the source open contributes to the science, and I think it&#39;s good to focus on that. But I don&#39;t think I can stand for this idea that any push for anything even slightly outside the scope of a most-legalistic interpretation of the FSF&#39;s goals must be entirely ignored.&lt;/p&gt;
+&lt;p&gt;There&#39;s this idea that by trying to insert new goals into the movement, you will lose far too much of your base, and your political movement will fall apart. Now, while I can definitely recognize the political utility of unstable factions of people who disagree on a number of different issues, I also refuse to accept blindly the argument that intersectionality is somehow a losing strategy.&lt;/p&gt;
+&lt;h2&gt;What is intersectionality?&lt;/h2&gt;
+&lt;p&gt;Intersectionality is an idea that comes from social movements. In the early days, the feminist movement didn&#39;t really see that it had &lt;a href=&quot;https://en.wikipedia.org/wiki/Intersectionality&quot;&gt;very much in common&lt;/a&gt; with the racial equality movements. Women (white women, often) thought that pushes for African American suffrage were somehow an enemy to their attempts at women&#39;s suffrage, and vice versa. The fear was that the nation could only put up with so much disruption at once, and that any effort put into petitioning for African American voting rights was energy that could&#39;ve been put into women&#39;s voting rights&lt;sup class=&quot;footnote-ref&quot;&gt;&lt;a href=&quot;https://riverseeber.net/blog/post/towards-an-ethical-technology/#fn2&quot; id=&quot;fnref2&quot;&gt;[2]&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+&lt;p&gt;The movements didn&#39;t see how they had anything in common with one another, or how they could work together synergistically. Nowadays, many social movements pressing for the rights of the marginalized see how working together in an intersectional manner, seeing the ways that their own oppression mirrors the oppressive systems that harm other groups, is a winning strategy.&lt;/p&gt;
+&lt;p&gt;Another example of intersectionality would be the &lt;a href=&quot;https://pluralistic.net/2025/04/10/solidarity-forever-2/#:~:text=In%20his,a%20movement&quot;&gt;ecology movement&lt;/a&gt;. Before &amp;quot;ecology&amp;quot; existed as a term, there were all number of disparate movements that didn&#39;t quite realize how they were connected to one another. The movement to save the ozone layer, for instance, didn&#39;t necessarily see how it might also be related to the movement to prevent pollution. But under ecology, all of these various movements are now able to see that they&#39;re really pushing on the same big lever, and they have a whole lot in common. You&#39;re no longer one of 200 people trying to save the owls in your local county — you&#39;re one of &lt;em&gt;millions&lt;/em&gt; across the globe, all pushing for various different issues, all under the umbrella of &amp;quot;ecology&amp;quot;. Now, you can get help, and organize together. You can show solidarity, and share advice. You can petition politicians as one unified block, and you can get the whole movement to show up when something is going on in one particular area of concern.&lt;/p&gt;
+&lt;p&gt;So to hear the folks at the FSF talk as if adding relevant, related values into your movement is somehow a &amp;quot;splitting&amp;quot; of the community is honestly offensive. The FSF is making the same exact mistake as the Democratic party. They fear that by taking a bolder, more principled stand, they will scare away their less enthusiastic supporters. What really they&#39;re doing by not holding strong principles is losing their &lt;em&gt;most enthusiastic supporters&lt;/em&gt; due to apathy!&lt;/p&gt;
+&lt;p&gt;There are so many people who would love to see a world full of software that liberates its users, but many of them feel that the Free Software movement doesn&#39;t truly represent that. Instead, it seems as though the FSF is all about fighting for the rights of &lt;em&gt;developers&lt;/em&gt; to be allowed to have their nerdy hobbies, messing around with code&lt;sup class=&quot;footnote-ref&quot;&gt;&lt;a href=&quot;https://riverseeber.net/blog/post/towards-an-ethical-technology/#fn3&quot; id=&quot;fnref3&quot;&gt;[3]&lt;/a&gt;&lt;/sup&gt;, while the rest of everyone else is left to be taken care of by &lt;em&gt;other social movements&lt;/em&gt;.&lt;/p&gt;
+&lt;h1&gt;The way forward&lt;/h1&gt;
+&lt;p&gt;The only real solution here is to realize we need a movement in tech that sees that the Four Freedoms are &lt;em&gt;neccessary&lt;/em&gt; but not &lt;em&gt;sufficient&lt;/em&gt; for the true project of promoting human autonomy over tech — and avoiding subjugation at the hands of these tools by our would-be human oppressors in, say, Big Tech.&lt;/p&gt;
+&lt;p&gt;There&#39;s been a number of different ideas floating around for a while in this domain. I&#39;m fond of &lt;a href=&quot;https://destructured.net/casa&quot;&gt;CASA&lt;/a&gt;, though it&#39;s far from a complete theory (nor do I think it intends to be one, however).&lt;/p&gt;
+&lt;p&gt;Here&#39;s a vision that I have for a better software movement; one that truly advocates for human autonomy over our digital lives, and puts us in the seat of control over our own lives. We will need a name. Any name will do, though we should be careful to use something that might be helpfully illustrative for those who you talk about it to. For now, I shall refer to it as &lt;em&gt;Software For Good&lt;/em&gt;, though I&#39;m open to new suggestions — &amp;quot;a rose by any other name&amp;quot; and all that.&lt;/p&gt;
+&lt;h2&gt;Software For Good&lt;/h2&gt;
+&lt;p&gt;Firstly, I believe that the Software For Good movement will need to be built on the basic tenants of free open source software. We cannot build software that frees people if we&#39;re intentionally obscuring the inner workings of that software from view. Whether this takes the form of the Four Freedoms that the FSF adheres to, or some fairly similar form doesn&#39;t necessarily matter, so long as the main essence remains.&lt;/p&gt;
+&lt;p&gt;It is what goes beyond these freedoms which is how we would define ourselves beyond just the Free Software movement. Perhaps the most important thing we should say is that Software For Good will need to emphasize the &lt;em&gt;user&lt;/em&gt; of software, not just the mere ability of developers to craft it. Our model of what is important should include mechanisms that allow good software to be made — software that is good not just to the technically literate, but also to the layperson. This will necessarily involve listening to user feedback, and putting considerable effort into designing good UX.&lt;/p&gt;
+&lt;p&gt;Additionally, we should be focused on kindness and inclusion. Remember the human. That is important both in the software we deliver, as well as in the developer communities that we foster around that software. We shouldn&#39;t tolerate toxicity and bigotry within our communities.&lt;/p&gt;
+&lt;p&gt;Finally, I think it&#39;s important for us to realize the inherently anti-monopolistic direction of our movement. We are opposed to the abuses of digital technology that allow powerful people to gain dominance over the rest of us. Our struggle, then, is inherently one that is fighting &lt;em&gt;against&lt;/em&gt; Big Tech, or at least against the concentration of power within the hands of Big Tech. Our fight is a progressive fight for a more equal playing field.&lt;/p&gt;
+&lt;p&gt;We must see that Software For Good is an inherently political movement that must resist against various forms of corporate and governmental concentration of power. We are decidedly progressive, anti-authoritarian, and pro-democracy. We need not necessarily define ourselves as strictly anti-capitalist, though we are opposed to the current state of affairs where the whole of the internet has been captured by a small handful of 5 gigantic corporations. With so little competition, individual freedoms will be easily trampled upon.&lt;/p&gt;
+&lt;h1&gt;Closing&lt;/h1&gt;
+&lt;p&gt;Look, this isn&#39;t a manifesto. I&#39;m still an undergrad student. I haven&#39;t worked on any big open source projects (though I have a number of solo projects that I&#39;m working on turning into viable open source tools). I &lt;em&gt;am&lt;/em&gt; somebody who is a heavy user of open source software, and I spend a lot of my time thinking about the way that software can be used for positive change in our world.&lt;/p&gt;
+&lt;p&gt;I don&#39;t think you necessarily have to be a developer in order to have opinions about what kinds of things progressive developers ought to be doing in order to make a real impact on the world beyond just computer circles (and to be clear, I &lt;em&gt;am&lt;/em&gt; a developer). There&#39;s a lot of unanswered questions in this article. I think there needs to be more discussion in this field. My guess is that if we want to achieve more of this, we&#39;re going to have to make a distinction between hobby projects and real, viable tech solutions designed to solve real-world problems.&lt;/p&gt;
+&lt;p&gt;Additionally, we&#39;re probably going to have to really rethink the funding model of how this software gets built. It&#39;s not reasonable to expect well-made software to be written by volunteer programmers entirely for free. What&#39;s that going to look like? Again, I&#39;m not really sure. If you have ideas, you should write a follow up to this post! Maybe we need a culture shift, where users begin understanding that they ought to be paying money for their critical software, or where donations become more common. Or maybe we do something entirely different!&lt;/p&gt;
+&lt;p&gt;The point is that we clearly aren&#39;t on the right track as is, and we need to do a whole lot of thinking about what the way forward is. I&#39;d like to hope that I&#39;ve contributed in a helpful way with this blog post.&lt;/p&gt;
+&lt;hr class=&quot;footnotes-sep&quot;&gt;
+&lt;section class=&quot;footnotes&quot;&gt;
+&lt;ol class=&quot;footnotes-list&quot;&gt;
+&lt;li id=&quot;fn1&quot; class=&quot;footnote-item&quot;&gt;&lt;p&gt;By the way, if your answer is that &amp;quot;we don&#39;t need to&amp;quot; or &amp;quot;these folks should just learn to program their own software&amp;quot;, then I don&#39;t think you can really claim to be part of a movement trying to to create software that grants freedom to its users. Maybe that&#39;s fine with you, but in any case, I won&#39;t be humoring this viewpoint throughout the rest of the blog post, which is about those who &lt;em&gt;are&lt;/em&gt; within this movement. &lt;a href=&quot;https://riverseeber.net/blog/post/towards-an-ethical-technology/#fnref1&quot; class=&quot;footnote-backref&quot;&gt;↩︎&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&quot;fn2&quot; class=&quot;footnote-item&quot;&gt;&lt;p&gt;Of course, the story is more complicated than this. I&#39;m simplifying a lot. Please read more about this if you&#39;re interested. &lt;a href=&quot;https://riverseeber.net/blog/post/towards-an-ethical-technology/#fnref2&quot; class=&quot;footnote-backref&quot;&gt;↩︎&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&quot;fn3&quot; class=&quot;footnote-item&quot;&gt;&lt;p&gt;You may be interested to read brian cully&#39;s &lt;a href=&quot;https://lists.gnu.org/archive/html/emacs-devel/2026-11/msg00197.html&quot;&gt;response&lt;/a&gt; to to Zaretskii&#39;s email, in which he rips apart the FSF for lacking any values of overall human liberty beyond just the narrow realm of computing. &lt;a href=&quot;https://riverseeber.net/blog/post/towards-an-ethical-technology/#fnref3&quot; class=&quot;footnote-backref&quot;&gt;↩︎&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/section&gt;
+</content>
+  </entry>
   <entry>
     <title>The Internet was Supposed to be a Community</title>
     <link href="https://riverseeber.net/blog/post/the-internet-was-supposed-to-be-a-community/" />

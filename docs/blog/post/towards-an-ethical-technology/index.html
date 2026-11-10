@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat" rel="stylesheet">
+    <link href="/fonts/MapleMono-Regular.ttf" rel="stylesheet">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/katex.min.css"/>
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <title>Towards an Ethical Technology: "Free Software" isn't enough</title>
+
+    <link rel="me" href="https://defcon.social/@riverpunk" />
+    <meta name="fediverse:creator" content="@riverpunk@defcon.social">
+    <meta property="og:title" content="Towards an Ethical Technology: "Free Software" isn't enough" />
+    
+    <meta property="og:type" content="article" />
+    
+    <meta property="og:url" content="https://riverseeber.net/blog/post/towards-an-ethical-technology/" />
+    <meta property="og:image" content="https://riverseeber.net/images/poppyField2.JPG" />
+
+    <!-- This is a very small pageview counter. I am not tracking you across the web with this. -->
+    <script data-goatcounter="https://rseeber.goatcounter.com/count"
+        async src="//gc.zgo.at/count.js"></script>
+</head>
+<body>
+    <div class="bigBox" id="top">
+
+        <!-- LEFT -->
+        <div class="container" id="left">
+            <div class="panel" id="coverImage">
+            </div>
+            <!-- MAIN ARTICLE CONTENT -->
+            <main>
+                <!-- HEADER PANEL --><!-- PRIMARY CONTENT FIELD -->
+                <div class="panel" id="mainPanel">
+                            <style>
+    @media only screen and (min-width: 850px){
+        .container#left{
+            width: 100%;
+            margin-left: 3em;
+        }
+        .container#right{
+            width: 30%;
+        }
+    }
+</style>
+<h1 class="title">Towards an Ethical Technology</h1>
+
+<h2 class="title">"Free Software" isn't enough</h2>
+
+<p><em>November 10, 2026</em></p>
+<p>The Free Software movement is a movement in software development that aims to create software in the interest of user freedom and autonomy. They attempt to achieve this goal through promoting the &quot;<a href="https://www.gnu.org/philosophy/free-sw.html">Four Freedoms</a>&quot;, namely, the ability to:</p>
+<ol start="0">
+<li>Run the program for any purpose</li>
+<li>Examine and edit the source code in order to make it do the things you want it to</li>
+<li>Share the original copy with others</li>
+<li>Share the modified version with others</li>
+</ol>
+<p>The idea here is that the only way to truly allow users to have freedom over what they're allowed to do with a PC (as opposed to letting Google or Microsoft dictate what they can or cannot do), is to allow free exchange of the underlying mechanism of the programs we use. We must allow people to study existing programs, and tweak things in order to extend their functionality, or audit existing programs in order to actually understand what they are doing. In order to see developments in this field of computing, we must be open about our discoveries. This is the nature of the scientific method, after all.</p>
+<p>Alright, well that's all fine and good. In order for people to be truly liberated by computers — as opposed to <em>subjegated</em> by them — we must have &quot;Free Open Source Software&quot; (FOSS). While this is surely necessary, it is nowhere near <em>sufficient</em> if we want computers to be a technology for the greater good of humanity, as opposed to a tool that serves would-be oppressors.</p>
+<h1>Expanding the model</h1>
+<p>The <a href="https://en.wikipedia.org/wiki/Free_Software_Foundation">Free Software Foundation</a> (FSF) was founded in the mid-80s by Richard Stallman, and is largely seen as the progenitors and leaders of the so-called Free Software movement. As it stands, the aim of the FSF remains single-mindedly fixed upon freedoms related to source code — the right to run a program, edit its source, and share those modifications.</p>
+<p>As stated, these freedoms are not sufficient to provide true freedom to users. For instance, the most blatant failure of these Four Freedoms to provide liberation comes when you ask how non-programmers are expected to benefit. Sure, a simple non-programmer user of a program may benefit from the modifications that a programmer decided to make and share, but we must ask what is the mechanism by which all these programmers are deciding to make modifications based on? How can we ensure that most people (the non-programmers, who constitute a majority of the population) are able to inherit programs that actually solve their problems? How do we ensure programmers are creating software to solve the needs of <em>others</em>, not just themselves<sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup>?</p>
+<h2>Intersectionality and the Free Software Foundation</h2>
+<p>The FSF has shown itself to be wholly uninterested in solving <em>any</em> of the other problems relating to the liberation of users, except for those covered by their so-called Four Freedoms. The way they see it, any extension beyond this base foundation would result in hair-splitting, and an overall fracturing of their movement.</p>
+<p>Take, for instance, a recent message in the Emacs mailing list.
+For context, Emacs is a text editor that's developed by the GNU project. The GNU project is a sort of child of the FSF that aims to write the actual Free Software (as opposed to advocating politically, which is what the FSF mostly does).</p>
+<p>So, there's a bit of a scuffle currently in the GNU community over whether the project should or should not allow LLM-assisted contributions, and to what extent. Beyond just concerns about copyright, some developers also have ethical concerns. One such developer who stands in the anti-LLM usage camp proposed the following extreme hypothetical to the <a href="https://lists.gnu.org/archive/html/emacs-devel/2026-11/msg00128.html">mailing list</a> this weekend:</p>
+<blockquote>
+<p>as a hypothetical example: if i live in a territory that permits
+slavery, and by law i am granted sole ownership of the products of that
+forced labor, and then i use that to create contributions to gnu emacs,
+complete with copyright assignment, and it is technically correct, and,
+above all, you, the emacs maintainers are aware of how this was
+produced, would it be ethical to accept those contributions?</p>
+</blockquote>
+<p>Eli Zaretskii, one of the co-maintainers of the project, responded to this hypothetical as such:</p>
+<blockquote>
+<p>Our answer must be YES.</p>
+<p>Any other answer is a first step towards splitting our community along
+the many lines of political and ideological divides that have nothing
+to do with software freedoms.  Right now we have contributors from all
+over the world, despite the differences in their regimes and political
+systems, differences in ideologies, and even in the very
+interpretation of the notion of &quot;freedom&quot;.  You are suggesting to
+subject the contributors to some examination of the principles they
+uphold, the ethics of their day-to-day activities, their views on
+matters of policies and important international events, etc.  This
+will immediately fracture our community into many different enclaves.
+And that's exactly my point, and the main reason why I must reject the
+&quot;Human Emacs&quot; initiative, as it is presented to us.</p>
+</blockquote>
+<p>Look, I respect a lot of the basic tenants of the Free Software movement. I <em>do</em> think we should push for the Four Freedoms as defined by the FSF. I <em>do</em> think that keeping the source open contributes to the science, and I think it's good to focus on that. But I don't think I can stand for this idea that any push for anything even slightly outside the scope of a most-legalistic interpretation of the FSF's goals must be entirely ignored.</p>
+<p>There's this idea that by trying to insert new goals into the movement, you will lose far too much of your base, and your political movement will fall apart. Now, while I can definitely recognize the political utility of unstable factions of people who disagree on a number of different issues, I also refuse to accept blindly the argument that intersectionality is somehow a losing strategy.</p>
+<h2>What is intersectionality?</h2>
+<p>Intersectionality is an idea that comes from social movements. In the early days, the feminist movement didn't really see that it had <a href="https://en.wikipedia.org/wiki/Intersectionality">very much in common</a> with the racial equality movements. Women (white women, often) thought that pushes for African American suffrage were somehow an enemy to their attempts at women's suffrage, and vice versa. The fear was that the nation could only put up with so much disruption at once, and that any effort put into petitioning for African American voting rights was energy that could've been put into women's voting rights<sup class="footnote-ref"><a href="#fn2" id="fnref2">[2]</a></sup>.</p>
+<p>The movements didn't see how they had anything in common with one another, or how they could work together synergistically. Nowadays, many social movements pressing for the rights of the marginalized see how working together in an intersectional manner, seeing the ways that their own oppression mirrors the oppressive systems that harm other groups, is a winning strategy.</p>
+<p>Another example of intersectionality would be the <a href="https://pluralistic.net/2025/04/10/solidarity-forever-2/#:~:text=In%20his,a%20movement">ecology movement</a>. Before &quot;ecology&quot; existed as a term, there were all number of disparate movements that didn't quite realize how they were connected to one another. The movement to save the ozone layer, for instance, didn't necessarily see how it might also be related to the movement to prevent pollution. But under ecology, all of these various movements are now able to see that they're really pushing on the same big lever, and they have a whole lot in common. You're no longer one of 200 people trying to save the owls in your local county — you're one of <em>millions</em> across the globe, all pushing for various different issues, all under the umbrella of &quot;ecology&quot;. Now, you can get help, and organize together. You can show solidarity, and share advice. You can petition politicians as one unified block, and you can get the whole movement to show up when something is going on in one particular area of concern.</p>
+<p>So to hear the folks at the FSF talk as if adding relevant, related values into your movement is somehow a &quot;splitting&quot; of the community is honestly offensive. The FSF is making the same exact mistake as the Democratic party. They fear that by taking a bolder, more principled stand, they will scare away their less enthusiastic supporters. What really they're doing by not holding strong principles is losing their <em>most enthusiastic supporters</em> due to apathy!</p>
+<p>There are so many people who would love to see a world full of software that liberates its users, but many of them feel that the Free Software movement doesn't truly represent that. Instead, it seems as though the FSF is all about fighting for the rights of <em>developers</em> to be allowed to have their nerdy hobbies, messing around with code<sup class="footnote-ref"><a href="#fn3" id="fnref3">[3]</a></sup>, while the rest of everyone else is left to be taken care of by <em>other social movements</em>.</p>
+<h1>The way forward</h1>
+<p>The only real solution here is to realize we need a movement in tech that sees that the Four Freedoms are <em>neccessary</em> but not <em>sufficient</em> for the true project of promoting human autonomy over tech — and avoiding subjugation at the hands of these tools by our would-be human oppressors in, say, Big Tech.</p>
+<p>There's been a number of different ideas floating around for a while in this domain. I'm fond of <a href="https://destructured.net/casa">CASA</a>, though it's far from a complete theory (nor do I think it intends to be one, however).</p>
+<p>Here's a vision that I have for a better software movement; one that truly advocates for human autonomy over our digital lives, and puts us in the seat of control over our own lives. We will need a name. Any name will do, though we should be careful to use something that might be helpfully illustrative for those who you talk about it to. For now, I shall refer to it as <em>Software For Good</em>, though I'm open to new suggestions — &quot;a rose by any other name&quot; and all that.</p>
+<h2>Software For Good</h2>
+<p>Firstly, I believe that the Software For Good movement will need to be built on the basic tenants of free open source software. We cannot build software that frees people if we're intentionally obscuring the inner workings of that software from view. Whether this takes the form of the Four Freedoms that the FSF adheres to, or some fairly similar form doesn't necessarily matter, so long as the main essence remains.</p>
+<p>It is what goes beyond these freedoms which is how we would define ourselves beyond just the Free Software movement. Perhaps the most important thing we should say is that Software For Good will need to emphasize the <em>user</em> of software, not just the mere ability of developers to craft it. Our model of what is important should include mechanisms that allow good software to be made — software that is good not just to the technically literate, but also to the layperson. This will necessarily involve listening to user feedback, and putting considerable effort into designing good UX.</p>
+<p>Additionally, we should be focused on kindness and inclusion. Remember the human. That is important both in the software we deliver, as well as in the developer communities that we foster around that software. We shouldn't tolerate toxicity and bigotry within our communities.</p>
+<p>Finally, I think it's important for us to realize the inherently anti-monopolistic direction of our movement. We are opposed to the abuses of digital technology that allow powerful people to gain dominance over the rest of us. Our struggle, then, is inherently one that is fighting <em>against</em> Big Tech, or at least against the concentration of power within the hands of Big Tech. Our fight is a progressive fight for a more equal playing field.</p>
+<p>We must see that Software For Good is an inherently political movement that must resist against various forms of corporate and governmental concentration of power. We are decidedly progressive, anti-authoritarian, and pro-democracy. We need not necessarily define ourselves as strictly anti-capitalist, though we are opposed to the current state of affairs where the whole of the internet has been captured by a small handful of 5 gigantic corporations. With so little competition, individual freedoms will be easily trampled upon.</p>
+<h1>Closing</h1>
+<p>Look, this isn't a manifesto. I'm still an undergrad student. I haven't worked on any big open source projects (though I have a number of solo projects that I'm working on turning into viable open source tools). I <em>am</em> somebody who is a heavy user of open source software, and I spend a lot of my time thinking about the way that software can be used for positive change in our world.</p>
+<p>I don't think you necessarily have to be a developer in order to have opinions about what kinds of things progressive developers ought to be doing in order to make a real impact on the world beyond just computer circles (and to be clear, I <em>am</em> a developer). There's a lot of unanswered questions in this article. I think there needs to be more discussion in this field. My guess is that if we want to achieve more of this, we're going to have to make a distinction between hobby projects and real, viable tech solutions designed to solve real-world problems.</p>
+<p>Additionally, we're probably going to have to really rethink the funding model of how this software gets built. It's not reasonable to expect well-made software to be written by volunteer programmers entirely for free. What's that going to look like? Again, I'm not really sure. If you have ideas, you should write a follow up to this post! Maybe we need a culture shift, where users begin understanding that they ought to be paying money for their critical software, or where donations become more common. Or maybe we do something entirely different!</p>
+<p>The point is that we clearly aren't on the right track as is, and we need to do a whole lot of thinking about what the way forward is. I'd like to hope that I've contributed in a helpful way with this blog post.</p>
+<hr class="footnotes-sep">
+<section class="footnotes">
+<ol class="footnotes-list">
+<li id="fn1" class="footnote-item"><p>By the way, if your answer is that &quot;we don't need to&quot; or &quot;these folks should just learn to program their own software&quot;, then I don't think you can really claim to be part of a movement trying to to create software that grants freedom to its users. Maybe that's fine with you, but in any case, I won't be humoring this viewpoint throughout the rest of the blog post, which is about those who <em>are</em> within this movement. <a href="#fnref1" class="footnote-backref">↩︎</a></p>
+</li>
+<li id="fn2" class="footnote-item"><p>Of course, the story is more complicated than this. I'm simplifying a lot. Please read more about this if you're interested. <a href="#fnref2" class="footnote-backref">↩︎</a></p>
+</li>
+<li id="fn3" class="footnote-item"><p>You may be interested to read brian cully's <a href="https://lists.gnu.org/archive/html/emacs-devel/2026-11/msg00197.html">response</a> to to Zaretskii's email, in which he rips apart the FSF for lacking any values of overall human liberty beyond just the narrow realm of computing. <a href="#fnref3" class="footnote-backref">↩︎</a></p>
+</li>
+</ol>
+</section>
+
+<hr class="plain">
+<a href="mailto:riverseeber12@gmail.com?subject=Blog Reply: Towards an Ethical Technology" class="button"><button>Reply via Email!</button></a>
+<div style="float: right;"><a href="/blog/feed.xml"><img src="/images/feed.png" height=20em></img></a></div>
+<div style="text-align: center; text-indent: 0;"><a href="#top">Back to top</a></div>
+                </div>
+
+                <!-- POST BLOG CONTENT -->
+                <div id="postBlog">
+                    <!-- Panel stack -->
+                    
+                    
+                    <!-- panelStack1, panelStack2, ..., panelStack20 -->
+                    
+                    
+                    
+                    <!-- panelStack1, panelStack2, ..., panelStack20 -->
+                    
+                    
+                    
+                    <!-- panelStack1, panelStack2, ..., panelStack20 -->
+                    
+                    
+                    
+                    <!-- panelStack1, panelStack2, ..., panelStack20 -->
+                    
+                    
+                    
+                    <!-- panelStack1, panelStack2, ..., panelStack20 -->
+                    
+                    
+                    
+                    <!-- panelStack1, panelStack2, ..., panelStack20 -->
+                    
+                    
+                    
+                    <!-- panelStack1, panelStack2, ..., panelStack20 -->
+                    
+                    
+                    
+                    <!-- panelStack1, panelStack2, ..., panelStack20 -->
+                    
+                    
+                    
+                    <!-- panelStack1, panelStack2, ..., panelStack20 -->
+                    
+                    
+                    
+                    <!-- panelStack1, panelStack2, ..., panelStack20 -->
+                    
+                    
+                    
+                    <!-- panelStack1, panelStack2, ..., panelStack20 -->
+                    
+                    
+                    
+                    <!-- panelStack1, panelStack2, ..., panelStack20 -->
+                    
+                    
+                    
+                    <!-- panelStack1, panelStack2, ..., panelStack20 -->
+                    
+                    
+                    
+                    <!-- panelStack1, panelStack2, ..., panelStack20 -->
+                    
+                    
+                    
+                    <!-- panelStack1, panelStack2, ..., panelStack20 -->
+                    
+                    
+                    
+                    <!-- panelStack1, panelStack2, ..., panelStack20 -->
+                    
+                    
+                    
+                    <!-- panelStack1, panelStack2, ..., panelStack20 -->
+                    
+                    
+                    
+                    <!-- panelStack1, panelStack2, ..., panelStack20 -->
+                    
+                    
+                    
+                    <!-- panelStack1, panelStack2, ..., panelStack20 -->
+                    
+                    
+                    
+                    <!-- panelStack1, panelStack2, ..., panelStack20 -->
+                    
+                    
+                    
+                    <!-- Standard Order (queue) -->
+                    </div>
+            </main>
+
+        </div>
+
+        <!-- RIGHT -->
+        <div class="container" id="right">
+            <div class="panel" id="navbar">
+                    <h1>Navbar</h1>
+                    <ul>
+                        <li><a href="/"          >Home</a></li>
+                        <li><a href="/projects/" >Projects</a></li>
+                        <li><a href="/reading/"  >Reading</a></li>
+                        <li><a href="/interests/">Interests</a></li>
+                        <li><a href="/blog/"     >Blog</a></li>
+                        <li><a href="/follow-me/"     >Follow Me</a></li>
+                        <li><a href="/about/"    >About</a></li>
+                    </ul>
+            </div>
+            
+            <div class="panel" id="sidebarUpdates">
+                <h1>Updates:</h1>
+                <!-- This is the sidebar content that is "universal" on every single page -->
+                <div class="md-block"><p>I've updated the <a href="/follow-me/">Follow Me</a> page to be simpler, and added a <a href="/blog/newsletter/">newsletter</a> option to it.</p>
+</div>
+                <div class="badgeHolder">
+                    <a href="https://11ty.dev/" target="blank"><img src="/images/88x31/builtWith11ty_88x31.gif" alt="88x31: This site was built with eleventy (11ty.dev)" class="badge"></a>
+                    <a href="https://archlinux.org/" target="_blank"><img src="/images/88x31/stupidArchMeme_88x31.png" alt="88x31: I use Arch btw" class="badge"></a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
