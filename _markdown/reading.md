@@ -79,9 +79,6 @@ _Yeah, I read a lot of books concurrently. No, I am not fast at finishing them, 
 
 - _All The President's Men_ (1974) by Carl Bernstein and Bob Woodward
 
-- _Mein Kampf_ (1925) by Adolf Hitler
-	+ I suppose it goes without saying that I read about the Hitler movement not because I admire it, but rather because I despise it so much, and would like to be able to help prevent similar movements as they arise in the future.
-
 {% endbox %}
 
 {% box "panel4" %}
